@@ -1,0 +1,12 @@
+Quality Metric,Before Cleaning (Raw),After Cleaning (Cleaned)
+Total Rows,"1,035","1,000"
+Total Columns,9,10
+Duplicate Rows,35,0
+Total Missing Values,592,0
+Inconsistent Gender Categories,"8 variations (Male, M, female, F...)","Standardized to 2 categories ('Male', 'Female')"
+Inconsistent Product Categories,"9 variations (cloths, ELECTRONICS...)",Standardized to 4 core categories
+Inconsistent Country Names,"9 variations (USA, US, U.S.A., UK...)",Standardized to 4 country names
+Join_Date Data Type,Object (mixed string text),Parsed datetime64[ns]
+Income_USD Data Type,"Object (string with '$', ',', 'UNKNOWN')",Numeric float64
+Invalid Age Anomalies (<18 or >100),"57 invalid values (-5, 150, 200)",Imputed with Median Age (42 yrs)
+Purchase Amount Extreme Outliers,"5 extreme high values ($15,000)",Winsorized to IQR Upper Bound ($670.36)

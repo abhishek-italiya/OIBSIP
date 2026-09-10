@@ -1,0 +1,1001 @@
+Transaction_ID,Customer_Name,Gender,Join_Date,Customer_Age,Income_USD,Purchase_Amount,Product_Category,Country,Purchase_Amount_Capped
+TXN-1000,Robert Downey,Male,2022-01-15,54,120000.5,280.01,Beauty,United States,280.01
+TXN-1001,Emily Watson,Female,2022-01-15,42,150000.0,266.55,Electronics,United Kingdom,266.55
+TXN-1002,Laura Croft,Female,2022-11-04,35,120000.5,148.31,Electronics,United States,148.31
+TXN-1003,David Beckham,Male,2022-11-04,36,45000.0,156.06,Electronics,United States,156.06
+TXN-1004,Robert Downey,Female,2021-12-01,40,32000.0,146.14,Electronics,United States,146.14
+TXN-1005,Unknown Customer,Female,2022-01-15,44,85000.0,388.04,Clothing,United States,388.04
+TXN-1006,Michael Jordan,Male,2022-01-15,55,85000.0,329.43,Electronics,Canada,329.43
+TXN-1007,Robert Downey,Female,2023-05-10,44,55000.0,417.88,Electronics,United States,417.88
+TXN-1008,Laura Croft,Female,2020-08-15,35,150000.0,487.98,Clothing,United Kingdom,487.98
+TXN-1009,David Beckham,Male,2023-05-10,43,85000.0,242.34,Electronics,Canada,242.34
+TXN-1010,Emily Watson,Male,2023-05-10,23,55000.0,15000.0,Clothing,Canada,724.42625
+TXN-1011,Laura Croft,Male,2023-05-10,21,32000.0,33.57,Electronics,Canada,33.57
+TXN-1012,Laura Croft,Male,2020-07-19,61,85000.0,154.88,Beauty,Canada,154.88
+TXN-1013,Michael Jordan,Female,2021-12-01,68,55000.0,466.95,Electronics,United Kingdom,466.95
+TXN-1014,Anna Kournikova,Female,2020-08-15,46,55000.0,266.37,Home & Kitchen,United States,266.37
+TXN-1015,David Beckham,Male,2020-08-15,51,150000.0,248.73,Beauty,United States,248.73
+TXN-1016,Sarah Connor,Male,2023-05-10,34,95000.0,205.59,Electronics,United Kingdom,205.59
+TXN-1017,Laura Croft,Male,2021-12-01,60,85000.0,303.31,Electronics,United States,303.31
+TXN-1018,Anna Kournikova,Male,2022-01-15,60,85000.0,329.95,Beauty,United States,329.95
+TXN-1019,Sarah Connor,Female,2020-08-15,44,32000.0,85.42,Electronics,United States,85.42
+TXN-1020,David Beckham,Male,2022-01-15,33,85000.0,488.75,Clothing,United States,488.75
+TXN-1021,John Smith,Male,2023-05-10,19,45000.0,276.94,Clothing,United Kingdom,276.94
+TXN-1022,Unknown Customer,Male,2019-08-11,51,95000.0,76.49,Clothing,United States,76.49
+TXN-1023,Anna Kournikova,Female,2021-12-01,44,45000.0,447.88,Clothing,United States,447.88
+TXN-1024,Chris Hemsworth,Male,2021-03-22,25,32000.0,46.57,Electronics,United Kingdom,46.57
+TXN-1025,John Smith,Female,2021-03-22,30,150000.0,454.79,Beauty,Canada,454.79
+TXN-1026,Unknown Customer,Male,2022-11-04,59,150000.0,498.32,Electronics,United States,498.32
+TXN-1027,Michael Jordan,Female,2022-01-15,25,32000.0,353.21,Clothing,United States,353.21
+TXN-1028,Robert Downey,Female,2021-03-22,47,120000.5,387.52,Electronics,United States,387.52
+TXN-1029,Emily Watson,Male,2021-03-22,49,32000.0,175.28,Beauty,United States,175.28
+TXN-1030,Chris Hemsworth,Male,2022-01-15,53,95000.0,471.37,Beauty,United States,471.37
+TXN-1031,Michael Jordan,Female,2022-01-15,64,62500.0,269.56,Beauty,United States,269.56
+TXN-1032,David Beckham,Female,2023-05-10,47,150000.0,368.87,Electronics,United States,368.87
+TXN-1033,Michael Jordan,Male,2019-08-11,18,85000.0,462.81,Home & Kitchen,United States,462.81
+TXN-1034,Robert Downey,Female,2020-08-15,60,95000.0,487.84,Clothing,United States,487.84
+TXN-1035,David Beckham,Female,2022-01-15,56,95000.0,418.27,Home & Kitchen,United States,418.27
+TXN-1036,Chris Hemsworth,Female,2023-05-10,34,95000.0,158.48,Electronics,Canada,158.48
+TXN-1037,Robert Downey,Male,2022-01-15,37,55000.0,483.61,Clothing,United States,483.61
+TXN-1038,Sarah Connor,Female,2023-05-10,41,95000.0,317.78,Beauty,United States,317.78
+TXN-1039,Emily Watson,Male,2019-08-11,67,150000.0,466.01,Home & Kitchen,United States,466.01
+TXN-1040,Chris Hemsworth,Female,2023-05-10,39,62500.0,341.29,Clothing,United States,341.29
+TXN-1041,Sarah Connor,Male,2022-11-04,46,62500.0,160.55,Electronics,Canada,160.55
+TXN-1042,Unknown Customer,Male,2021-03-22,39,95000.0,191.31,Home & Kitchen,Canada,191.31
+TXN-1043,Chris Hemsworth,Male,2022-01-15,61,45000.0,279.73,Electronics,Canada,279.73
+TXN-1044,Unknown Customer,Female,2022-01-15,26,150000.0,397.11,Electronics,United States,397.11
+TXN-1045,David Beckham,Male,2023-05-10,54,150000.0,165.81,Electronics,Germany,165.81
+TXN-1046,Sarah Connor,Male,2022-01-15,27,85000.0,294.07,Electronics,United Kingdom,294.07
+TXN-1047,Emily Watson,Male,2020-08-15,53,85000.0,179.36,Electronics,United States,179.36
+TXN-1048,Robert Downey,Female,2023-05-10,54,120000.5,409.73,Clothing,United States,409.73
+TXN-1049,Laura Croft,Female,2020-08-15,45,120000.5,238.7,Electronics,United States,238.7
+TXN-1050,Michael Jordan,Male,2021-03-22,45,45000.0,15000.0,Electronics,Germany,724.42625
+TXN-1051,John Smith,Female,2021-03-22,59,120000.5,91.37,Beauty,United States,91.37
+TXN-1052,Emily Watson,Female,2019-08-11,60,85000.0,39.94,Clothing,United Kingdom,39.94
+TXN-1053,Sarah Connor,Female,2022-11-04,38,32000.0,254.66,Beauty,United States,254.66
+TXN-1054,Laura Croft,Male,2023-05-10,41,120000.5,62.11,Electronics,United States,62.11
+TXN-1055,Emily Watson,Male,2022-01-15,59,150000.0,65.93,Electronics,Canada,65.93
+TXN-1056,Sarah Connor,Male,2022-01-15,57,32000.0,471.11,Electronics,United States,471.11
+TXN-1057,Anna Kournikova,Male,2022-11-04,19,120000.5,437.6,Electronics,Germany,437.6
+TXN-1058,Anna Kournikova,Male,2020-08-15,44,150000.0,231.52,Beauty,Germany,231.52
+TXN-1059,Unknown Customer,Female,2019-08-11,25,150000.0,493.04,Home & Kitchen,United Kingdom,493.04
+TXN-1060,Emily Watson,Male,2021-03-22,65,95000.0,248.73,Clothing,United States,248.73
+TXN-1061,Anna Kournikova,Male,2023-05-10,44,62500.0,310.85,Clothing,United States,310.85
+TXN-1062,Sarah Connor,Female,2022-11-04,39,45000.0,312.05,Electronics,Canada,312.05
+TXN-1063,Unknown Customer,Male,2021-03-22,54,85000.0,234.15,Home & Kitchen,Germany,234.15
+TXN-1064,Sarah Connor,Female,2021-03-22,44,55000.0,204.5,Clothing,United Kingdom,204.5
+TXN-1065,Unknown Customer,Female,2022-11-04,44,85000.0,233.14,Clothing,United States,233.14
+TXN-1066,Emily Watson,Male,2023-05-10,46,120000.5,213.33,Electronics,Canada,213.33
+TXN-1067,Laura Croft,Female,2021-03-22,20,120000.5,367.94,Electronics,United Kingdom,367.94
+TXN-1068,Robert Downey,Female,2022-01-15,61,32000.0,76.32,Home & Kitchen,United States,76.32
+TXN-1069,Chris Hemsworth,Female,2020-08-15,30,32000.0,106.84,Electronics,United States,106.84
+TXN-1070,Laura Croft,Female,2021-12-01,62,85000.0,98.45,Clothing,United Kingdom,98.45
+TXN-1071,David Beckham,Female,2021-03-22,27,120000.5,138.61,Beauty,Canada,138.61
+TXN-1072,Sarah Connor,Female,2023-05-10,53,85000.0,267.38,Electronics,United States,267.38
+TXN-1073,David Beckham,Male,2022-11-04,26,85000.0,64.49,Clothing,United Kingdom,64.49
+TXN-1074,Laura Croft,Male,2022-01-15,44,120000.5,435.4,Clothing,United Kingdom,435.4
+TXN-1075,Unknown Customer,Male,2022-11-04,44,62500.0,155.71,Beauty,United States,155.71
+TXN-1076,Chris Hemsworth,Female,2022-01-15,44,85000.0,89.64,Electronics,United States,89.64
+TXN-1077,Chris Hemsworth,Male,2022-01-15,44,85000.0,341.05,Electronics,United Kingdom,341.05
+TXN-1078,John Smith,Female,2023-05-10,51,85000.0,28.66,Clothing,Canada,28.66
+TXN-1079,Chris Hemsworth,Female,2021-03-22,68,120000.5,313.78,Electronics,United States,313.78
+TXN-1080,Robert Downey,Female,2020-08-15,18,55000.0,352.12,Home & Kitchen,United States,352.12
+TXN-1081,Chris Hemsworth,Female,2020-08-15,49,95000.0,115.31,Electronics,United States,115.31
+TXN-1082,Laura Croft,Female,2021-12-01,42,62500.0,30.56,Electronics,United States,30.56
+TXN-1083,John Smith,Female,2022-11-04,46,55000.0,188.19,Electronics,Germany,188.19
+TXN-1084,Laura Croft,Male,2022-11-04,24,32000.0,58.31,Electronics,United States,58.31
+TXN-1085,Laura Croft,Female,2022-01-15,66,32000.0,67.07,Beauty,Canada,67.07
+TXN-1086,Michael Jordan,Male,2021-03-22,20,120000.5,134.59,Beauty,Canada,134.59
+TXN-1087,John Smith,Male,2022-01-15,37,32000.0,154.78,Electronics,United States,154.78
+TXN-1088,Laura Croft,Female,2023-05-10,37,62500.0,269.69,Clothing,United Kingdom,269.69
+TXN-1089,Michael Jordan,Female,2019-08-11,44,85000.0,342.41,Electronics,United States,342.41
+TXN-1090,Michael Jordan,Male,2020-08-15,47,150000.0,300.46,Beauty,Germany,300.46
+TXN-1091,John Smith,Female,2021-03-22,52,45000.0,82.7,Electronics,United States,82.7
+TXN-1092,David Beckham,Female,2023-05-10,52,85000.0,94.32,Electronics,Canada,94.32
+TXN-1093,Unknown Customer,Female,2021-12-01,66,85000.0,440.6,Electronics,United States,440.6
+TXN-1094,Robert Downey,Female,2022-11-04,56,150000.0,283.59,Home & Kitchen,United States,283.59
+TXN-1095,Unknown Customer,Female,2019-08-11,44,85000.0,436.27,Electronics,United States,436.27
+TXN-1096,Chris Hemsworth,Female,2021-03-22,43,62500.0,192.06,Clothing,United States,192.06
+TXN-1097,Robert Downey,Female,2021-03-22,31,55000.0,311.06,Electronics,Germany,311.06
+TXN-1098,Chris Hemsworth,Female,2019-08-11,34,150000.0,266.6,Clothing,United States,266.6
+TXN-1099,Laura Croft,Female,2022-11-04,35,62500.0,166.37,Electronics,Germany,166.37
+TXN-1100,Sarah Connor,Female,2020-08-15,62,95000.0,15000.0,Electronics,Canada,724.42625
+TXN-1101,John Smith,Male,2022-11-04,69,55000.0,256.22,Home & Kitchen,United States,256.22
+TXN-1102,Robert Downey,Male,2021-12-01,46,32000.0,108.38,Clothing,United States,108.38
+TXN-1103,Robert Downey,Male,2022-11-04,37,32000.0,164.36,Beauty,United States,164.36
+TXN-1104,Laura Croft,Male,2022-11-04,44,55000.0,397.79,Clothing,United Kingdom,397.79
+TXN-1105,David Beckham,Female,2020-08-15,44,85000.0,248.73,Home & Kitchen,Germany,248.73
+TXN-1106,Michael Jordan,Female,2023-05-10,35,85000.0,186.3,Electronics,United States,186.3
+TXN-1107,Laura Croft,Female,2023-05-10,21,85000.0,160.42,Clothing,Germany,160.42
+TXN-1108,Anna Kournikova,Male,2021-12-01,18,150000.0,105.65,Electronics,United Kingdom,105.65
+TXN-1109,Michael Jordan,Female,2021-12-01,67,85000.0,342.46,Clothing,Germany,342.46
+TXN-1110,John Smith,Female,2021-12-01,18,150000.0,168.32,Beauty,United States,168.32
+TXN-1111,Michael Jordan,Female,2022-01-15,43,120000.5,494.0,Clothing,United Kingdom,494.0
+TXN-1112,David Beckham,Female,2022-11-04,62,45000.0,169.59,Electronics,Germany,169.59
+TXN-1113,Michael Jordan,Female,2021-12-01,37,55000.0,203.13,Beauty,Canada,203.13
+TXN-1114,John Smith,Male,2022-11-04,69,85000.0,305.63,Electronics,Canada,305.63
+TXN-1115,David Beckham,Female,2021-12-01,40,45000.0,402.83,Clothing,Canada,402.83
+TXN-1116,Unknown Customer,Male,2021-12-01,27,95000.0,240.06,Electronics,Canada,240.06
+TXN-1117,Robert Downey,Male,2023-05-10,28,150000.0,217.1,Beauty,Germany,217.1
+TXN-1118,Robert Downey,Female,2023-05-10,58,150000.0,497.86,Electronics,Germany,497.86
+TXN-1119,Chris Hemsworth,Male,2022-01-15,58,62500.0,15.14,Beauty,United Kingdom,15.14
+TXN-1120,Unknown Customer,Female,2020-08-15,22,45000.0,448.58,Clothing,Canada,448.58
+TXN-1121,Unknown Customer,Male,2022-11-04,18,62500.0,83.08,Beauty,United States,83.08
+TXN-1122,Michael Jordan,Female,2021-12-01,34,85000.0,395.1,Clothing,Germany,395.1
+TXN-1123,Robert Downey,Male,2021-03-22,39,62500.0,312.79,Home & Kitchen,United States,312.79
+TXN-1124,John Smith,Female,2022-01-15,51,45000.0,177.51,Clothing,United States,177.51
+TXN-1125,Emily Watson,Female,2022-11-04,44,55000.0,438.2,Clothing,United States,438.2
+TXN-1126,Emily Watson,Male,2022-01-15,62,95000.0,16.32,Electronics,United Kingdom,16.32
+TXN-1127,David Beckham,Female,2021-03-22,58,150000.0,121.08,Electronics,United Kingdom,121.08
+TXN-1128,Robert Downey,Female,2022-01-15,46,85000.0,287.78,Electronics,United States,287.78
+TXN-1129,Robert Downey,Male,2021-03-22,21,150000.0,182.26,Beauty,Germany,182.26
+TXN-1130,Emily Watson,Male,2021-03-22,22,120000.5,309.08,Electronics,United States,309.08
+TXN-1131,Robert Downey,Female,2020-08-15,28,95000.0,21.81,Beauty,United States,21.81
+TXN-1132,Michael Jordan,Female,2020-08-15,44,85000.0,67.06,Clothing,United States,67.06
+TXN-1133,Anna Kournikova,Female,2019-08-11,68,62500.0,72.28,Electronics,United Kingdom,72.28
+TXN-1134,Sarah Connor,Female,2023-05-10,38,32000.0,102.75,Beauty,Canada,102.75
+TXN-1135,Unknown Customer,Male,2022-11-04,52,45000.0,248.73,Home & Kitchen,United States,248.73
+TXN-1136,Chris Hemsworth,Male,2022-01-15,29,150000.0,378.54,Electronics,United States,378.54
+TXN-1137,David Beckham,Female,2021-03-22,43,62500.0,453.71,Beauty,United Kingdom,453.71
+TXN-1138,Anna Kournikova,Male,2022-11-04,68,85000.0,248.73,Home & Kitchen,United States,248.73
+TXN-1139,Emily Watson,Male,2022-01-15,36,150000.0,106.48,Electronics,United Kingdom,106.48
+TXN-1140,Unknown Customer,Female,2023-05-10,62,85000.0,226.16,Electronics,United States,226.16
+TXN-1141,Robert Downey,Female,2023-05-10,24,95000.0,107.71,Beauty,Canada,107.71
+TXN-1142,Chris Hemsworth,Female,2022-11-04,64,95000.0,139.59,Clothing,United Kingdom,139.59
+TXN-1143,Robert Downey,Female,2022-01-15,44,150000.0,256.74,Clothing,United States,256.74
+TXN-1144,John Smith,Female,2020-08-15,24,85000.0,43.37,Electronics,United Kingdom,43.37
+TXN-1145,John Smith,Female,2022-11-04,43,95000.0,116.91,Clothing,United States,116.91
+TXN-1146,Chris Hemsworth,Female,2022-01-15,57,95000.0,468.34,Clothing,United States,468.34
+TXN-1147,Chris Hemsworth,Male,2022-11-04,22,85000.0,238.4,Clothing,United States,238.4
+TXN-1148,Emily Watson,Male,2022-11-04,38,45000.0,228.24,Clothing,Canada,228.24
+TXN-1149,Chris Hemsworth,Female,2022-11-04,31,85000.0,17.14,Clothing,United States,17.14
+TXN-1150,Michael Jordan,Female,2021-03-22,21,85000.0,131.23,Clothing,United States,131.23
+TXN-1151,Robert Downey,Male,2021-12-01,40,55000.0,434.48,Electronics,Canada,434.48
+TXN-1152,Anna Kournikova,Male,2023-05-10,59,55000.0,90.67,Home & Kitchen,United Kingdom,90.67
+TXN-1153,Laura Croft,Male,2020-08-15,37,95000.0,213.41,Electronics,United States,213.41
+TXN-1154,Chris Hemsworth,Male,2022-01-15,32,32000.0,17.02,Home & Kitchen,United States,17.02
+TXN-1155,David Beckham,Female,2022-11-04,67,55000.0,244.38,Electronics,United States,244.38
+TXN-1156,John Smith,Male,2021-03-22,69,95000.0,20.3,Clothing,United States,20.3
+TXN-1157,Michael Jordan,Female,2020-08-15,62,85000.0,411.61,Home & Kitchen,Canada,411.61
+TXN-1158,Unknown Customer,Female,2022-01-15,46,120000.5,414.18,Home & Kitchen,Germany,414.18
+TXN-1159,Laura Croft,Female,2021-12-01,25,120000.5,395.99,Electronics,United States,395.99
+TXN-1160,Anna Kournikova,Female,2021-12-01,58,85000.0,148.85,Electronics,United States,148.85
+TXN-1161,Laura Croft,Male,2022-11-04,65,32000.0,420.25,Electronics,United States,420.25
+TXN-1162,Chris Hemsworth,Female,2021-03-22,36,85000.0,276.07,Electronics,Canada,276.07
+TXN-1163,Emily Watson,Male,2021-03-22,65,45000.0,193.17,Clothing,United States,193.17
+TXN-1164,John Smith,Male,2022-11-04,56,55000.0,316.41,Electronics,United Kingdom,316.41
+TXN-1165,John Smith,Female,2023-05-10,63,85000.0,16.05,Home & Kitchen,United States,16.05
+TXN-1166,Unknown Customer,Male,2021-03-22,45,95000.0,80.05,Home & Kitchen,United States,80.05
+TXN-1167,Emily Watson,Male,2022-11-04,63,32000.0,373.72,Electronics,United States,373.72
+TXN-1168,Robert Downey,Female,2022-11-04,44,85000.0,129.64,Electronics,United Kingdom,129.64
+TXN-1169,Sarah Connor,Male,2022-11-04,44,55000.0,303.02,Clothing,United States,303.02
+TXN-1170,Michael Jordan,Female,2022-11-04,21,32000.0,198.7,Electronics,Canada,198.7
+TXN-1171,John Smith,Male,2022-11-04,32,55000.0,428.85,Clothing,United States,428.85
+TXN-1172,David Beckham,Female,2021-03-22,52,45000.0,476.68,Beauty,United States,476.68
+TXN-1173,John Smith,Female,2023-05-10,54,45000.0,442.95,Home & Kitchen,United States,442.95
+TXN-1174,Laura Croft,Female,2023-05-10,18,85000.0,142.6,Clothing,United States,142.6
+TXN-1175,John Smith,Female,2021-03-22,20,120000.5,105.14,Electronics,United States,105.14
+TXN-1176,John Smith,Male,2022-11-04,64,62500.0,242.47,Clothing,United States,242.47
+TXN-1177,Sarah Connor,Female,2023-05-10,41,62500.0,13.59,Clothing,Germany,13.59
+TXN-1178,Sarah Connor,Male,2023-05-10,44,55000.0,22.65,Clothing,United States,22.65
+TXN-1179,Anna Kournikova,Female,2022-11-04,57,85000.0,281.11,Beauty,Canada,281.11
+TXN-1180,Robert Downey,Male,2019-08-11,53,62500.0,265.02,Beauty,United Kingdom,265.02
+TXN-1181,David Beckham,Female,2021-12-01,51,85000.0,497.35,Clothing,United States,497.35
+TXN-1182,John Smith,Male,2022-01-15,46,62500.0,108.9,Electronics,United Kingdom,108.9
+TXN-1183,John Smith,Female,2019-08-11,41,150000.0,136.47,Beauty,United Kingdom,136.47
+TXN-1184,Michael Jordan,Female,2021-03-22,41,95000.0,65.63,Beauty,United States,65.63
+TXN-1185,Sarah Connor,Female,2020-08-15,59,85000.0,459.6,Electronics,United States,459.6
+TXN-1186,David Beckham,Male,2023-05-10,21,85000.0,391.13,Clothing,Germany,391.13
+TXN-1187,Unknown Customer,Female,2023-05-10,20,32000.0,412.95,Electronics,United States,412.95
+TXN-1188,Anna Kournikova,Male,2020-08-15,51,85000.0,452.35,Clothing,United Kingdom,452.35
+TXN-1189,Robert Downey,Male,2020-07-19,44,120000.5,267.2,Electronics,United States,267.2
+TXN-1190,Emily Watson,Male,2022-11-04,66,32000.0,231.08,Beauty,United States,231.08
+TXN-1191,Robert Downey,Male,2022-11-04,40,85000.0,171.89,Home & Kitchen,United States,171.89
+TXN-1192,Laura Croft,Female,2022-01-15,44,95000.0,298.72,Beauty,United Kingdom,298.72
+TXN-1193,John Smith,Female,2019-08-11,44,95000.0,232.6,Home & Kitchen,United States,232.6
+TXN-1194,Anna Kournikova,Male,2019-08-11,69,95000.0,231.27,Beauty,Germany,231.27
+TXN-1195,Laura Croft,Male,2021-12-01,40,95000.0,469.09,Electronics,United States,469.09
+TXN-1196,David Beckham,Male,2022-01-15,62,55000.0,492.18,Beauty,Germany,492.18
+TXN-1197,Emily Watson,Male,2022-01-15,22,95000.0,400.28,Electronics,United Kingdom,400.28
+TXN-1198,Sarah Connor,Female,2021-03-22,48,95000.0,380.81,Electronics,Canada,380.81
+TXN-1199,Anna Kournikova,Male,2022-01-15,44,95000.0,343.47,Clothing,United States,343.47
+TXN-1200,Anna Kournikova,Male,2020-08-15,58,85000.0,91.38,Electronics,United States,91.38
+TXN-1201,John Smith,Male,2019-08-11,44,55000.0,38.96,Clothing,United States,38.96
+TXN-1202,Chris Hemsworth,Female,2023-05-10,44,45000.0,348.46,Clothing,United Kingdom,348.46
+TXN-1203,Anna Kournikova,Female,2022-01-15,44,85000.0,367.11,Home & Kitchen,United Kingdom,367.11
+TXN-1204,Michael Jordan,Female,2021-03-22,23,85000.0,33.02,Electronics,United States,33.02
+TXN-1205,Emily Watson,Female,2022-01-15,54,32000.0,464.75,Beauty,United States,464.75
+TXN-1206,Emily Watson,Female,2022-01-15,44,85000.0,54.66,Electronics,United States,54.66
+TXN-1207,Michael Jordan,Male,2021-03-22,27,150000.0,150.09,Electronics,United States,150.09
+TXN-1208,Unknown Customer,Female,2021-03-22,57,85000.0,339.47,Electronics,United States,339.47
+TXN-1209,Michael Jordan,Female,2021-12-01,24,62500.0,93.24,Beauty,United Kingdom,93.24
+TXN-1210,Michael Jordan,Female,2021-12-01,56,150000.0,37.15,Clothing,Canada,37.15
+TXN-1211,Emily Watson,Female,2020-08-15,55,95000.0,172.26,Electronics,United States,172.26
+TXN-1212,Robert Downey,Female,2020-08-15,38,95000.0,248.73,Clothing,United Kingdom,248.73
+TXN-1213,Emily Watson,Female,2021-12-01,37,55000.0,212.7,Beauty,Canada,212.7
+TXN-1214,Chris Hemsworth,Female,2021-03-22,20,150000.0,329.96,Electronics,United States,329.96
+TXN-1215,John Smith,Female,2021-03-22,68,62500.0,294.01,Electronics,United Kingdom,294.01
+TXN-1216,Laura Croft,Female,2019-08-11,39,55000.0,20.89,Electronics,United States,20.89
+TXN-1217,Robert Downey,Female,2022-01-15,64,32000.0,494.38,Beauty,United States,494.38
+TXN-1218,Sarah Connor,Male,2022-11-04,21,150000.0,30.3,Clothing,United Kingdom,30.3
+TXN-1219,Laura Croft,Female,2023-05-10,45,85000.0,484.22,Electronics,United Kingdom,484.22
+TXN-1220,John Smith,Male,2020-08-15,29,95000.0,279.43,Electronics,United States,279.43
+TXN-1221,Chris Hemsworth,Female,2020-08-15,55,95000.0,481.95,Home & Kitchen,United States,481.95
+TXN-1222,Chris Hemsworth,Female,2021-12-01,68,120000.5,66.23,Clothing,United Kingdom,66.23
+TXN-1223,Sarah Connor,Female,2022-01-15,53,55000.0,250.3,Electronics,United States,250.3
+TXN-1224,Robert Downey,Male,2021-03-22,64,45000.0,93.06,Beauty,Germany,93.06
+TXN-1225,Unknown Customer,Male,2022-11-04,58,45000.0,34.98,Home & Kitchen,United States,34.98
+TXN-1226,Michael Jordan,Male,2023-05-10,22,55000.0,312.59,Electronics,United States,312.59
+TXN-1227,Robert Downey,Female,2022-01-15,30,85000.0,248.73,Electronics,United States,248.73
+TXN-1228,Unknown Customer,Male,2019-08-11,40,85000.0,297.97,Clothing,United States,297.97
+TXN-1229,Chris Hemsworth,Male,2020-08-15,67,55000.0,65.06,Electronics,Germany,65.06
+TXN-1230,Emily Watson,Male,2021-12-01,47,85000.0,172.67,Clothing,United States,172.67
+TXN-1231,John Smith,Female,2021-12-01,54,32000.0,393.0,Beauty,United States,393.0
+TXN-1232,Sarah Connor,Female,2022-11-04,42,95000.0,224.16,Beauty,Canada,224.16
+TXN-1233,John Smith,Male,2023-05-10,65,62500.0,317.6,Electronics,United States,317.6
+TXN-1234,David Beckham,Male,2023-05-10,44,85000.0,327.25,Beauty,United Kingdom,327.25
+TXN-1235,David Beckham,Female,2022-01-15,68,150000.0,423.44,Electronics,United States,423.44
+TXN-1236,Robert Downey,Female,2022-11-04,31,85000.0,169.21,Beauty,United States,169.21
+TXN-1237,Chris Hemsworth,Female,2021-03-22,44,62500.0,346.77,Beauty,Canada,346.77
+TXN-1238,Chris Hemsworth,Male,2020-08-15,65,120000.5,481.19,Electronics,United States,481.19
+TXN-1239,Michael Jordan,Female,2020-08-15,64,95000.0,367.82,Home & Kitchen,United States,367.82
+TXN-1240,Michael Jordan,Female,2020-07-19,44,45000.0,250.04,Electronics,United States,250.04
+TXN-1241,Michael Jordan,Female,2020-07-19,53,85000.0,319.05,Clothing,United States,319.05
+TXN-1242,Emily Watson,Female,2021-03-22,56,55000.0,372.44,Electronics,United Kingdom,372.44
+TXN-1243,Laura Croft,Male,2022-01-15,33,55000.0,310.02,Electronics,Germany,310.02
+TXN-1244,Anna Kournikova,Male,2022-11-04,44,45000.0,248.73,Clothing,Canada,248.73
+TXN-1245,Laura Croft,Female,2020-08-15,39,85000.0,105.44,Electronics,Canada,105.44
+TXN-1246,John Smith,Female,2022-01-15,38,95000.0,407.13,Beauty,United States,407.13
+TXN-1247,Laura Croft,Female,2022-11-04,44,85000.0,143.6,Clothing,Canada,143.6
+TXN-1248,Emily Watson,Female,2023-05-10,38,85000.0,368.47,Electronics,United Kingdom,368.47
+TXN-1249,John Smith,Female,2023-05-10,25,32000.0,248.73,Clothing,Germany,248.73
+TXN-1250,Laura Croft,Female,2021-03-22,66,62500.0,15000.0,Home & Kitchen,United States,724.42625
+TXN-1251,Emily Watson,Male,2020-08-15,33,85000.0,43.31,Clothing,United States,43.31
+TXN-1252,Anna Kournikova,Female,2023-05-10,44,150000.0,98.8,Electronics,United States,98.8
+TXN-1253,Laura Croft,Male,2021-12-01,48,120000.5,479.03,Electronics,Germany,479.03
+TXN-1254,Emily Watson,Male,2023-05-10,59,55000.0,446.17,Beauty,United States,446.17
+TXN-1255,Michael Jordan,Female,2022-11-04,27,85000.0,329.61,Clothing,Canada,329.61
+TXN-1256,Chris Hemsworth,Male,2021-03-22,49,120000.5,235.23,Electronics,Germany,235.23
+TXN-1257,Michael Jordan,Male,2021-12-01,51,62500.0,341.12,Electronics,United States,341.12
+TXN-1258,Chris Hemsworth,Male,2020-08-15,26,55000.0,313.12,Beauty,United States,313.12
+TXN-1259,Sarah Connor,Female,2022-01-15,34,55000.0,288.59,Electronics,Germany,288.59
+TXN-1260,Sarah Connor,Male,2022-11-04,28,85000.0,39.0,Electronics,United States,39.0
+TXN-1261,Sarah Connor,Male,2021-03-22,49,85000.0,320.07,Beauty,Germany,320.07
+TXN-1262,Anna Kournikova,Male,2022-01-15,27,95000.0,386.77,Electronics,United Kingdom,386.77
+TXN-1263,Michael Jordan,Male,2019-08-11,39,45000.0,497.1,Electronics,United Kingdom,497.1
+TXN-1264,Chris Hemsworth,Male,2023-05-10,44,45000.0,15.43,Clothing,United States,15.43
+TXN-1265,Emily Watson,Male,2022-11-04,34,32000.0,367.78,Electronics,Canada,367.78
+TXN-1266,John Smith,Female,2021-03-22,21,150000.0,290.18,Clothing,Germany,290.18
+TXN-1267,Emily Watson,Male,2021-12-01,65,120000.5,222.69,Electronics,United States,222.69
+TXN-1268,John Smith,Male,2022-01-15,69,85000.0,72.51,Home & Kitchen,United Kingdom,72.51
+TXN-1269,David Beckham,Male,2020-08-15,64,85000.0,210.45,Clothing,United Kingdom,210.45
+TXN-1270,Emily Watson,Male,2020-08-15,42,150000.0,183.64,Beauty,Canada,183.64
+TXN-1271,Laura Croft,Female,2021-12-01,38,85000.0,248.73,Clothing,United States,248.73
+TXN-1272,Laura Croft,Female,2023-05-10,54,55000.0,368.13,Home & Kitchen,United Kingdom,368.13
+TXN-1273,Robert Downey,Male,2020-08-15,55,95000.0,248.73,Electronics,Germany,248.73
+TXN-1274,Michael Jordan,Male,2019-08-11,66,85000.0,298.62,Home & Kitchen,United States,298.62
+TXN-1275,John Smith,Male,2023-05-10,18,150000.0,469.95,Clothing,Germany,469.95
+TXN-1276,John Smith,Female,2021-12-01,42,150000.0,181.43,Clothing,United States,181.43
+TXN-1277,Michael Jordan,Female,2021-12-01,68,95000.0,129.46,Electronics,Canada,129.46
+TXN-1278,Anna Kournikova,Female,2022-01-15,53,32000.0,331.39,Clothing,United States,331.39
+TXN-1279,Robert Downey,Male,2022-01-15,34,120000.5,107.42,Clothing,United States,107.42
+TXN-1280,Anna Kournikova,Female,2022-11-04,58,120000.5,164.36,Beauty,United States,164.36
+TXN-1281,Anna Kournikova,Male,2021-03-22,41,150000.0,120.06,Electronics,United Kingdom,120.06
+TXN-1282,Anna Kournikova,Male,2021-03-22,19,62500.0,43.89,Beauty,United States,43.89
+TXN-1283,Michael Jordan,Male,2020-07-19,57,150000.0,415.47,Electronics,United States,415.47
+TXN-1284,Anna Kournikova,Male,2023-05-10,32,150000.0,134.72,Clothing,United States,134.72
+TXN-1285,Laura Croft,Female,2021-12-01,49,95000.0,241.78,Clothing,Germany,241.78
+TXN-1286,Sarah Connor,Female,2023-05-10,56,55000.0,31.22,Electronics,United States,31.22
+TXN-1287,David Beckham,Male,2023-05-10,23,95000.0,352.68,Electronics,United States,352.68
+TXN-1288,John Smith,Female,2022-01-15,18,85000.0,171.97,Home & Kitchen,United States,171.97
+TXN-1289,John Smith,Female,2020-08-15,64,150000.0,374.92,Electronics,United States,374.92
+TXN-1290,David Beckham,Female,2021-03-22,40,120000.5,212.08,Clothing,United States,212.08
+TXN-1291,Michael Jordan,Female,2020-08-15,56,85000.0,105.92,Beauty,United Kingdom,105.92
+TXN-1292,Emily Watson,Female,2021-12-01,44,120000.5,261.46,Electronics,United States,261.46
+TXN-1293,Michael Jordan,Female,2020-08-15,34,45000.0,73.95,Beauty,Canada,73.95
+TXN-1294,John Smith,Female,2023-05-10,51,32000.0,225.86,Electronics,United States,225.86
+TXN-1295,John Smith,Male,2020-08-15,58,85000.0,165.48,Electronics,United States,165.48
+TXN-1296,David Beckham,Male,2022-01-15,46,85000.0,456.86,Beauty,United States,456.86
+TXN-1297,Anna Kournikova,Female,2020-08-15,26,85000.0,39.86,Clothing,Germany,39.86
+TXN-1298,Michael Jordan,Male,2021-03-22,30,32000.0,350.07,Electronics,United States,350.07
+TXN-1299,Chris Hemsworth,Female,2021-03-22,23,85000.0,99.55,Beauty,Canada,99.55
+TXN-1300,David Beckham,Male,2022-01-15,23,85000.0,166.33,Clothing,Canada,166.33
+TXN-1301,Laura Croft,Male,2020-08-15,37,55000.0,213.6,Home & Kitchen,United States,213.6
+TXN-1302,John Smith,Male,2021-12-01,69,150000.0,454.93,Clothing,United States,454.93
+TXN-1303,David Beckham,Male,2021-03-22,44,85000.0,128.86,Electronics,United Kingdom,128.86
+TXN-1304,Michael Jordan,Female,2020-08-15,20,85000.0,54.74,Electronics,United States,54.74
+TXN-1305,John Smith,Female,2022-11-04,34,62500.0,166.16,Clothing,United States,166.16
+TXN-1306,Emily Watson,Female,2021-03-22,66,45000.0,61.29,Electronics,United States,61.29
+TXN-1307,David Beckham,Female,2019-08-11,29,85000.0,73.01,Home & Kitchen,United States,73.01
+TXN-1308,Robert Downey,Male,2023-05-10,65,85000.0,291.19,Electronics,Germany,291.19
+TXN-1309,John Smith,Female,2020-08-15,64,45000.0,39.84,Beauty,United Kingdom,39.84
+TXN-1310,Michael Jordan,Female,2023-05-10,62,150000.0,25.16,Clothing,United Kingdom,25.16
+TXN-1311,Sarah Connor,Female,2021-03-22,44,85000.0,360.06,Clothing,United States,360.06
+TXN-1312,Chris Hemsworth,Male,2022-11-04,18,45000.0,187.21,Electronics,United States,187.21
+TXN-1313,Unknown Customer,Female,2020-08-15,34,45000.0,71.43,Clothing,United Kingdom,71.43
+TXN-1314,Anna Kournikova,Female,2019-08-11,20,45000.0,134.27,Electronics,United States,134.27
+TXN-1315,Unknown Customer,Female,2021-03-22,43,95000.0,248.73,Clothing,Canada,248.73
+TXN-1316,Michael Jordan,Female,2023-05-10,32,85000.0,145.01,Electronics,United States,145.01
+TXN-1317,Laura Croft,Male,2023-05-10,53,95000.0,252.32,Electronics,Canada,252.32
+TXN-1318,Laura Croft,Female,2022-01-15,49,62500.0,248.73,Beauty,United Kingdom,248.73
+TXN-1319,Sarah Connor,Female,2020-08-15,49,55000.0,298.17,Clothing,United Kingdom,298.17
+TXN-1320,Anna Kournikova,Male,2022-11-04,21,95000.0,164.88,Beauty,United States,164.88
+TXN-1321,Robert Downey,Female,2021-12-01,35,95000.0,317.21,Electronics,United States,317.21
+TXN-1322,Sarah Connor,Female,2020-08-15,66,85000.0,406.11,Clothing,United States,406.11
+TXN-1323,Unknown Customer,Male,2021-12-01,36,55000.0,309.71,Clothing,Germany,309.71
+TXN-1324,Sarah Connor,Male,2021-12-01,60,32000.0,154.92,Electronics,United States,154.92
+TXN-1325,Unknown Customer,Male,2019-08-11,69,45000.0,135.31,Electronics,Germany,135.31
+TXN-1326,John Smith,Male,2022-01-15,52,85000.0,170.44,Electronics,United States,170.44
+TXN-1327,Laura Croft,Male,2022-11-04,57,55000.0,90.66,Clothing,United Kingdom,90.66
+TXN-1328,John Smith,Female,2020-08-15,31,62500.0,98.77,Clothing,United States,98.77
+TXN-1329,Chris Hemsworth,Male,2020-08-15,50,150000.0,397.44,Clothing,Canada,397.44
+TXN-1330,Anna Kournikova,Male,2023-05-10,31,62500.0,198.52,Clothing,United States,198.52
+TXN-1331,Robert Downey,Female,2022-01-15,51,45000.0,223.64,Electronics,United States,223.64
+TXN-1332,Unknown Customer,Female,2022-11-04,44,55000.0,301.08,Clothing,Canada,301.08
+TXN-1333,Robert Downey,Male,2020-08-15,21,62500.0,298.93,Beauty,United States,298.93
+TXN-1334,Unknown Customer,Male,2020-08-15,41,62500.0,43.01,Electronics,United States,43.01
+TXN-1335,Michael Jordan,Male,2020-08-15,46,32000.0,417.45,Electronics,United States,417.45
+TXN-1336,Sarah Connor,Female,2022-11-04,36,32000.0,96.89,Beauty,United Kingdom,96.89
+TXN-1337,Chris Hemsworth,Male,2022-01-15,23,55000.0,364.31,Electronics,United States,364.31
+TXN-1338,Laura Croft,Female,2022-11-04,44,45000.0,388.61,Beauty,United States,388.61
+TXN-1339,Unknown Customer,Female,2022-01-15,50,95000.0,360.3,Clothing,United Kingdom,360.3
+TXN-1340,Robert Downey,Male,2022-01-15,66,120000.5,293.7,Electronics,United States,293.7
+TXN-1341,Chris Hemsworth,Female,2021-12-01,57,85000.0,17.16,Beauty,Germany,17.16
+TXN-1342,Emily Watson,Female,2021-03-22,36,85000.0,186.58,Electronics,United States,186.58
+TXN-1343,Emily Watson,Male,2020-08-15,44,85000.0,306.37,Clothing,United States,306.37
+TXN-1344,John Smith,Female,2020-08-15,18,85000.0,199.85,Electronics,United States,199.85
+TXN-1345,Laura Croft,Female,2020-08-15,22,32000.0,433.11,Electronics,United States,433.11
+TXN-1346,Michael Jordan,Female,2021-03-22,44,55000.0,161.31,Home & Kitchen,Canada,161.31
+TXN-1347,Robert Downey,Female,2019-08-11,33,85000.0,153.83,Electronics,United States,153.83
+TXN-1348,Sarah Connor,Female,2022-01-15,23,45000.0,140.34,Electronics,United States,140.34
+TXN-1349,Sarah Connor,Female,2021-12-01,57,85000.0,173.06,Clothing,Canada,173.06
+TXN-1350,Robert Downey,Female,2021-12-01,30,85000.0,283.13,Beauty,United States,283.13
+TXN-1351,Anna Kournikova,Female,2019-08-11,65,85000.0,356.44,Beauty,United States,356.44
+TXN-1352,Michael Jordan,Female,2022-11-04,52,150000.0,334.66,Beauty,United States,334.66
+TXN-1353,Chris Hemsworth,Female,2020-08-15,36,45000.0,405.78,Home & Kitchen,United Kingdom,405.78
+TXN-1354,Unknown Customer,Male,2021-03-22,29,120000.5,444.1,Clothing,United States,444.1
+TXN-1355,Anna Kournikova,Male,2021-12-01,33,62500.0,409.88,Electronics,United States,409.88
+TXN-1356,Unknown Customer,Male,2019-08-11,60,85000.0,19.28,Electronics,United States,19.28
+TXN-1357,Unknown Customer,Male,2023-05-10,27,45000.0,370.6,Clothing,United Kingdom,370.6
+TXN-1358,Anna Kournikova,Male,2021-03-22,42,85000.0,112.12,Clothing,United States,112.12
+TXN-1359,John Smith,Female,2022-01-15,37,85000.0,248.73,Clothing,United States,248.73
+TXN-1360,Emily Watson,Male,2022-01-15,48,95000.0,322.86,Electronics,Canada,322.86
+TXN-1361,Unknown Customer,Female,2022-11-04,21,95000.0,166.67,Beauty,United States,166.67
+TXN-1362,Anna Kournikova,Male,2020-08-15,61,45000.0,37.99,Clothing,Canada,37.99
+TXN-1363,Anna Kournikova,Female,2019-08-11,40,95000.0,77.44,Clothing,United States,77.44
+TXN-1364,David Beckham,Female,2022-11-04,19,85000.0,10.46,Beauty,United States,10.46
+TXN-1365,John Smith,Male,2021-03-22,44,120000.5,452.58,Home & Kitchen,United Kingdom,452.58
+TXN-1366,Laura Croft,Female,2022-11-04,39,55000.0,22.06,Home & Kitchen,Canada,22.06
+TXN-1367,David Beckham,Male,2020-08-15,68,45000.0,112.63,Electronics,Germany,112.63
+TXN-1368,David Beckham,Female,2023-05-10,44,45000.0,213.97,Electronics,United Kingdom,213.97
+TXN-1369,Robert Downey,Male,2022-11-04,54,85000.0,184.72,Clothing,Germany,184.72
+TXN-1370,Emily Watson,Female,2021-12-01,25,32000.0,456.75,Clothing,United States,456.75
+TXN-1371,Anna Kournikova,Male,2021-12-01,24,32000.0,29.74,Electronics,United Kingdom,29.74
+TXN-1372,Emily Watson,Female,2021-03-22,31,95000.0,260.99,Electronics,Canada,260.99
+TXN-1373,Michael Jordan,Female,2022-01-15,44,55000.0,343.43,Electronics,Germany,343.43
+TXN-1374,Robert Downey,Male,2022-11-04,44,95000.0,466.53,Beauty,United States,466.53
+TXN-1375,Laura Croft,Male,2022-01-15,20,150000.0,313.98,Electronics,United States,313.98
+TXN-1376,Emily Watson,Male,2020-08-15,67,150000.0,403.84,Electronics,United Kingdom,403.84
+TXN-1377,Sarah Connor,Male,2022-01-15,33,62500.0,51.03,Electronics,United States,51.03
+TXN-1378,Unknown Customer,Female,2022-11-04,44,150000.0,199.11,Electronics,United States,199.11
+TXN-1379,Michael Jordan,Male,2021-03-22,36,32000.0,193.23,Clothing,Canada,193.23
+TXN-1380,John Smith,Male,2022-11-04,68,120000.5,444.28,Clothing,Germany,444.28
+TXN-1381,Laura Croft,Male,2022-11-04,35,150000.0,84.17,Electronics,Germany,84.17
+TXN-1382,Michael Jordan,Female,2022-01-15,69,95000.0,84.42,Clothing,United States,84.42
+TXN-1383,Unknown Customer,Male,2022-01-15,33,85000.0,170.99,Electronics,Germany,170.99
+TXN-1384,Robert Downey,Male,2020-08-15,25,45000.0,36.69,Electronics,Canada,36.69
+TXN-1385,Unknown Customer,Male,2019-08-11,50,120000.5,99.4,Beauty,United Kingdom,99.4
+TXN-1386,David Beckham,Male,2021-03-22,66,120000.5,482.95,Electronics,Canada,482.95
+TXN-1387,Unknown Customer,Female,2020-08-15,29,95000.0,219.81,Beauty,Germany,219.81
+TXN-1388,David Beckham,Male,2022-01-15,44,45000.0,319.69,Electronics,Canada,319.69
+TXN-1389,Robert Downey,Male,2021-12-01,28,32000.0,365.79,Clothing,United Kingdom,365.79
+TXN-1390,Chris Hemsworth,Female,2020-08-15,22,120000.5,189.81,Electronics,United States,189.81
+TXN-1391,David Beckham,Female,2021-12-01,44,62500.0,82.14,Beauty,United States,82.14
+TXN-1392,John Smith,Male,2019-08-11,29,95000.0,111.22,Clothing,United Kingdom,111.22
+TXN-1393,Unknown Customer,Female,2021-03-22,34,120000.5,163.5,Electronics,United States,163.5
+TXN-1394,Unknown Customer,Female,2021-12-01,23,55000.0,321.67,Beauty,United Kingdom,321.67
+TXN-1395,John Smith,Male,2022-01-15,50,45000.0,205.16,Clothing,United Kingdom,205.16
+TXN-1396,Sarah Connor,Female,2019-08-11,22,150000.0,13.34,Beauty,United States,13.34
+TXN-1397,Anna Kournikova,Female,2022-11-04,44,120000.5,266.47,Beauty,United States,266.47
+TXN-1398,Chris Hemsworth,Male,2019-08-11,45,95000.0,461.54,Clothing,Germany,461.54
+TXN-1399,Laura Croft,Male,2022-01-15,31,150000.0,407.92,Electronics,United States,407.92
+TXN-1400,David Beckham,Male,2021-03-22,22,62500.0,414.35,Beauty,United States,414.35
+TXN-1401,John Smith,Female,2020-08-15,44,150000.0,399.58,Clothing,United States,399.58
+TXN-1402,Robert Downey,Female,2020-08-15,44,55000.0,168.63,Clothing,United States,168.63
+TXN-1403,David Beckham,Female,2021-03-22,50,32000.0,384.94,Beauty,Canada,384.94
+TXN-1404,Anna Kournikova,Male,2020-08-15,67,120000.5,80.15,Electronics,United States,80.15
+TXN-1405,Robert Downey,Female,2022-01-15,65,85000.0,332.28,Electronics,Germany,332.28
+TXN-1406,Michael Jordan,Female,2020-08-15,58,85000.0,324.37,Home & Kitchen,United States,324.37
+TXN-1407,Unknown Customer,Male,2021-12-01,36,150000.0,22.53,Beauty,United Kingdom,22.53
+TXN-1408,Michael Jordan,Male,2023-05-10,39,85000.0,396.11,Beauty,Canada,396.11
+TXN-1409,David Beckham,Female,2022-01-15,22,45000.0,452.59,Beauty,United States,452.59
+TXN-1410,Anna Kournikova,Male,2020-08-15,19,85000.0,141.03,Clothing,Germany,141.03
+TXN-1411,Chris Hemsworth,Female,2022-01-15,47,85000.0,408.07,Electronics,Canada,408.07
+TXN-1412,David Beckham,Male,2022-01-15,64,85000.0,50.38,Clothing,United States,50.38
+TXN-1413,John Smith,Male,2022-01-15,56,85000.0,303.98,Electronics,United Kingdom,303.98
+TXN-1414,Emily Watson,Male,2022-11-04,21,45000.0,247.97,Electronics,Canada,247.97
+TXN-1415,David Beckham,Male,2022-11-04,50,85000.0,277.5,Clothing,United States,277.5
+TXN-1416,Unknown Customer,Female,2021-12-01,30,85000.0,463.84,Electronics,United Kingdom,463.84
+TXN-1417,Unknown Customer,Male,2022-11-04,37,55000.0,436.94,Electronics,United States,436.94
+TXN-1418,David Beckham,Female,2021-12-01,44,120000.5,394.69,Electronics,Germany,394.69
+TXN-1419,Robert Downey,Female,2021-12-01,24,85000.0,144.11,Beauty,United States,144.11
+TXN-1420,Emily Watson,Female,2022-11-04,32,120000.5,456.79,Beauty,Germany,456.79
+TXN-1421,John Smith,Male,2023-05-10,40,95000.0,248.73,Electronics,Canada,248.73
+TXN-1422,David Beckham,Female,2022-11-04,31,95000.0,428.13,Clothing,United States,428.13
+TXN-1423,Robert Downey,Female,2023-05-10,40,45000.0,170.8,Clothing,United States,170.8
+TXN-1424,Unknown Customer,Male,2022-11-04,36,85000.0,36.35,Beauty,Canada,36.35
+TXN-1425,Unknown Customer,Male,2020-08-15,44,62500.0,337.98,Clothing,Canada,337.98
+TXN-1426,Anna Kournikova,Female,2021-03-22,46,95000.0,123.33,Clothing,United Kingdom,123.33
+TXN-1427,David Beckham,Female,2022-01-15,44,45000.0,129.35,Clothing,Germany,129.35
+TXN-1428,Emily Watson,Male,2022-01-15,37,95000.0,159.96,Electronics,United States,159.96
+TXN-1429,Sarah Connor,Female,2021-03-22,46,95000.0,41.21,Electronics,United States,41.21
+TXN-1430,Emily Watson,Female,2022-01-15,41,62500.0,96.79,Electronics,United States,96.79
+TXN-1431,Unknown Customer,Female,2023-05-10,35,85000.0,12.52,Beauty,United Kingdom,12.52
+TXN-1432,Unknown Customer,Female,2021-03-22,27,150000.0,228.25,Beauty,United States,228.25
+TXN-1433,Michael Jordan,Female,2021-12-01,58,85000.0,51.29,Electronics,United States,51.29
+TXN-1434,Unknown Customer,Male,2022-01-15,44,95000.0,248.73,Home & Kitchen,United States,248.73
+TXN-1435,John Smith,Male,2021-03-22,25,95000.0,125.46,Clothing,United States,125.46
+TXN-1436,Laura Croft,Male,2022-11-04,43,55000.0,472.35,Electronics,Germany,472.35
+TXN-1437,David Beckham,Female,2023-05-10,46,85000.0,436.91,Beauty,Canada,436.91
+TXN-1438,Emily Watson,Female,2022-01-15,27,62500.0,151.83,Beauty,Canada,151.83
+TXN-1439,Laura Croft,Male,2019-08-11,34,120000.5,393.78,Beauty,United States,393.78
+TXN-1440,Robert Downey,Female,2019-08-11,19,85000.0,403.59,Beauty,United States,403.59
+TXN-1441,Sarah Connor,Female,2020-08-15,23,95000.0,493.42,Clothing,Canada,493.42
+TXN-1442,John Smith,Female,2020-08-15,22,150000.0,302.94,Electronics,United States,302.94
+TXN-1443,Emily Watson,Male,2020-08-15,45,85000.0,50.16,Clothing,United States,50.16
+TXN-1444,Laura Croft,Female,2022-11-04,58,85000.0,326.95,Clothing,Germany,326.95
+TXN-1445,Sarah Connor,Male,2023-05-10,22,85000.0,316.24,Electronics,United States,316.24
+TXN-1446,Michael Jordan,Male,2021-12-01,35,85000.0,322.79,Electronics,United States,322.79
+TXN-1447,John Smith,Male,2021-03-22,43,95000.0,248.73,Home & Kitchen,United States,248.73
+TXN-1448,John Smith,Male,2020-08-15,37,85000.0,431.24,Beauty,Germany,431.24
+TXN-1449,Michael Jordan,Male,2021-03-22,58,120000.5,480.14,Clothing,United States,480.14
+TXN-1450,David Beckham,Female,2021-12-01,66,120000.5,116.68,Clothing,United Kingdom,116.68
+TXN-1451,Michael Jordan,Male,2023-05-10,44,95000.0,53.19,Electronics,United States,53.19
+TXN-1452,John Smith,Female,2022-11-04,66,32000.0,105.32,Electronics,Germany,105.32
+TXN-1453,John Smith,Male,2021-03-22,29,120000.5,412.07,Electronics,United Kingdom,412.07
+TXN-1454,Laura Croft,Female,2021-03-22,24,85000.0,341.56,Clothing,Germany,341.56
+TXN-1455,Unknown Customer,Female,2023-05-10,20,45000.0,321.66,Electronics,Germany,321.66
+TXN-1456,Sarah Connor,Male,2022-11-04,27,120000.5,206.88,Beauty,United States,206.88
+TXN-1457,Michael Jordan,Male,2023-05-10,51,85000.0,293.14,Electronics,Germany,293.14
+TXN-1458,Sarah Connor,Male,2022-01-15,42,32000.0,160.86,Beauty,United States,160.86
+TXN-1459,Michael Jordan,Female,2019-08-11,52,85000.0,243.83,Beauty,United States,243.83
+TXN-1460,Robert Downey,Female,2022-01-15,33,62500.0,398.6,Beauty,United States,398.6
+TXN-1461,John Smith,Male,2022-01-15,19,55000.0,490.81,Beauty,United States,490.81
+TXN-1462,Unknown Customer,Female,2022-01-15,41,62500.0,466.92,Electronics,United States,466.92
+TXN-1463,Laura Croft,Male,2022-11-04,27,85000.0,467.59,Electronics,Germany,467.59
+TXN-1464,Unknown Customer,Male,2022-01-15,55,55000.0,207.09,Electronics,Canada,207.09
+TXN-1465,Unknown Customer,Female,2019-08-11,39,85000.0,239.71,Electronics,United Kingdom,239.71
+TXN-1466,Unknown Customer,Male,2023-05-10,43,55000.0,355.76,Home & Kitchen,United Kingdom,355.76
+TXN-1467,Sarah Connor,Female,2022-01-15,60,55000.0,461.87,Electronics,Germany,461.87
+TXN-1468,Michael Jordan,Male,2020-08-15,44,45000.0,79.58,Electronics,United States,79.58
+TXN-1469,Chris Hemsworth,Female,2021-03-22,56,150000.0,159.08,Home & Kitchen,United States,159.08
+TXN-1470,Robert Downey,Male,2021-03-22,44,85000.0,78.23,Electronics,Canada,78.23
+TXN-1471,Emily Watson,Male,2020-07-19,46,62500.0,309.88,Home & Kitchen,Germany,309.88
+TXN-1472,Unknown Customer,Female,2020-08-15,64,120000.5,160.09,Clothing,United Kingdom,160.09
+TXN-1473,David Beckham,Male,2021-12-01,55,85000.0,169.79,Home & Kitchen,United States,169.79
+TXN-1474,Sarah Connor,Female,2022-11-04,37,32000.0,44.75,Electronics,United States,44.75
+TXN-1475,Laura Croft,Female,2022-11-04,44,85000.0,181.4,Beauty,United States,181.4
+TXN-1476,Emily Watson,Female,2022-01-15,58,85000.0,432.62,Beauty,United States,432.62
+TXN-1477,Chris Hemsworth,Female,2021-03-22,44,45000.0,124.21,Beauty,United States,124.21
+TXN-1478,David Beckham,Female,2021-12-01,37,85000.0,350.64,Electronics,United States,350.64
+TXN-1479,Chris Hemsworth,Female,2021-12-01,61,150000.0,318.52,Clothing,Germany,318.52
+TXN-1480,Emily Watson,Female,2021-03-22,36,32000.0,433.11,Electronics,United States,433.11
+TXN-1481,Unknown Customer,Female,2021-03-22,37,45000.0,74.82,Electronics,Canada,74.82
+TXN-1482,David Beckham,Male,2023-05-10,52,85000.0,489.02,Clothing,Canada,489.02
+TXN-1483,Chris Hemsworth,Male,2023-05-10,64,150000.0,295.49,Electronics,United States,295.49
+TXN-1484,Laura Croft,Female,2021-03-22,19,85000.0,497.78,Electronics,Canada,497.78
+TXN-1485,Michael Jordan,Male,2020-08-15,47,85000.0,456.64,Electronics,United States,456.64
+TXN-1486,John Smith,Female,2019-08-11,44,85000.0,118.54,Clothing,United States,118.54
+TXN-1487,Michael Jordan,Male,2022-01-15,51,85000.0,37.52,Electronics,United States,37.52
+TXN-1488,Emily Watson,Male,2022-01-15,39,32000.0,135.26,Clothing,United States,135.26
+TXN-1489,Sarah Connor,Female,2022-11-04,20,95000.0,268.51,Home & Kitchen,Canada,268.51
+TXN-1490,John Smith,Female,2019-08-11,23,85000.0,94.08,Electronics,United States,94.08
+TXN-1491,Robert Downey,Male,2021-03-22,32,85000.0,92.06,Electronics,Canada,92.06
+TXN-1492,Laura Croft,Female,2023-05-10,44,32000.0,236.67,Clothing,Canada,236.67
+TXN-1493,Robert Downey,Female,2023-05-10,27,150000.0,26.3,Clothing,United States,26.3
+TXN-1494,David Beckham,Male,2023-05-10,26,45000.0,69.73,Beauty,United Kingdom,69.73
+TXN-1495,John Smith,Female,2022-11-04,50,55000.0,213.77,Electronics,United States,213.77
+TXN-1496,Robert Downey,Male,2023-05-10,49,85000.0,40.93,Home & Kitchen,United States,40.93
+TXN-1497,Robert Downey,Male,2020-08-15,65,62500.0,204.41,Electronics,United States,204.41
+TXN-1498,Chris Hemsworth,Female,2023-05-10,23,32000.0,242.26,Electronics,United States,242.26
+TXN-1499,Michael Jordan,Male,2023-05-10,58,120000.5,231.12,Electronics,United States,231.12
+TXN-1500,Chris Hemsworth,Female,2023-05-10,53,150000.0,15000.0,Electronics,United States,724.42625
+TXN-1501,John Smith,Female,2019-08-11,19,95000.0,269.73,Beauty,United States,269.73
+TXN-1502,John Smith,Male,2022-01-15,46,55000.0,239.31,Beauty,Canada,239.31
+TXN-1503,Emily Watson,Female,2021-12-01,21,120000.5,211.25,Clothing,Canada,211.25
+TXN-1504,Chris Hemsworth,Female,2021-12-01,18,95000.0,410.64,Clothing,United States,410.64
+TXN-1505,Anna Kournikova,Male,2021-03-22,36,62500.0,448.58,Electronics,United States,448.58
+TXN-1506,Michael Jordan,Female,2023-05-10,43,85000.0,428.09,Clothing,United States,428.09
+TXN-1507,John Smith,Female,2020-08-15,42,85000.0,340.04,Beauty,Canada,340.04
+TXN-1508,Emily Watson,Female,2021-03-22,27,85000.0,77.31,Electronics,Canada,77.31
+TXN-1509,Chris Hemsworth,Female,2020-08-15,44,45000.0,145.67,Electronics,United Kingdom,145.67
+TXN-1510,Michael Jordan,Male,2022-01-15,32,95000.0,32.57,Clothing,United States,32.57
+TXN-1511,Chris Hemsworth,Female,2021-03-22,39,55000.0,466.1,Electronics,Germany,466.1
+TXN-1512,Robert Downey,Female,2021-12-01,68,32000.0,333.79,Beauty,Germany,333.79
+TXN-1513,Emily Watson,Female,2021-03-22,65,85000.0,375.72,Clothing,United States,375.72
+TXN-1514,Michael Jordan,Female,2021-12-01,38,32000.0,162.67,Electronics,United States,162.67
+TXN-1515,Unknown Customer,Female,2023-05-10,44,55000.0,424.37,Beauty,United States,424.37
+TXN-1516,David Beckham,Female,2019-08-11,39,32000.0,137.21,Home & Kitchen,United States,137.21
+TXN-1517,David Beckham,Female,2023-05-10,53,95000.0,10.81,Electronics,United Kingdom,10.81
+TXN-1518,Michael Jordan,Female,2022-01-15,51,150000.0,194.44,Electronics,United States,194.44
+TXN-1519,Chris Hemsworth,Female,2022-11-04,47,32000.0,289.67,Home & Kitchen,United Kingdom,289.67
+TXN-1520,Emily Watson,Female,2022-01-15,42,85000.0,244.57,Beauty,Canada,244.57
+TXN-1521,David Beckham,Female,2023-05-10,62,62500.0,432.42,Beauty,United States,432.42
+TXN-1522,Emily Watson,Male,2019-08-11,45,45000.0,61.65,Electronics,United Kingdom,61.65
+TXN-1523,David Beckham,Male,2021-03-22,18,95000.0,248.73,Electronics,Canada,248.73
+TXN-1524,Robert Downey,Male,2020-08-15,66,120000.5,261.36,Beauty,United Kingdom,261.36
+TXN-1525,Chris Hemsworth,Female,2022-11-04,62,55000.0,147.88,Clothing,Canada,147.88
+TXN-1526,Robert Downey,Female,2019-08-11,21,85000.0,412.89,Clothing,United States,412.89
+TXN-1527,David Beckham,Female,2022-11-04,24,95000.0,378.9,Clothing,United Kingdom,378.9
+TXN-1528,Unknown Customer,Male,2021-03-22,66,150000.0,369.1,Electronics,United States,369.1
+TXN-1529,Unknown Customer,Female,2022-11-04,26,85000.0,439.33,Home & Kitchen,Canada,439.33
+TXN-1530,Robert Downey,Male,2021-03-22,53,85000.0,364.16,Electronics,United States,364.16
+TXN-1531,Unknown Customer,Male,2022-11-04,36,55000.0,123.6,Beauty,Germany,123.6
+TXN-1532,David Beckham,Female,2022-11-04,18,85000.0,355.73,Beauty,United States,355.73
+TXN-1533,Michael Jordan,Female,2022-11-04,27,32000.0,160.77,Electronics,United States,160.77
+TXN-1534,Robert Downey,Male,2019-08-11,53,95000.0,128.67,Clothing,Canada,128.67
+TXN-1535,Sarah Connor,Male,2022-01-15,26,62500.0,45.77,Beauty,United Kingdom,45.77
+TXN-1536,Chris Hemsworth,Male,2022-11-04,62,55000.0,374.57,Beauty,Canada,374.57
+TXN-1537,Unknown Customer,Male,2021-12-01,63,85000.0,358.39,Electronics,United States,358.39
+TXN-1538,Unknown Customer,Female,2022-01-15,59,85000.0,124.9,Electronics,United States,124.9
+TXN-1539,John Smith,Male,2019-08-11,49,45000.0,377.2,Clothing,United Kingdom,377.2
+TXN-1540,Anna Kournikova,Female,2021-03-22,49,55000.0,459.74,Beauty,United States,459.74
+TXN-1541,Robert Downey,Female,2022-11-04,23,150000.0,62.93,Clothing,United Kingdom,62.93
+TXN-1542,Laura Croft,Male,2021-12-01,65,95000.0,123.99,Clothing,Canada,123.99
+TXN-1543,Unknown Customer,Male,2022-11-04,55,32000.0,377.63,Beauty,United States,377.63
+TXN-1544,Chris Hemsworth,Male,2022-01-15,34,45000.0,144.51,Electronics,Germany,144.51
+TXN-1545,Sarah Connor,Male,2023-05-10,27,45000.0,316.09,Electronics,Canada,316.09
+TXN-1546,Unknown Customer,Male,2023-05-10,67,85000.0,49.77,Electronics,United States,49.77
+TXN-1547,Sarah Connor,Female,2019-08-11,44,85000.0,231.58,Clothing,Canada,231.58
+TXN-1548,David Beckham,Male,2020-08-15,44,150000.0,372.15,Clothing,Canada,372.15
+TXN-1549,David Beckham,Female,2020-08-15,67,85000.0,248.73,Home & Kitchen,United Kingdom,248.73
+TXN-1550,Anna Kournikova,Male,2022-11-04,52,32000.0,409.39,Electronics,Canada,409.39
+TXN-1551,Michael Jordan,Female,2020-08-15,69,45000.0,439.95,Electronics,United States,439.95
+TXN-1552,Laura Croft,Female,2022-11-04,38,150000.0,388.86,Clothing,United States,388.86
+TXN-1553,John Smith,Female,2022-11-04,42,150000.0,339.08,Electronics,United States,339.08
+TXN-1554,Anna Kournikova,Female,2019-08-11,45,120000.5,25.54,Clothing,United States,25.54
+TXN-1555,Emily Watson,Female,2023-05-10,64,95000.0,272.13,Clothing,United Kingdom,272.13
+TXN-1556,John Smith,Female,2023-05-10,32,45000.0,28.47,Electronics,United States,28.47
+TXN-1557,Robert Downey,Female,2022-01-15,21,45000.0,405.95,Clothing,Germany,405.95
+TXN-1558,Chris Hemsworth,Female,2022-01-15,46,150000.0,167.16,Beauty,United States,167.16
+TXN-1559,Emily Watson,Male,2021-03-22,26,85000.0,285.59,Electronics,United States,285.59
+TXN-1560,Emily Watson,Male,2021-03-22,44,45000.0,146.93,Home & Kitchen,Canada,146.93
+TXN-1561,Anna Kournikova,Female,2022-11-04,43,150000.0,393.43,Electronics,United States,393.43
+TXN-1562,Michael Jordan,Female,2022-11-04,36,45000.0,444.39,Clothing,United States,444.39
+TXN-1563,Anna Kournikova,Female,2023-05-10,44,150000.0,205.33,Home & Kitchen,Canada,205.33
+TXN-1564,Robert Downey,Female,2021-12-01,45,120000.5,432.83,Beauty,United Kingdom,432.83
+TXN-1565,Unknown Customer,Female,2021-12-01,34,95000.0,140.87,Electronics,Canada,140.87
+TXN-1566,Unknown Customer,Male,2021-12-01,60,150000.0,271.98,Home & Kitchen,Canada,271.98
+TXN-1567,Michael Jordan,Male,2022-11-04,44,45000.0,430.79,Electronics,United Kingdom,430.79
+TXN-1568,Robert Downey,Male,2023-05-10,58,32000.0,169.68,Home & Kitchen,United States,169.68
+TXN-1569,Michael Jordan,Male,2020-08-15,59,95000.0,477.48,Electronics,Germany,477.48
+TXN-1570,Sarah Connor,Female,2022-01-15,67,120000.5,69.72,Electronics,Germany,69.72
+TXN-1571,Unknown Customer,Male,2020-08-15,37,150000.0,18.95,Home & Kitchen,Canada,18.95
+TXN-1572,Emily Watson,Female,2019-08-11,62,32000.0,453.03,Electronics,Germany,453.03
+TXN-1573,Laura Croft,Male,2021-12-01,57,150000.0,43.64,Electronics,United States,43.64
+TXN-1574,Chris Hemsworth,Female,2021-03-22,56,85000.0,496.03,Home & Kitchen,United States,496.03
+TXN-1575,Robert Downey,Female,2023-05-10,66,45000.0,476.18,Clothing,United States,476.18
+TXN-1576,John Smith,Male,2021-12-01,44,55000.0,77.14,Clothing,United States,77.14
+TXN-1577,Michael Jordan,Female,2022-01-15,40,85000.0,273.42,Beauty,United Kingdom,273.42
+TXN-1578,Chris Hemsworth,Male,2020-08-15,64,62500.0,100.61,Clothing,United States,100.61
+TXN-1579,John Smith,Male,2019-08-11,49,85000.0,219.8,Electronics,United States,219.8
+TXN-1580,Chris Hemsworth,Male,2020-08-15,69,32000.0,40.1,Beauty,Germany,40.1
+TXN-1581,Laura Croft,Male,2022-01-15,64,85000.0,119.72,Beauty,United States,119.72
+TXN-1582,John Smith,Male,2023-05-10,50,85000.0,188.0,Beauty,Canada,188.0
+TXN-1583,Anna Kournikova,Female,2019-08-11,44,150000.0,224.94,Electronics,United Kingdom,224.94
+TXN-1584,David Beckham,Female,2023-05-10,63,150000.0,488.97,Beauty,United Kingdom,488.97
+TXN-1585,Anna Kournikova,Female,2021-03-22,22,62500.0,405.85,Clothing,United States,405.85
+TXN-1586,Unknown Customer,Male,2020-08-15,60,62500.0,371.33,Clothing,United States,371.33
+TXN-1587,David Beckham,Female,2023-05-10,65,85000.0,273.15,Beauty,United States,273.15
+TXN-1588,Anna Kournikova,Male,2023-05-10,51,45000.0,421.6,Electronics,United States,421.6
+TXN-1589,David Beckham,Male,2021-12-01,57,85000.0,248.73,Clothing,United Kingdom,248.73
+TXN-1590,David Beckham,Female,2022-01-15,28,55000.0,357.36,Clothing,United Kingdom,357.36
+TXN-1591,Emily Watson,Male,2019-08-11,67,55000.0,496.95,Beauty,United States,496.95
+TXN-1592,Michael Jordan,Female,2022-01-15,20,120000.5,164.17,Clothing,United States,164.17
+TXN-1593,Michael Jordan,Female,2020-08-15,50,120000.5,340.27,Clothing,United Kingdom,340.27
+TXN-1594,Emily Watson,Male,2022-01-15,28,45000.0,423.71,Beauty,United States,423.71
+TXN-1595,Chris Hemsworth,Male,2020-08-15,33,120000.5,458.75,Clothing,Germany,458.75
+TXN-1596,Sarah Connor,Male,2023-05-10,35,120000.5,361.79,Beauty,United Kingdom,361.79
+TXN-1597,Chris Hemsworth,Female,2023-05-10,47,85000.0,148.97,Electronics,United States,148.97
+TXN-1598,John Smith,Male,2021-03-22,65,85000.0,169.88,Electronics,United States,169.88
+TXN-1599,John Smith,Male,2022-11-04,44,120000.5,20.17,Beauty,United Kingdom,20.17
+TXN-1600,David Beckham,Male,2022-01-15,27,85000.0,382.83,Beauty,United States,382.83
+TXN-1601,Anna Kournikova,Female,2021-12-01,35,95000.0,30.94,Beauty,United States,30.94
+TXN-1602,Anna Kournikova,Male,2020-07-19,55,95000.0,433.68,Beauty,Canada,433.68
+TXN-1603,Michael Jordan,Male,2020-08-15,36,45000.0,68.14,Electronics,United States,68.14
+TXN-1604,Robert Downey,Female,2023-05-10,53,55000.0,94.22,Electronics,Germany,94.22
+TXN-1605,Chris Hemsworth,Female,2020-08-15,30,62500.0,243.5,Beauty,United Kingdom,243.5
+TXN-1606,Unknown Customer,Male,2022-01-15,44,45000.0,371.56,Home & Kitchen,Canada,371.56
+TXN-1607,Laura Croft,Male,2020-08-15,63,120000.5,78.11,Home & Kitchen,United Kingdom,78.11
+TXN-1608,Anna Kournikova,Male,2021-12-01,20,85000.0,225.63,Electronics,United States,225.63
+TXN-1609,Laura Croft,Female,2023-05-10,27,150000.0,246.6,Beauty,Canada,246.6
+TXN-1610,David Beckham,Male,2022-01-15,55,85000.0,114.02,Beauty,United States,114.02
+TXN-1611,Laura Croft,Female,2021-12-01,18,32000.0,66.62,Clothing,United States,66.62
+TXN-1612,Unknown Customer,Female,2023-05-10,44,85000.0,419.85,Home & Kitchen,United Kingdom,419.85
+TXN-1613,Emily Watson,Female,2021-12-01,44,95000.0,256.21,Beauty,United States,256.21
+TXN-1614,Unknown Customer,Male,2023-05-10,44,85000.0,17.05,Electronics,United States,17.05
+TXN-1615,Laura Croft,Female,2023-05-10,63,85000.0,403.46,Electronics,Canada,403.46
+TXN-1616,Unknown Customer,Female,2022-01-15,25,62500.0,490.59,Electronics,United States,490.59
+TXN-1617,Sarah Connor,Female,2021-03-22,68,120000.5,306.9,Beauty,Canada,306.9
+TXN-1618,David Beckham,Male,2021-03-22,63,150000.0,256.82,Electronics,United States,256.82
+TXN-1619,Chris Hemsworth,Female,2021-03-22,59,95000.0,440.42,Clothing,United States,440.42
+TXN-1620,Emily Watson,Male,2021-03-22,34,95000.0,476.73,Electronics,United States,476.73
+TXN-1621,Anna Kournikova,Male,2023-05-10,26,85000.0,379.72,Clothing,United States,379.72
+TXN-1622,John Smith,Male,2022-01-15,23,55000.0,228.27,Home & Kitchen,United States,228.27
+TXN-1623,Chris Hemsworth,Female,2022-01-15,60,62500.0,300.19,Beauty,United States,300.19
+TXN-1624,John Smith,Male,2021-03-22,42,95000.0,248.73,Beauty,United States,248.73
+TXN-1625,David Beckham,Male,2019-08-11,56,55000.0,105.19,Home & Kitchen,Germany,105.19
+TXN-1626,Emily Watson,Male,2020-08-15,66,95000.0,229.13,Beauty,United States,229.13
+TXN-1627,Michael Jordan,Male,2020-08-15,45,120000.5,416.61,Clothing,United States,416.61
+TXN-1628,Anna Kournikova,Female,2020-08-15,50,55000.0,330.82,Clothing,Germany,330.82
+TXN-1629,Sarah Connor,Female,2022-01-15,44,85000.0,211.49,Electronics,Germany,211.49
+TXN-1630,Michael Jordan,Male,2023-05-10,54,85000.0,335.05,Clothing,United States,335.05
+TXN-1631,David Beckham,Male,2022-01-15,26,120000.5,67.93,Clothing,United Kingdom,67.93
+TXN-1632,Chris Hemsworth,Female,2021-12-01,35,85000.0,206.73,Home & Kitchen,United States,206.73
+TXN-1633,Sarah Connor,Male,2020-08-15,44,150000.0,398.63,Electronics,Canada,398.63
+TXN-1634,Unknown Customer,Male,2020-08-15,38,62500.0,118.05,Electronics,United States,118.05
+TXN-1635,Laura Croft,Female,2023-05-10,19,62500.0,101.12,Beauty,Germany,101.12
+TXN-1636,Sarah Connor,Female,2020-08-15,60,32000.0,475.9,Beauty,United States,475.9
+TXN-1637,David Beckham,Male,2020-08-15,55,32000.0,112.85,Clothing,United Kingdom,112.85
+TXN-1638,Robert Downey,Female,2023-05-10,57,55000.0,137.85,Electronics,United States,137.85
+TXN-1639,Laura Croft,Male,2022-01-15,53,62500.0,485.11,Beauty,Canada,485.11
+TXN-1640,John Smith,Female,2022-11-04,67,55000.0,370.01,Clothing,United States,370.01
+TXN-1641,Anna Kournikova,Male,2021-03-22,60,32000.0,352.8,Beauty,Canada,352.8
+TXN-1642,John Smith,Male,2022-01-15,54,150000.0,248.73,Electronics,United States,248.73
+TXN-1643,Sarah Connor,Male,2022-01-15,32,95000.0,66.75,Clothing,Germany,66.75
+TXN-1644,John Smith,Female,2021-12-01,45,85000.0,355.92,Beauty,United Kingdom,355.92
+TXN-1645,David Beckham,Female,2021-12-01,35,85000.0,256.81,Electronics,United States,256.81
+TXN-1646,Unknown Customer,Male,2023-05-10,51,55000.0,416.28,Clothing,Canada,416.28
+TXN-1647,Chris Hemsworth,Male,2023-05-10,39,150000.0,258.99,Electronics,United Kingdom,258.99
+TXN-1648,Anna Kournikova,Female,2021-03-22,28,85000.0,313.92,Electronics,United States,313.92
+TXN-1649,John Smith,Male,2021-03-22,44,62500.0,244.09,Electronics,United States,244.09
+TXN-1650,John Smith,Male,2021-12-01,30,95000.0,244.3,Beauty,Canada,244.3
+TXN-1651,Sarah Connor,Female,2020-08-15,21,85000.0,386.31,Beauty,United States,386.31
+TXN-1652,Chris Hemsworth,Male,2021-12-01,39,85000.0,318.0,Electronics,Canada,318.0
+TXN-1653,Michael Jordan,Female,2022-11-04,24,32000.0,320.3,Electronics,United States,320.3
+TXN-1654,John Smith,Female,2021-03-22,60,85000.0,230.64,Electronics,United Kingdom,230.64
+TXN-1655,David Beckham,Male,2023-05-10,44,85000.0,270.24,Clothing,United States,270.24
+TXN-1656,Robert Downey,Male,2022-11-04,41,150000.0,375.4,Electronics,Germany,375.4
+TXN-1657,Anna Kournikova,Male,2021-03-22,21,95000.0,414.71,Electronics,United States,414.71
+TXN-1658,John Smith,Female,2021-12-01,45,120000.5,351.32,Beauty,United Kingdom,351.32
+TXN-1659,David Beckham,Female,2023-05-10,32,85000.0,462.8,Beauty,Canada,462.8
+TXN-1660,David Beckham,Female,2021-03-22,18,45000.0,411.96,Beauty,Canada,411.96
+TXN-1661,Anna Kournikova,Male,2023-05-10,44,85000.0,285.31,Clothing,United States,285.31
+TXN-1662,Michael Jordan,Female,2023-05-10,20,85000.0,338.99,Clothing,United States,338.99
+TXN-1663,David Beckham,Female,2021-03-22,31,45000.0,463.89,Clothing,United States,463.89
+TXN-1664,Robert Downey,Female,2021-12-01,55,85000.0,313.39,Home & Kitchen,Canada,313.39
+TXN-1665,David Beckham,Female,2021-03-22,67,120000.5,414.16,Clothing,Canada,414.16
+TXN-1666,David Beckham,Female,2021-12-01,44,32000.0,347.52,Electronics,United States,347.52
+TXN-1667,David Beckham,Female,2022-11-04,18,150000.0,280.45,Beauty,Germany,280.45
+TXN-1668,Unknown Customer,Female,2020-08-15,55,95000.0,128.5,Electronics,Canada,128.5
+TXN-1669,Unknown Customer,Male,2020-08-15,55,150000.0,218.74,Home & Kitchen,Canada,218.74
+TXN-1670,Michael Jordan,Male,2021-12-01,38,120000.5,484.19,Beauty,United Kingdom,484.19
+TXN-1671,John Smith,Female,2023-05-10,65,150000.0,332.31,Electronics,United Kingdom,332.31
+TXN-1672,David Beckham,Male,2022-11-04,46,45000.0,286.55,Home & Kitchen,Germany,286.55
+TXN-1673,Chris Hemsworth,Female,2022-01-15,22,85000.0,467.15,Beauty,United States,467.15
+TXN-1674,John Smith,Female,2019-08-11,66,150000.0,297.39,Electronics,United Kingdom,297.39
+TXN-1675,Michael Jordan,Female,2022-11-04,27,55000.0,267.78,Clothing,Germany,267.78
+TXN-1676,Emily Watson,Male,2019-08-11,45,85000.0,382.06,Electronics,United States,382.06
+TXN-1677,John Smith,Male,2022-01-15,38,120000.5,359.21,Clothing,United States,359.21
+TXN-1678,John Smith,Male,2023-05-10,67,85000.0,104.65,Electronics,Canada,104.65
+TXN-1679,Laura Croft,Female,2023-05-10,24,55000.0,240.94,Electronics,Germany,240.94
+TXN-1680,Sarah Connor,Female,2020-08-15,20,45000.0,241.53,Clothing,United States,241.53
+TXN-1681,Laura Croft,Female,2023-05-10,62,62500.0,195.33,Beauty,United Kingdom,195.33
+TXN-1682,Robert Downey,Male,2022-01-15,64,45000.0,263.47,Clothing,Canada,263.47
+TXN-1683,Unknown Customer,Female,2022-11-04,37,85000.0,212.42,Home & Kitchen,Germany,212.42
+TXN-1684,Unknown Customer,Female,2023-05-10,36,85000.0,107.68,Clothing,United States,107.68
+TXN-1685,Sarah Connor,Male,2022-01-15,52,55000.0,212.06,Electronics,United States,212.06
+TXN-1686,Anna Kournikova,Female,2022-11-04,21,85000.0,45.42,Beauty,United States,45.42
+TXN-1687,Anna Kournikova,Male,2023-05-10,22,120000.5,292.14,Home & Kitchen,Canada,292.14
+TXN-1688,Michael Jordan,Male,2022-01-15,18,32000.0,428.29,Electronics,United States,428.29
+TXN-1689,Sarah Connor,Female,2022-01-15,21,85000.0,365.39,Clothing,United States,365.39
+TXN-1690,John Smith,Male,2020-07-19,29,55000.0,186.59,Clothing,Canada,186.59
+TXN-1691,Anna Kournikova,Female,2023-05-10,44,85000.0,52.66,Electronics,United States,52.66
+TXN-1692,David Beckham,Female,2022-01-15,44,62500.0,109.05,Beauty,Germany,109.05
+TXN-1693,Chris Hemsworth,Female,2021-12-01,59,95000.0,277.29,Home & Kitchen,Germany,277.29
+TXN-1694,John Smith,Male,2023-05-10,40,85000.0,111.46,Clothing,United States,111.46
+TXN-1695,Robert Downey,Female,2020-08-15,42,85000.0,276.55,Clothing,United Kingdom,276.55
+TXN-1696,David Beckham,Female,2023-05-10,38,85000.0,123.48,Clothing,Canada,123.48
+TXN-1697,David Beckham,Female,2023-05-10,69,85000.0,425.97,Clothing,United States,425.97
+TXN-1698,Sarah Connor,Male,2023-05-10,41,85000.0,204.66,Beauty,Germany,204.66
+TXN-1699,Michael Jordan,Male,2020-08-15,42,55000.0,130.32,Home & Kitchen,United States,130.32
+TXN-1700,Robert Downey,Female,2022-11-04,62,85000.0,408.04,Electronics,Canada,408.04
+TXN-1701,Anna Kournikova,Male,2019-08-11,44,85000.0,177.99,Clothing,Canada,177.99
+TXN-1702,Sarah Connor,Female,2020-08-15,63,120000.5,64.63,Clothing,United States,64.63
+TXN-1703,Anna Kournikova,Female,2022-11-04,49,85000.0,289.5,Beauty,United States,289.5
+TXN-1704,Sarah Connor,Female,2019-08-11,44,62500.0,294.97,Clothing,Canada,294.97
+TXN-1705,Sarah Connor,Female,2023-05-10,49,85000.0,360.2,Electronics,United Kingdom,360.2
+TXN-1706,Sarah Connor,Female,2020-08-15,22,120000.5,127.71,Beauty,United Kingdom,127.71
+TXN-1707,Michael Jordan,Female,2022-11-04,53,32000.0,227.45,Clothing,Canada,227.45
+TXN-1708,Sarah Connor,Female,2023-05-10,63,32000.0,148.36,Electronics,United States,148.36
+TXN-1709,Emily Watson,Female,2021-12-01,59,150000.0,49.67,Electronics,United States,49.67
+TXN-1710,Chris Hemsworth,Male,2023-05-10,66,55000.0,439.54,Clothing,Canada,439.54
+TXN-1711,Anna Kournikova,Male,2023-05-10,59,55000.0,367.15,Beauty,United States,367.15
+TXN-1712,John Smith,Female,2022-01-15,56,45000.0,157.72,Electronics,Germany,157.72
+TXN-1713,Laura Croft,Male,2022-01-15,33,62500.0,248.73,Clothing,United States,248.73
+TXN-1714,Robert Downey,Male,2022-11-04,50,85000.0,108.62,Electronics,United States,108.62
+TXN-1715,Unknown Customer,Male,2021-03-22,66,85000.0,446.22,Electronics,United Kingdom,446.22
+TXN-1716,Michael Jordan,Female,2021-03-22,38,62500.0,66.3,Beauty,United States,66.3
+TXN-1717,John Smith,Female,2020-08-15,26,150000.0,11.88,Electronics,United States,11.88
+TXN-1718,David Beckham,Female,2021-03-22,23,45000.0,255.98,Electronics,United States,255.98
+TXN-1719,Emily Watson,Female,2022-01-15,68,120000.5,295.73,Clothing,Canada,295.73
+TXN-1720,Unknown Customer,Female,2022-01-15,62,62500.0,293.69,Beauty,United States,293.69
+TXN-1721,Laura Croft,Male,2021-03-22,52,120000.5,36.71,Beauty,United Kingdom,36.71
+TXN-1722,John Smith,Female,2022-11-04,56,32000.0,163.88,Beauty,Germany,163.88
+TXN-1723,Unknown Customer,Male,2021-12-01,39,85000.0,254.61,Clothing,United Kingdom,254.61
+TXN-1724,John Smith,Female,2019-08-11,58,150000.0,116.12,Home & Kitchen,United States,116.12
+TXN-1725,Emily Watson,Female,2022-01-15,44,85000.0,437.59,Electronics,United Kingdom,437.59
+TXN-1726,Laura Croft,Male,2019-08-11,22,85000.0,52.68,Clothing,United Kingdom,52.68
+TXN-1727,David Beckham,Male,2023-05-10,59,85000.0,248.82,Clothing,United Kingdom,248.82
+TXN-1728,Sarah Connor,Male,2022-11-04,40,55000.0,348.79,Electronics,Canada,348.79
+TXN-1729,Anna Kournikova,Male,2022-11-04,34,150000.0,138.26,Electronics,United Kingdom,138.26
+TXN-1730,David Beckham,Male,2021-12-01,29,62500.0,315.88,Electronics,United Kingdom,315.88
+TXN-1731,Sarah Connor,Female,2020-08-15,40,85000.0,416.4,Electronics,United States,416.4
+TXN-1732,Michael Jordan,Female,2022-11-04,33,95000.0,103.27,Electronics,United States,103.27
+TXN-1733,Chris Hemsworth,Female,2023-05-10,20,55000.0,459.44,Clothing,United States,459.44
+TXN-1734,Robert Downey,Female,2021-12-01,47,55000.0,281.24,Electronics,United Kingdom,281.24
+TXN-1735,Robert Downey,Female,2021-12-01,44,95000.0,156.62,Electronics,United States,156.62
+TXN-1736,Anna Kournikova,Female,2021-03-22,39,45000.0,221.12,Clothing,United States,221.12
+TXN-1737,Laura Croft,Male,2021-03-22,26,45000.0,162.97,Beauty,United States,162.97
+TXN-1738,Emily Watson,Female,2022-01-15,46,95000.0,365.3,Electronics,Canada,365.3
+TXN-1739,Laura Croft,Male,2022-01-15,64,85000.0,400.19,Clothing,United States,400.19
+TXN-1740,Emily Watson,Female,2022-01-15,54,32000.0,418.14,Clothing,United States,418.14
+TXN-1741,Laura Croft,Female,2020-08-15,40,95000.0,493.03,Home & Kitchen,United States,493.03
+TXN-1742,Chris Hemsworth,Female,2022-11-04,30,32000.0,397.73,Electronics,United States,397.73
+TXN-1743,Michael Jordan,Male,2022-01-15,49,85000.0,304.68,Clothing,United Kingdom,304.68
+TXN-1744,Michael Jordan,Female,2022-01-15,63,85000.0,176.22,Clothing,United States,176.22
+TXN-1745,Sarah Connor,Female,2020-07-19,69,150000.0,276.85,Electronics,United States,276.85
+TXN-1746,Unknown Customer,Male,2021-12-01,64,32000.0,30.12,Beauty,United States,30.12
+TXN-1747,Michael Jordan,Male,2021-12-01,65,55000.0,374.96,Beauty,United Kingdom,374.96
+TXN-1748,Michael Jordan,Female,2019-08-11,40,85000.0,228.52,Clothing,Germany,228.52
+TXN-1749,David Beckham,Male,2022-11-04,62,55000.0,19.81,Clothing,United States,19.81
+TXN-1750,David Beckham,Female,2022-01-15,34,85000.0,40.63,Beauty,United States,40.63
+TXN-1751,Sarah Connor,Male,2020-08-15,44,32000.0,199.86,Electronics,United Kingdom,199.86
+TXN-1752,Unknown Customer,Male,2022-11-04,57,120000.5,295.88,Electronics,Germany,295.88
+TXN-1753,Anna Kournikova,Female,2021-03-22,38,85000.0,237.46,Electronics,Germany,237.46
+TXN-1754,David Beckham,Male,2022-11-04,19,85000.0,313.41,Clothing,United States,313.41
+TXN-1755,Anna Kournikova,Female,2022-01-15,54,120000.5,245.34,Electronics,Canada,245.34
+TXN-1756,John Smith,Male,2020-08-15,23,85000.0,248.73,Electronics,United States,248.73
+TXN-1757,David Beckham,Male,2023-05-10,61,32000.0,117.37,Clothing,Canada,117.37
+TXN-1758,Chris Hemsworth,Female,2022-11-04,35,32000.0,65.29,Beauty,United States,65.29
+TXN-1759,Unknown Customer,Female,2023-05-10,47,55000.0,302.25,Electronics,United Kingdom,302.25
+TXN-1760,Sarah Connor,Female,2022-11-04,39,85000.0,247.5,Clothing,Canada,247.5
+TXN-1761,John Smith,Female,2022-01-15,44,85000.0,23.17,Beauty,United Kingdom,23.17
+TXN-1762,Unknown Customer,Female,2022-01-15,50,85000.0,196.44,Electronics,Germany,196.44
+TXN-1763,Chris Hemsworth,Male,2019-08-11,47,150000.0,62.0,Electronics,United States,62.0
+TXN-1764,Unknown Customer,Male,2022-11-04,34,85000.0,270.36,Electronics,Germany,270.36
+TXN-1765,Chris Hemsworth,Female,2022-01-15,60,62500.0,248.73,Beauty,United States,248.73
+TXN-1766,Chris Hemsworth,Female,2021-12-01,49,150000.0,310.44,Beauty,United States,310.44
+TXN-1767,Anna Kournikova,Female,2021-03-22,59,62500.0,404.75,Electronics,United States,404.75
+TXN-1768,Laura Croft,Male,2023-05-10,68,32000.0,156.84,Electronics,United States,156.84
+TXN-1769,John Smith,Male,2022-01-15,31,150000.0,481.43,Clothing,United States,481.43
+TXN-1770,Unknown Customer,Female,2022-11-04,27,85000.0,272.46,Clothing,United States,272.46
+TXN-1771,Emily Watson,Female,2022-11-04,64,120000.5,312.96,Clothing,United States,312.96
+TXN-1772,John Smith,Female,2021-03-22,68,55000.0,343.53,Clothing,United States,343.53
+TXN-1773,Laura Croft,Female,2019-08-11,53,62500.0,336.7,Beauty,Germany,336.7
+TXN-1774,John Smith,Female,2020-08-15,51,150000.0,260.38,Beauty,Canada,260.38
+TXN-1775,Michael Jordan,Male,2021-03-22,26,85000.0,220.09,Home & Kitchen,United States,220.09
+TXN-1776,Emily Watson,Male,2021-03-22,59,150000.0,36.35,Beauty,United States,36.35
+TXN-1777,Laura Croft,Male,2021-03-22,45,85000.0,20.82,Electronics,United States,20.82
+TXN-1778,Anna Kournikova,Male,2022-01-15,28,85000.0,185.4,Electronics,United States,185.4
+TXN-1779,Unknown Customer,Female,2023-05-10,31,85000.0,173.49,Beauty,United States,173.49
+TXN-1780,Robert Downey,Male,2021-12-01,56,85000.0,199.97,Electronics,United States,199.97
+TXN-1781,Laura Croft,Female,2023-05-10,44,55000.0,77.8,Beauty,United States,77.8
+TXN-1782,Sarah Connor,Male,2021-03-22,64,120000.5,371.7,Electronics,Germany,371.7
+TXN-1783,Unknown Customer,Male,2022-01-15,44,120000.5,429.91,Beauty,United States,429.91
+TXN-1784,Laura Croft,Male,2021-03-22,36,150000.0,469.97,Home & Kitchen,United States,469.97
+TXN-1785,Michael Jordan,Male,2020-08-15,44,150000.0,251.26,Electronics,United States,251.26
+TXN-1786,Robert Downey,Female,2021-12-01,32,85000.0,353.42,Clothing,United States,353.42
+TXN-1787,Michael Jordan,Male,2021-03-22,45,85000.0,429.22,Clothing,United Kingdom,429.22
+TXN-1788,Robert Downey,Female,2022-11-04,41,85000.0,214.96,Home & Kitchen,United States,214.96
+TXN-1789,Sarah Connor,Male,2019-08-11,25,85000.0,161.61,Beauty,United States,161.61
+TXN-1790,Unknown Customer,Male,2023-05-10,60,85000.0,469.0,Electronics,Canada,469.0
+TXN-1791,Anna Kournikova,Male,2021-12-01,26,62500.0,262.68,Electronics,United States,262.68
+TXN-1792,Michael Jordan,Female,2023-05-10,64,62500.0,253.65,Clothing,United Kingdom,253.65
+TXN-1793,Michael Jordan,Female,2022-11-04,50,32000.0,97.42,Beauty,Canada,97.42
+TXN-1794,Chris Hemsworth,Male,2023-05-10,50,85000.0,63.0,Beauty,United Kingdom,63.0
+TXN-1795,Robert Downey,Male,2023-05-10,36,55000.0,422.63,Electronics,United States,422.63
+TXN-1796,David Beckham,Female,2021-03-22,20,32000.0,310.93,Electronics,United States,310.93
+TXN-1797,Unknown Customer,Male,2020-08-15,27,150000.0,169.65,Beauty,Canada,169.65
+TXN-1798,Robert Downey,Male,2021-03-22,57,85000.0,103.95,Electronics,Canada,103.95
+TXN-1799,Chris Hemsworth,Female,2023-05-10,64,85000.0,282.19,Beauty,Germany,282.19
+TXN-1800,John Smith,Female,2022-01-15,59,62500.0,296.12,Home & Kitchen,United Kingdom,296.12
+TXN-1801,Robert Downey,Male,2019-08-11,18,85000.0,111.43,Electronics,United States,111.43
+TXN-1802,Anna Kournikova,Female,2022-11-04,46,85000.0,248.73,Beauty,Germany,248.73
+TXN-1803,Unknown Customer,Female,2020-08-15,67,85000.0,51.29,Clothing,United States,51.29
+TXN-1804,Chris Hemsworth,Male,2021-03-22,51,55000.0,184.49,Electronics,United Kingdom,184.49
+TXN-1805,John Smith,Female,2019-08-11,68,85000.0,343.39,Beauty,United States,343.39
+TXN-1806,Emily Watson,Female,2021-12-01,30,120000.5,144.32,Clothing,United States,144.32
+TXN-1807,Chris Hemsworth,Male,2022-11-04,44,85000.0,248.73,Electronics,Germany,248.73
+TXN-1808,Emily Watson,Male,2021-03-22,18,120000.5,372.54,Clothing,United States,372.54
+TXN-1809,Unknown Customer,Male,2020-08-15,51,85000.0,396.62,Electronics,United Kingdom,396.62
+TXN-1810,Michael Jordan,Female,2022-01-15,46,32000.0,68.36,Beauty,United Kingdom,68.36
+TXN-1811,Chris Hemsworth,Male,2021-03-22,65,120000.5,78.87,Clothing,United States,78.87
+TXN-1812,Sarah Connor,Female,2021-12-01,64,32000.0,150.37,Beauty,Canada,150.37
+TXN-1813,Emily Watson,Female,2022-11-04,30,62500.0,263.86,Clothing,United States,263.86
+TXN-1814,Anna Kournikova,Male,2023-05-10,65,85000.0,376.53,Electronics,United States,376.53
+TXN-1815,Sarah Connor,Female,2019-08-11,66,85000.0,419.9,Home & Kitchen,Canada,419.9
+TXN-1816,Laura Croft,Male,2023-05-10,44,62500.0,355.12,Beauty,Germany,355.12
+TXN-1817,Laura Croft,Female,2023-05-10,46,62500.0,465.01,Clothing,United States,465.01
+TXN-1818,John Smith,Female,2020-08-15,56,95000.0,371.98,Electronics,United States,371.98
+TXN-1819,Michael Jordan,Male,2020-07-19,41,45000.0,160.07,Beauty,United Kingdom,160.07
+TXN-1820,Unknown Customer,Male,2022-01-15,43,55000.0,248.73,Home & Kitchen,United Kingdom,248.73
+TXN-1821,Chris Hemsworth,Male,2020-07-19,34,32000.0,351.13,Beauty,Canada,351.13
+TXN-1822,David Beckham,Male,2021-12-01,24,95000.0,104.51,Electronics,United States,104.51
+TXN-1823,Anna Kournikova,Male,2022-01-15,30,45000.0,55.43,Clothing,United States,55.43
+TXN-1824,Emily Watson,Male,2023-05-10,22,55000.0,270.79,Beauty,Germany,270.79
+TXN-1825,Unknown Customer,Female,2019-08-11,43,32000.0,412.6,Electronics,United Kingdom,412.6
+TXN-1826,Sarah Connor,Male,2023-05-10,66,85000.0,59.68,Electronics,United Kingdom,59.68
+TXN-1827,Laura Croft,Male,2019-08-11,20,55000.0,398.03,Clothing,United Kingdom,398.03
+TXN-1828,Anna Kournikova,Female,2020-07-19,24,85000.0,407.67,Electronics,United States,407.67
+TXN-1829,David Beckham,Male,2020-08-15,66,62500.0,246.31,Clothing,United Kingdom,246.31
+TXN-1830,Chris Hemsworth,Female,2020-08-15,56,45000.0,38.08,Electronics,United States,38.08
+TXN-1831,John Smith,Female,2020-07-19,44,45000.0,95.55,Home & Kitchen,United States,95.55
+TXN-1832,David Beckham,Female,2022-11-04,18,45000.0,248.73,Clothing,United States,248.73
+TXN-1833,Anna Kournikova,Male,2022-01-15,66,32000.0,358.77,Beauty,United Kingdom,358.77
+TXN-1834,David Beckham,Male,2022-01-15,34,85000.0,450.19,Home & Kitchen,United States,450.19
+TXN-1835,Anna Kournikova,Male,2023-05-10,60,55000.0,295.52,Home & Kitchen,Germany,295.52
+TXN-1836,Anna Kournikova,Female,2020-07-19,42,62500.0,70.81,Electronics,United States,70.81
+TXN-1837,Robert Downey,Male,2021-12-01,20,85000.0,69.49,Electronics,United States,69.49
+TXN-1838,Emily Watson,Male,2022-11-04,32,95000.0,363.35,Electronics,United States,363.35
+TXN-1839,Laura Croft,Female,2022-01-15,46,85000.0,100.05,Clothing,United States,100.05
+TXN-1840,Robert Downey,Male,2021-03-22,44,120000.5,170.91,Electronics,United States,170.91
+TXN-1841,Chris Hemsworth,Male,2019-08-11,60,85000.0,248.73,Electronics,United Kingdom,248.73
+TXN-1842,Robert Downey,Male,2021-03-22,49,95000.0,22.13,Electronics,Canada,22.13
+TXN-1843,Michael Jordan,Female,2021-03-22,43,62500.0,131.92,Electronics,United States,131.92
+TXN-1844,Michael Jordan,Male,2022-01-15,33,120000.5,209.87,Clothing,Canada,209.87
+TXN-1845,Laura Croft,Female,2022-11-04,42,120000.5,147.02,Clothing,United States,147.02
+TXN-1846,David Beckham,Female,2020-07-19,44,85000.0,76.82,Electronics,United States,76.82
+TXN-1847,Emily Watson,Male,2021-03-22,45,45000.0,366.73,Clothing,United Kingdom,366.73
+TXN-1848,Laura Croft,Female,2023-05-10,26,150000.0,408.44,Electronics,United States,408.44
+TXN-1849,Anna Kournikova,Male,2022-11-04,44,62500.0,136.16,Electronics,United States,136.16
+TXN-1850,Sarah Connor,Male,2022-11-04,44,45000.0,389.47,Home & Kitchen,Canada,389.47
+TXN-1851,Emily Watson,Female,2022-01-15,18,62500.0,198.92,Electronics,United Kingdom,198.92
+TXN-1852,Emily Watson,Female,2023-05-10,46,150000.0,258.28,Beauty,United Kingdom,258.28
+TXN-1853,Anna Kournikova,Female,2020-08-15,44,85000.0,429.44,Clothing,Germany,429.44
+TXN-1854,Anna Kournikova,Female,2019-08-11,39,150000.0,377.48,Clothing,United States,377.48
+TXN-1855,John Smith,Male,2023-05-10,33,85000.0,404.51,Electronics,United States,404.51
+TXN-1856,Laura Croft,Male,2022-01-15,58,85000.0,77.05,Clothing,Canada,77.05
+TXN-1857,Anna Kournikova,Male,2022-11-04,68,85000.0,44.16,Electronics,United States,44.16
+TXN-1858,Michael Jordan,Male,2021-12-01,61,95000.0,447.77,Clothing,Germany,447.77
+TXN-1859,Chris Hemsworth,Male,2022-01-15,68,45000.0,200.04,Home & Kitchen,United States,200.04
+TXN-1860,Sarah Connor,Male,2019-08-11,44,95000.0,151.06,Electronics,Canada,151.06
+TXN-1861,Laura Croft,Male,2021-03-22,58,85000.0,365.1,Beauty,Canada,365.1
+TXN-1862,Unknown Customer,Male,2023-05-10,24,150000.0,419.84,Clothing,United States,419.84
+TXN-1863,Michael Jordan,Female,2020-08-15,31,85000.0,432.62,Clothing,United States,432.62
+TXN-1864,David Beckham,Female,2022-11-04,46,32000.0,164.84,Clothing,United States,164.84
+TXN-1865,Anna Kournikova,Male,2020-08-15,36,150000.0,427.58,Clothing,Canada,427.58
+TXN-1866,Unknown Customer,Female,2019-08-11,36,150000.0,30.06,Clothing,Germany,30.06
+TXN-1867,Anna Kournikova,Female,2022-11-04,19,85000.0,34.33,Clothing,United States,34.33
+TXN-1868,Emily Watson,Male,2022-11-04,58,85000.0,315.52,Clothing,United Kingdom,315.52
+TXN-1869,Michael Jordan,Female,2021-12-01,62,62500.0,40.92,Clothing,Canada,40.92
+TXN-1870,Emily Watson,Female,2021-12-01,32,85000.0,169.06,Clothing,United Kingdom,169.06
+TXN-1871,John Smith,Female,2022-01-15,20,62500.0,339.65,Beauty,United States,339.65
+TXN-1872,Emily Watson,Male,2020-08-15,28,85000.0,175.26,Home & Kitchen,Canada,175.26
+TXN-1873,John Smith,Female,2020-07-19,44,85000.0,98.0,Electronics,United States,98.0
+TXN-1874,John Smith,Male,2022-01-15,63,62500.0,147.86,Beauty,United States,147.86
+TXN-1875,Unknown Customer,Female,2022-11-04,47,95000.0,234.21,Beauty,United States,234.21
+TXN-1876,Anna Kournikova,Female,2022-11-04,44,85000.0,248.73,Clothing,United States,248.73
+TXN-1877,David Beckham,Female,2022-01-15,57,85000.0,393.67,Electronics,United States,393.67
+TXN-1878,Emily Watson,Female,2022-11-04,35,85000.0,377.58,Beauty,Canada,377.58
+TXN-1879,Michael Jordan,Female,2023-05-10,68,85000.0,248.73,Clothing,United Kingdom,248.73
+TXN-1880,John Smith,Male,2023-05-10,65,85000.0,424.38,Electronics,United States,424.38
+TXN-1881,Anna Kournikova,Male,2022-01-15,19,62500.0,65.98,Clothing,United States,65.98
+TXN-1882,Sarah Connor,Female,2022-01-15,49,85000.0,135.12,Beauty,United States,135.12
+TXN-1883,Laura Croft,Male,2022-11-04,25,55000.0,415.71,Clothing,United Kingdom,415.71
+TXN-1884,Unknown Customer,Male,2021-12-01,39,62500.0,195.22,Beauty,United States,195.22
+TXN-1885,David Beckham,Male,2021-12-01,23,45000.0,490.78,Beauty,Germany,490.78
+TXN-1886,Robert Downey,Male,2023-05-10,29,120000.5,238.46,Electronics,United States,238.46
+TXN-1887,Unknown Customer,Female,2022-01-15,64,85000.0,398.05,Home & Kitchen,United States,398.05
+TXN-1888,Sarah Connor,Female,2022-11-04,44,95000.0,207.13,Electronics,Canada,207.13
+TXN-1889,Laura Croft,Female,2021-03-22,57,150000.0,218.23,Electronics,United Kingdom,218.23
+TXN-1890,Sarah Connor,Female,2019-08-11,53,62500.0,248.73,Electronics,United Kingdom,248.73
+TXN-1891,Emily Watson,Male,2021-12-01,32,85000.0,362.35,Clothing,United Kingdom,362.35
+TXN-1892,John Smith,Male,2022-11-04,45,62500.0,278.28,Electronics,United States,278.28
+TXN-1893,David Beckham,Female,2020-07-19,69,32000.0,472.45,Electronics,United States,472.45
+TXN-1894,Chris Hemsworth,Male,2022-01-15,44,85000.0,132.94,Clothing,United States,132.94
+TXN-1895,John Smith,Female,2022-11-04,66,55000.0,59.28,Electronics,United States,59.28
+TXN-1896,Chris Hemsworth,Female,2020-08-15,62,95000.0,202.7,Electronics,Canada,202.7
+TXN-1897,Laura Croft,Male,2019-08-11,35,32000.0,312.19,Clothing,Canada,312.19
+TXN-1898,Anna Kournikova,Female,2021-03-22,19,85000.0,431.79,Electronics,Germany,431.79
+TXN-1899,Robert Downey,Female,2022-11-04,30,32000.0,179.64,Home & Kitchen,United States,179.64
+TXN-1900,Michael Jordan,Female,2019-08-11,62,62500.0,330.36,Beauty,Canada,330.36
+TXN-1901,John Smith,Male,2022-01-15,44,95000.0,181.6,Electronics,United States,181.6
+TXN-1902,David Beckham,Male,2020-08-15,32,62500.0,312.44,Electronics,United States,312.44
+TXN-1903,Sarah Connor,Female,2021-12-01,37,85000.0,443.56,Electronics,Canada,443.56
+TXN-1904,David Beckham,Male,2023-05-10,46,150000.0,123.37,Electronics,United States,123.37
+TXN-1905,Laura Croft,Male,2021-03-22,59,95000.0,208.08,Electronics,United Kingdom,208.08
+TXN-1906,Chris Hemsworth,Female,2021-03-22,46,150000.0,496.7,Beauty,United States,496.7
+TXN-1907,Sarah Connor,Male,2022-01-15,20,85000.0,435.59,Electronics,United Kingdom,435.59
+TXN-1908,Michael Jordan,Female,2019-08-11,36,85000.0,286.67,Clothing,United States,286.67
+TXN-1909,Michael Jordan,Female,2023-05-10,20,150000.0,263.15,Home & Kitchen,United States,263.15
+TXN-1910,John Smith,Female,2022-01-15,44,85000.0,149.45,Beauty,United States,149.45
+TXN-1911,Laura Croft,Male,2020-08-15,31,95000.0,263.43,Clothing,United States,263.43
+TXN-1912,Anna Kournikova,Female,2020-08-15,57,85000.0,425.61,Home & Kitchen,United States,425.61
+TXN-1913,Laura Croft,Male,2021-03-22,44,45000.0,345.74,Home & Kitchen,United States,345.74
+TXN-1914,Chris Hemsworth,Male,2020-08-15,21,85000.0,152.12,Electronics,Canada,152.12
+TXN-1915,David Beckham,Female,2020-08-15,69,85000.0,108.72,Electronics,United Kingdom,108.72
+TXN-1916,Michael Jordan,Male,2020-08-15,28,62500.0,139.95,Electronics,United States,139.95
+TXN-1917,David Beckham,Male,2022-11-04,48,150000.0,93.18,Clothing,United States,93.18
+TXN-1918,David Beckham,Female,2021-03-22,60,120000.5,56.86,Clothing,United Kingdom,56.86
+TXN-1919,David Beckham,Male,2022-11-04,49,55000.0,215.38,Beauty,United States,215.38
+TXN-1920,Michael Jordan,Male,2023-05-10,44,32000.0,65.52,Beauty,United States,65.52
+TXN-1921,Unknown Customer,Female,2023-05-10,47,85000.0,94.24,Beauty,United Kingdom,94.24
+TXN-1922,Emily Watson,Female,2022-11-04,60,32000.0,278.19,Electronics,United States,278.19
+TXN-1923,Chris Hemsworth,Female,2023-05-10,19,95000.0,90.65,Home & Kitchen,United States,90.65
+TXN-1924,Unknown Customer,Male,2019-08-11,66,120000.5,41.3,Clothing,United States,41.3
+TXN-1925,Chris Hemsworth,Male,2022-11-04,26,55000.0,165.52,Clothing,United States,165.52
+TXN-1926,Sarah Connor,Male,2023-05-10,45,150000.0,117.96,Electronics,United States,117.96
+TXN-1927,Laura Croft,Male,2021-12-01,48,45000.0,262.5,Clothing,Canada,262.5
+TXN-1928,Laura Croft,Female,2022-11-04,51,55000.0,60.16,Electronics,Canada,60.16
+TXN-1929,Robert Downey,Male,2021-03-22,44,55000.0,378.37,Clothing,United States,378.37
+TXN-1930,Laura Croft,Male,2021-03-22,32,45000.0,454.05,Home & Kitchen,United States,454.05
+TXN-1931,Michael Jordan,Female,2021-03-22,65,85000.0,374.28,Beauty,United States,374.28
+TXN-1932,Anna Kournikova,Female,2019-08-11,42,150000.0,271.09,Home & Kitchen,United Kingdom,271.09
+TXN-1933,John Smith,Female,2022-11-04,53,62500.0,431.73,Electronics,United States,431.73
+TXN-1934,Robert Downey,Male,2020-07-19,25,32000.0,350.51,Beauty,United States,350.51
+TXN-1935,John Smith,Male,2022-11-04,26,85000.0,15.17,Electronics,United States,15.17
+TXN-1936,Chris Hemsworth,Male,2023-05-10,54,55000.0,203.1,Beauty,United States,203.1
+TXN-1937,John Smith,Male,2022-01-15,65,95000.0,426.97,Clothing,United Kingdom,426.97
+TXN-1938,John Smith,Female,2022-11-04,62,45000.0,179.47,Clothing,United States,179.47
+TXN-1939,Robert Downey,Female,2023-05-10,56,32000.0,27.26,Clothing,Germany,27.26
+TXN-1940,Sarah Connor,Female,2023-05-10,49,120000.5,375.63,Electronics,United States,375.63
+TXN-1941,David Beckham,Female,2021-03-22,69,45000.0,403.0,Electronics,United States,403.0
+TXN-1942,Laura Croft,Male,2023-05-10,34,120000.5,88.69,Electronics,United States,88.69
+TXN-1943,Laura Croft,Female,2022-11-04,52,150000.0,273.3,Clothing,United States,273.3
+TXN-1944,Michael Jordan,Male,2022-11-04,54,55000.0,104.06,Electronics,United States,104.06
+TXN-1945,Robert Downey,Female,2023-05-10,36,95000.0,362.42,Clothing,United States,362.42
+TXN-1946,Michael Jordan,Female,2021-12-01,61,85000.0,143.06,Electronics,United States,143.06
+TXN-1947,Anna Kournikova,Male,2021-03-22,46,120000.5,164.95,Electronics,United States,164.95
+TXN-1948,Anna Kournikova,Male,2022-11-04,24,32000.0,424.04,Beauty,United Kingdom,424.04
+TXN-1949,Michael Jordan,Female,2022-11-04,45,85000.0,243.4,Beauty,United States,243.4
+TXN-1950,Robert Downey,Male,2019-08-11,26,150000.0,338.18,Clothing,Canada,338.18
+TXN-1951,Michael Jordan,Male,2021-12-01,45,85000.0,207.16,Clothing,United Kingdom,207.16
+TXN-1952,Laura Croft,Male,2020-08-15,23,150000.0,156.02,Electronics,Germany,156.02
+TXN-1953,Unknown Customer,Female,2021-03-22,46,62500.0,316.48,Electronics,Canada,316.48
+TXN-1954,Emily Watson,Female,2021-03-22,34,32000.0,85.88,Home & Kitchen,United States,85.88
+TXN-1955,John Smith,Female,2023-05-10,33,85000.0,192.77,Electronics,United Kingdom,192.77
+TXN-1956,Emily Watson,Male,2019-08-11,40,95000.0,112.43,Beauty,United Kingdom,112.43
+TXN-1957,Robert Downey,Female,2021-03-22,48,55000.0,350.94,Beauty,United Kingdom,350.94
+TXN-1958,Emily Watson,Male,2022-11-04,20,45000.0,472.66,Home & Kitchen,United States,472.66
+TXN-1959,Anna Kournikova,Female,2021-12-01,38,85000.0,497.8,Beauty,Germany,497.8
+TXN-1960,Chris Hemsworth,Female,2020-07-19,43,55000.0,230.64,Home & Kitchen,United States,230.64
+TXN-1961,John Smith,Male,2020-08-15,53,55000.0,133.74,Electronics,United States,133.74
+TXN-1962,David Beckham,Male,2022-11-04,59,150000.0,226.99,Electronics,United Kingdom,226.99
+TXN-1963,Robert Downey,Male,2023-05-10,54,95000.0,425.16,Clothing,Canada,425.16
+TXN-1964,John Smith,Male,2022-01-15,44,150000.0,110.94,Electronics,Germany,110.94
+TXN-1965,Emily Watson,Male,2022-11-04,39,85000.0,476.53,Clothing,Canada,476.53
+TXN-1966,Anna Kournikova,Female,2022-11-04,59,120000.5,177.51,Electronics,United States,177.51
+TXN-1967,Sarah Connor,Female,2020-07-19,29,85000.0,493.04,Beauty,United States,493.04
+TXN-1968,Unknown Customer,Male,2023-05-10,59,120000.5,420.92,Clothing,United States,420.92
+TXN-1969,David Beckham,Male,2021-03-22,30,45000.0,406.2,Electronics,United Kingdom,406.2
+TXN-1970,Unknown Customer,Male,2022-01-15,28,85000.0,165.77,Clothing,United States,165.77
+TXN-1971,John Smith,Female,2020-08-15,44,32000.0,14.3,Home & Kitchen,United States,14.3
+TXN-1972,Anna Kournikova,Male,2020-08-15,33,45000.0,197.25,Electronics,United Kingdom,197.25
+TXN-1973,Anna Kournikova,Female,2021-12-01,25,45000.0,157.89,Electronics,United States,157.89
+TXN-1974,Emily Watson,Female,2020-08-15,57,62500.0,28.32,Beauty,Germany,28.32
+TXN-1975,Laura Croft,Female,2020-07-19,44,85000.0,257.63,Electronics,United States,257.63
+TXN-1976,Emily Watson,Female,2020-07-19,57,150000.0,207.49,Electronics,United Kingdom,207.49
+TXN-1977,Laura Croft,Male,2022-11-04,62,95000.0,320.93,Clothing,United States,320.93
+TXN-1978,Laura Croft,Female,2019-08-11,19,120000.5,314.38,Home & Kitchen,Canada,314.38
+TXN-1979,David Beckham,Male,2021-12-01,47,45000.0,69.17,Beauty,United States,69.17
+TXN-1980,Emily Watson,Male,2023-05-10,47,120000.5,488.71,Electronics,United Kingdom,488.71
+TXN-1981,Sarah Connor,Female,2021-03-22,29,120000.5,101.6,Beauty,Canada,101.6
+TXN-1982,Michael Jordan,Female,2023-05-10,27,32000.0,228.18,Clothing,United States,228.18
+TXN-1983,Michael Jordan,Female,2023-05-10,61,85000.0,248.73,Electronics,United States,248.73
+TXN-1984,Emily Watson,Male,2019-08-11,28,85000.0,408.4,Electronics,United Kingdom,408.4
+TXN-1985,Emily Watson,Male,2023-05-10,32,85000.0,58.62,Beauty,United Kingdom,58.62
+TXN-1986,Unknown Customer,Female,2019-08-11,33,55000.0,220.04,Clothing,Germany,220.04
+TXN-1987,David Beckham,Male,2022-11-04,34,85000.0,317.97,Electronics,United States,317.97
+TXN-1988,Emily Watson,Female,2022-01-15,43,120000.5,115.43,Clothing,United States,115.43
+TXN-1989,Unknown Customer,Female,2022-01-15,19,150000.0,317.46,Electronics,United States,317.46
+TXN-1990,Laura Croft,Female,2023-05-10,67,120000.5,462.6,Electronics,Canada,462.6
+TXN-1991,Anna Kournikova,Male,2020-08-15,29,150000.0,498.78,Beauty,United States,498.78
+TXN-1992,Anna Kournikova,Male,2022-11-04,68,85000.0,25.9,Electronics,Germany,25.9
+TXN-1993,Laura Croft,Male,2022-01-15,43,150000.0,125.44,Electronics,United States,125.44
+TXN-1994,Robert Downey,Female,2022-11-04,40,85000.0,162.05,Electronics,United States,162.05
+TXN-1995,Unknown Customer,Male,2023-05-10,35,32000.0,205.57,Clothing,United States,205.57
+TXN-1996,Unknown Customer,Female,2020-08-15,49,150000.0,128.71,Clothing,United States,128.71
+TXN-1997,Laura Croft,Male,2020-08-15,66,120000.5,109.71,Beauty,United States,109.71
+TXN-1998,Sarah Connor,Female,2023-05-10,55,95000.0,477.73,Clothing,United States,477.73
+TXN-1999,Chris Hemsworth,Male,2021-03-22,44,85000.0,460.08,Beauty,Canada,460.08

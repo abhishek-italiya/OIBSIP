@@ -1,0 +1,10 @@
+Column Name,Data Type,Missing Count,Missing %,Unique Values,Min Value,Max Value
+Transaction_ID,str,0,0.0,1000,TXN-1000,TXN-1999
+Customer_Name,str,110,10.63,9,  Chris Hemsworth  ,emily WATSON 
+Gender,str,51,4.93,8,F,male
+Join_Date,str,24,2.32,9,03/22/2021,INVALID_DATE
+Customer_Age,float64,42,4.06,55,-5.0,200.0
+Income_USD,str,104,10.05,9," $85,000 ",UNKNOWN
+Purchase_Amount,float64,30,2.9,955,-50.0,15000.0
+Product_Category,str,102,9.86,9, Home & Kitchen ,electronics
+Country,str,129,12.46,9,CAN,United States

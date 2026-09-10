@@ -1,0 +1,1036 @@
+Transaction_ID,Customer_Name,Gender,Join_Date,Customer_Age,Income_USD,Purchase_Amount,Product_Category,Country
+TXN-1000,  robert DOWNEY ,male,2022-01-15,54.0,"$120,000.50",280.01,Beauty,U.S.A.
+TXN-1001,emily WATSON ,Female,2022-01-15,42.0,"$150,000.00",266.55,Electronics,United Kingdom
+TXN-1002,Laura Croft,Female,11/04/2022,35.0,"$120,000.50",148.31,nan,U.S.A.
+TXN-1003,David BECKHAM,Male,11/04/2022,36.0,"$45,000.00",156.06,Electronics,United States
+TXN-1004,  robert DOWNEY ,F,2021-12-01,40.0,"$32,000",146.14,Electronics,USA
+TXN-1005,nan,female,2022-01-15,200.0,nan,388.04,cloths,USA
+TXN-1006,Michael Jordan,Male,2022-01-15,55.0," $85,000 ",329.43,electronics,CAN
+TXN-1007,  robert DOWNEY ,Female,2023.05.10,150.0,"$55,000",417.88,Electronics,U.S.A.
+TXN-1008,Laura Croft,female,15-Aug-2020,35.0,"$150,000.00",487.98,cloths,UK
+TXN-1009,David BECKHAM,male,2023.05.10,43.0,nan,242.34,electronics,CAN
+TXN-1010,emily WATSON ,Male,nan,23.0,"$55,000",15000.0,cloths,Canada
+TXN-1011,Laura Croft,Male,INVALID_DATE,21.0,"$32,000",33.57,nan,CAN
+TXN-1012,Laura Croft,Male,2020/07/19,61.0," $85,000 ",154.88,beauty,CAN
+TXN-1013,Michael Jordan,female,2021-12-01,68.0,"$55,000",466.95,electronics,United Kingdom
+TXN-1014,ANNA KOURNIKOVA,F,15-Aug-2020,46.0,"$55,000",266.37, Home & Kitchen ,nan
+TXN-1015,David BECKHAM,Male,15-Aug-2020,51.0,"$150,000.00",-50.0,beauty,United States
+TXN-1016,  sarah CONNOR  ,Male,2023.05.10,34.0,"$95,000.00",205.59,nan,United Kingdom
+TXN-1017,Laura Croft,Male,2021-12-01,60.0," $85,000 ",303.31,Electronics,USA
+TXN-1018,ANNA KOURNIKOVA,Male,2022-01-15,60.0,nan,329.95,Beauty,USA
+TXN-1019,  sarah CONNOR  ,female,15-Aug-2020,-5.0,"$32,000",85.42,nan,US
+TXN-1020,David BECKHAM,male,2022-01-15,33.0," $85,000 ",488.75,cloths,US
+TXN-1021,John Smith,male,2023.05.10,19.0,"$45,000.00",276.94,cloths,UK
+TXN-1022,nan,Male,08-11-2019,51.0,"$95,000.00",76.49,cloths,USA
+TXN-1023,ANNA KOURNIKOVA,Female,2021-12-01,200.0,"$45,000.00",447.88,cloths,nan
+TXN-1024,  Chris Hemsworth  ,male,03/22/2021,25.0,"$32,000",46.57,nan,United Kingdom
+TXN-1025,John Smith,female,INVALID_DATE,30.0,"$150,000.00",454.79,Beauty,Canada
+TXN-1026,nan,Male,11/04/2022,59.0,"$150,000.00",498.32,ELECTRONICS,nan
+TXN-1027,Michael Jordan,female,2022-01-15,25.0,"$32,000",353.21,cloths,US
+TXN-1028,  robert DOWNEY ,Female,03/22/2021,47.0,"$120,000.50",387.52,ELECTRONICS,U.S.A.
+TXN-1029,emily WATSON ,Male,03/22/2021,49.0,"$32,000",175.28,Beauty,nan
+TXN-1030,  Chris Hemsworth  ,M,2022-01-15,53.0,"$95,000.00",471.37,Beauty,nan
+TXN-1031,Michael Jordan,female,INVALID_DATE,64.0,"$62,500",269.56,beauty,nan
+TXN-1032,David BECKHAM,F,2023.05.10,47.0,"$150,000.00",368.87,electronics,nan
+TXN-1033,Michael Jordan,m,08-11-2019,18.0,UNKNOWN,462.81, Home & Kitchen ,nan
+TXN-1034,  robert DOWNEY ,Female,15-Aug-2020,60.0,"$95,000.00",487.84,clothing,US
+TXN-1035,David BECKHAM,F,2022-01-15,56.0,"$95,000.00",418.27, Home & Kitchen ,USA
+TXN-1036,  Chris Hemsworth  ,Female,2023.05.10,34.0,"$95,000.00",158.48,nan,CAN
+TXN-1037,  robert DOWNEY ,Male,2022-01-15,37.0,"$55,000",483.61,clothing,nan
+TXN-1038,  sarah CONNOR  ,F,2023.05.10,41.0,"$95,000.00",317.78,Beauty,nan
+TXN-1039,emily WATSON ,Male,08-11-2019,67.0,"$150,000.00",466.01, Home & Kitchen ,United States
+TXN-1040,  Chris Hemsworth  ,Female,2023.05.10,39.0,"$62,500",341.29,Clothing,USA
+TXN-1041,  sarah CONNOR  ,Male,11/04/2022,46.0,"$62,500",160.55,electronics,CAN
+TXN-1042,nan,Male,03/22/2021,39.0,"$95,000.00",191.31, Home & Kitchen ,Canada
+TXN-1043,  Chris Hemsworth  ,male,2022-01-15,61.0,"$45,000.00",279.73,electronics,Canada
+TXN-1044,nan,female,2022-01-15,26.0,"$150,000.00",397.11,ELECTRONICS,U.S.A.
+TXN-1045,David BECKHAM,male,2023.05.10,54.0,"$150,000.00",165.81,nan,Germany
+TXN-1046,  sarah CONNOR  ,Male,2022-01-15,27.0," $85,000 ",294.07,electronics,United Kingdom
+TXN-1047,emily WATSON ,Male,15-Aug-2020,53.0,nan,179.36,ELECTRONICS,United States
+TXN-1048,  robert DOWNEY ,Female,2023.05.10,54.0,"$120,000.50",409.73,cloths,USA
+TXN-1049,Laura Croft,nan,15-Aug-2020,45.0,"$120,000.50",238.7,ELECTRONICS,USA
+TXN-1050,Michael Jordan,m,03/22/2021,45.0,"$45,000.00",15000.0,nan,Germany
+TXN-1051,John Smith,Female,03/22/2021,59.0,"$120,000.50",91.37,beauty,U.S.A.
+TXN-1052,emily WATSON ,female,08-11-2019,60.0," $85,000 ",39.94,cloths,UK
+TXN-1053,  sarah CONNOR  ,Female,11/04/2022,38.0,"$32,000",254.66,Beauty,US
+TXN-1054,Laura Croft,Male,2023.05.10,41.0,"$120,000.50",62.11,Electronics,U.S.A.
+TXN-1055,emily WATSON ,male,2022-01-15,59.0,"$150,000.00",65.93,ELECTRONICS,CAN
+TXN-1056,  sarah CONNOR  ,male,nan,57.0,"$32,000",471.11,ELECTRONICS,U.S.A.
+TXN-1057,ANNA KOURNIKOVA,male,11/04/2022,19.0,"$120,000.50",437.6,electronics,Germany
+TXN-1058,ANNA KOURNIKOVA,M,15-Aug-2020,200.0,"$150,000.00",231.52,Beauty,Germany
+TXN-1059,nan,female,08-11-2019,25.0,"$150,000.00",493.04, Home & Kitchen ,United Kingdom
+TXN-1060,emily WATSON ,male,03/22/2021,65.0,"$95,000.00",-50.0,Clothing,United States
+TXN-1061,ANNA KOURNIKOVA,m,2023.05.10,44.0,"$62,500",310.85,clothing,nan
+TXN-1062,  sarah CONNOR  ,Female,11/04/2022,39.0,"$45,000.00",312.05,ELECTRONICS,Canada
+TXN-1063,nan,male,03/22/2021,54.0," $85,000 ",234.15, Home & Kitchen ,Germany
+TXN-1064,  sarah CONNOR  ,female,INVALID_DATE,44.0,"$55,000",204.5,Clothing,United Kingdom
+TXN-1065,nan,Female,11/04/2022,,nan,233.14,clothing,US
+TXN-1066,emily WATSON ,male,2023.05.10,46.0,"$120,000.50",213.33,Electronics,Canada
+TXN-1067,Laura Croft,Female,03/22/2021,20.0,"$120,000.50",367.94,electronics,UK
+TXN-1068,  robert DOWNEY ,Female,2022-01-15,61.0,"$32,000",76.32, Home & Kitchen ,USA
+TXN-1069,  Chris Hemsworth  ,Female,15-Aug-2020,30.0,"$32,000",106.84,electronics,US
+TXN-1070,Laura Croft,Female,2021-12-01,62.0,nan,98.45,clothing,UK
+TXN-1071,David BECKHAM,Female,03/22/2021,27.0,"$120,000.50",138.61,beauty,Canada
+TXN-1072,  sarah CONNOR  ,female,2023.05.10,53.0,UNKNOWN,267.38,ELECTRONICS,US
+TXN-1073,David BECKHAM,Male,11/04/2022,26.0," $85,000 ",64.49,cloths,United Kingdom
+TXN-1074,Laura Croft,male,2022-01-15,150.0,"$120,000.50",435.4,Clothing,UK
+TXN-1075,nan,Male,11/04/2022,,"$62,500",155.71,Beauty,USA
+TXN-1076,  Chris Hemsworth  ,female,2022-01-15,200.0,nan,89.64,nan,nan
+TXN-1077,  Chris Hemsworth  ,male,INVALID_DATE,44.0,UNKNOWN,341.05,ELECTRONICS,United Kingdom
+TXN-1078,John Smith,F,2023.05.10,51.0," $85,000 ",28.66,cloths,CAN
+TXN-1079,  Chris Hemsworth  ,Female,03/22/2021,68.0,"$120,000.50",313.78,nan,USA
+TXN-1080,  robert DOWNEY ,female,15-Aug-2020,18.0,"$55,000",352.12, Home & Kitchen ,United States
+TXN-1081,  Chris Hemsworth  ,nan,15-Aug-2020,49.0,"$95,000.00",115.31,nan,U.S.A.
+TXN-1082,Laura Croft,female,2021-12-01,42.0,"$62,500",30.56,Electronics,United States
+TXN-1083,John Smith,female,11/04/2022,46.0,"$55,000",188.19,ELECTRONICS,Germany
+TXN-1084,Laura Croft,M,11/04/2022,24.0,"$32,000",58.31,electronics,nan
+TXN-1085,Laura Croft,Female,2022-01-15,66.0,"$32,000",67.07,beauty,CAN
+TXN-1086,Michael Jordan,male,03/22/2021,20.0,"$120,000.50",134.59,Beauty,CAN
+TXN-1087,John Smith,Male,2022-01-15,37.0,"$32,000",154.78,electronics,U.S.A.
+TXN-1088,Laura Croft,Female,2023.05.10,37.0,"$62,500",269.69,cloths,UK
+TXN-1089,Michael Jordan,Female,08-11-2019,-5.0," $85,000 ",342.41,ELECTRONICS,U.S.A.
+TXN-1090,Michael Jordan,male,15-Aug-2020,47.0,"$150,000.00",300.46,beauty,Germany
+TXN-1091,John Smith,Female,03/22/2021,52.0,"$45,000.00",82.7,nan,United States
+TXN-1092,David BECKHAM,F,2023.05.10,52.0,nan,94.32,ELECTRONICS,CAN
+TXN-1093,nan,Female,2021-12-01,66.0," $85,000 ",440.6,nan,United States
+TXN-1094,  robert DOWNEY ,Female,11/04/2022,56.0,"$150,000.00",283.59, Home & Kitchen ,USA
+TXN-1095,nan,female,08-11-2019,44.0,UNKNOWN,436.27,Electronics,nan
+TXN-1096,  Chris Hemsworth  ,nan,03/22/2021,43.0,"$62,500",192.06,clothing,US
+TXN-1097,  robert DOWNEY ,Female,03/22/2021,31.0,"$55,000",311.06,ELECTRONICS,Germany
+TXN-1098,  Chris Hemsworth  ,female,08-11-2019,34.0,"$150,000.00",266.6,cloths,US
+TXN-1099,Laura Croft,nan,11/04/2022,35.0,"$62,500",166.37,nan,Germany
+TXN-1100,  sarah CONNOR  ,f,15-Aug-2020,62.0,"$95,000.00",15000.0,electronics,Canada
+TXN-1101,John Smith,Male,11/04/2022,69.0,"$55,000",256.22, Home & Kitchen ,nan
+TXN-1102,  robert DOWNEY ,M,2021-12-01,46.0,"$32,000",108.38,cloths,USA
+TXN-1103,  robert DOWNEY ,male,11/04/2022,37.0,"$32,000",164.36,Beauty,nan
+TXN-1104,Laura Croft,Male,11/04/2022,-5.0,"$55,000",397.79,clothing,UK
+TXN-1105,David BECKHAM,Female,15-Aug-2020,44.0,UNKNOWN,-50.0, Home & Kitchen ,Germany
+TXN-1106,Michael Jordan,female,2023.05.10,35.0,UNKNOWN,186.3,Electronics,US
+TXN-1107,Laura Croft,female,2023.05.10,21.0,UNKNOWN,160.42,clothing,Germany
+TXN-1108,ANNA KOURNIKOVA,Male,2021-12-01,18.0,"$150,000.00",105.65,nan,UK
+TXN-1109,Michael Jordan,female,2021-12-01,67.0,nan,342.46,cloths,Germany
+TXN-1110,John Smith,Female,2021-12-01,18.0,"$150,000.00",168.32,Beauty,nan
+TXN-1111,Michael Jordan,Female,2022-01-15,43.0,"$120,000.50",494.0,Clothing,United Kingdom
+TXN-1112,David BECKHAM,F,11/04/2022,62.0,"$45,000.00",169.59,Electronics,Germany
+TXN-1113,Michael Jordan,Female,2021-12-01,37.0,"$55,000",203.13,beauty,Canada
+TXN-1114,John Smith,male,11/04/2022,69.0," $85,000 ",305.63,nan,Canada
+TXN-1115,David BECKHAM,female,2021-12-01,40.0,"$45,000.00",402.83,Clothing,CAN
+TXN-1116,nan,male,2021-12-01,27.0,"$95,000.00",240.06,ELECTRONICS,Canada
+TXN-1117,  robert DOWNEY ,Male,2023.05.10,28.0,"$150,000.00",217.1,Beauty,Germany
+TXN-1118,  robert DOWNEY ,female,2023.05.10,58.0,"$150,000.00",497.86,electronics,Germany
+TXN-1119,  Chris Hemsworth  ,male,2022-01-15,58.0,"$62,500",15.14,beauty,United Kingdom
+TXN-1120,nan,female,15-Aug-2020,22.0,"$45,000.00",448.58,cloths,Canada
+TXN-1121,nan,male,11/04/2022,18.0,"$62,500",83.08,Beauty,United States
+TXN-1122,Michael Jordan,female,2021-12-01,34.0," $85,000 ",395.1,clothing,Germany
+TXN-1123,  robert DOWNEY ,Male,03/22/2021,39.0,"$62,500",312.79, Home & Kitchen ,USA
+TXN-1124,John Smith,nan,2022-01-15,51.0,"$45,000.00",177.51,clothing,USA
+TXN-1125,emily WATSON ,female,11/04/2022,,"$55,000",438.2,clothing,US
+TXN-1126,emily WATSON ,Male,2022-01-15,62.0,"$95,000.00",16.32,ELECTRONICS,United Kingdom
+TXN-1127,David BECKHAM,Female,03/22/2021,58.0,"$150,000.00",121.08,Electronics,UK
+TXN-1128,  robert DOWNEY ,nan,2022-01-15,46.0," $85,000 ",287.78,electronics,United States
+TXN-1129,  robert DOWNEY ,m,03/22/2021,21.0,"$150,000.00",182.26,beauty,Germany
+TXN-1130,emily WATSON ,Male,03/22/2021,22.0,"$120,000.50",309.08,Electronics,nan
+TXN-1131,  robert DOWNEY ,Female,15-Aug-2020,28.0,"$95,000.00",21.81,Beauty,U.S.A.
+TXN-1132,Michael Jordan,Female,15-Aug-2020,,nan,67.06,clothing,U.S.A.
+TXN-1133,ANNA KOURNIKOVA,female,08-11-2019,68.0,"$62,500",72.28,ELECTRONICS,UK
+TXN-1134,  sarah CONNOR  ,Female,2023.05.10,38.0,"$32,000",102.75,Beauty,CAN
+TXN-1135,nan,M,11/04/2022,52.0,"$45,000.00",, Home & Kitchen ,nan
+TXN-1136,  Chris Hemsworth  ,Male,2022-01-15,29.0,"$150,000.00",378.54,electronics,U.S.A.
+TXN-1137,David BECKHAM,Female,03/22/2021,43.0,"$62,500",453.71,beauty,UK
+TXN-1138,ANNA KOURNIKOVA,M,11/04/2022,68.0," $85,000 ",, Home & Kitchen ,U.S.A.
+TXN-1139,emily WATSON ,Male,2022-01-15,36.0,"$150,000.00",106.48,ELECTRONICS,United Kingdom
+TXN-1140,nan,F,2023.05.10,62.0,nan,226.16,electronics,US
+TXN-1141,  robert DOWNEY ,Female,2023.05.10,24.0,"$95,000.00",107.71,Beauty,CAN
+TXN-1142,  Chris Hemsworth  ,Female,11/04/2022,64.0,"$95,000.00",139.59,clothing,United Kingdom
+TXN-1143,  robert DOWNEY ,female,2022-01-15,200.0,"$150,000.00",256.74,clothing,nan
+TXN-1144,John Smith,Female,15-Aug-2020,24.0," $85,000 ",43.37,nan,UK
+TXN-1145,John Smith,female,11/04/2022,43.0,"$95,000.00",116.91,clothing,United States
+TXN-1146,  Chris Hemsworth  ,Female,2022-01-15,57.0,"$95,000.00",468.34,Clothing,nan
+TXN-1147,  Chris Hemsworth  ,Male,11/04/2022,22.0,nan,238.4,clothing,nan
+TXN-1148,emily WATSON ,M,11/04/2022,38.0,"$45,000.00",228.24,Clothing,Canada
+TXN-1149,  Chris Hemsworth  ,Female,nan,31.0," $85,000 ",17.14,cloths,United States
+TXN-1150,Michael Jordan,Female,03/22/2021,21.0," $85,000 ",131.23,Clothing,USA
+TXN-1151,  robert DOWNEY ,Male,2021-12-01,40.0,"$55,000",434.48,electronics,Canada
+TXN-1152,ANNA KOURNIKOVA,Male,2023.05.10,59.0,"$55,000",90.67, Home & Kitchen ,UK
+TXN-1153,Laura Croft,male,15-Aug-2020,37.0,"$95,000.00",213.41,electronics,USA
+TXN-1154,  Chris Hemsworth  ,male,2022-01-15,32.0,"$32,000",17.02, Home & Kitchen ,U.S.A.
+TXN-1155,David BECKHAM,female,11/04/2022,67.0,"$55,000",244.38,nan,U.S.A.
+TXN-1156,John Smith,male,03/22/2021,69.0,"$95,000.00",20.3,cloths,nan
+TXN-1157,Michael Jordan,Female,15-Aug-2020,62.0,UNKNOWN,411.61, Home & Kitchen ,Canada
+TXN-1158,nan,Female,2022-01-15,46.0,"$120,000.50",414.18, Home & Kitchen ,Germany
+TXN-1159,Laura Croft,Female,2021-12-01,25.0,"$120,000.50",395.99,ELECTRONICS,United States
+TXN-1160,ANNA KOURNIKOVA,female,2021-12-01,58.0," $85,000 ",148.85,Electronics,USA
+TXN-1161,Laura Croft,M,11/04/2022,65.0,"$32,000",420.25,Electronics,United States
+TXN-1162,  Chris Hemsworth  ,female,03/22/2021,36.0,nan,276.07,ELECTRONICS,Canada
+TXN-1163,emily WATSON ,M,03/22/2021,65.0,"$45,000.00",193.17,clothing,nan
+TXN-1164,John Smith,male,11/04/2022,56.0,"$55,000",316.41,ELECTRONICS,United Kingdom
+TXN-1165,John Smith,nan,2023.05.10,63.0,UNKNOWN,16.05, Home & Kitchen ,U.S.A.
+TXN-1166,nan,Male,03/22/2021,45.0,"$95,000.00",80.05, Home & Kitchen ,USA
+TXN-1167,emily WATSON ,Male,11/04/2022,63.0,"$32,000",373.72,ELECTRONICS,USA
+TXN-1168,  robert DOWNEY ,female,nan,," $85,000 ",129.64,ELECTRONICS,UK
+TXN-1169,  sarah CONNOR  ,Male,11/04/2022,44.0,"$55,000",303.02,clothing,USA
+TXN-1170,Michael Jordan,female,11/04/2022,21.0,"$32,000",198.7,electronics,Canada
+TXN-1171,John Smith,M,INVALID_DATE,32.0,"$55,000",428.85,cloths,USA
+TXN-1172,David BECKHAM,F,03/22/2021,52.0,"$45,000.00",476.68,Beauty,USA
+TXN-1173,John Smith,Female,2023.05.10,54.0,"$45,000.00",442.95, Home & Kitchen ,United States
+TXN-1174,Laura Croft,Female,INVALID_DATE,18.0,nan,142.6,cloths,nan
+TXN-1175,John Smith,f,03/22/2021,20.0,"$120,000.50",105.14,ELECTRONICS,US
+TXN-1176,John Smith,male,11/04/2022,64.0,"$62,500",242.47,clothing,USA
+TXN-1177,  sarah CONNOR  ,nan,2023.05.10,41.0,"$62,500",13.59,Clothing,Germany
+TXN-1178,  sarah CONNOR  ,Male,2023.05.10,44.0,"$55,000",22.65,clothing,nan
+TXN-1179,ANNA KOURNIKOVA,Female,11/04/2022,57.0,nan,281.11,beauty,CAN
+TXN-1180,  robert DOWNEY ,male,08-11-2019,53.0,"$62,500",265.02,beauty,UK
+TXN-1181,David BECKHAM,Female,2021-12-01,51.0," $85,000 ",497.35,cloths,United States
+TXN-1182,John Smith,Male,2022-01-15,46.0,"$62,500",108.9,Electronics,UK
+TXN-1183,John Smith,female,08-11-2019,41.0,"$150,000.00",136.47,beauty,United Kingdom
+TXN-1184,Michael Jordan,female,03/22/2021,41.0,"$95,000.00",65.63,beauty,USA
+TXN-1185,  sarah CONNOR  ,nan,15-Aug-2020,59.0,nan,459.6,electronics,U.S.A.
+TXN-1186,David BECKHAM,Male,2023.05.10,21.0," $85,000 ",391.13,Clothing,Germany
+TXN-1187,nan,Female,2023.05.10,20.0,"$32,000",412.95,electronics,United States
+TXN-1188,ANNA KOURNIKOVA,m,15-Aug-2020,51.0," $85,000 ",452.35,Clothing,UK
+TXN-1189,  robert DOWNEY ,male,2020/07/19,,"$120,000.50",267.2,nan,USA
+TXN-1190,emily WATSON ,male,11/04/2022,66.0,"$32,000",231.08,Beauty,U.S.A.
+TXN-1191,  robert DOWNEY ,M,11/04/2022,40.0,UNKNOWN,171.89, Home & Kitchen ,U.S.A.
+TXN-1192,Laura Croft,Female,2022-01-15,-5.0,"$95,000.00",298.72,beauty,United Kingdom
+TXN-1193,John Smith,Female,08-11-2019,,"$95,000.00",232.6, Home & Kitchen ,nan
+TXN-1194,ANNA KOURNIKOVA,m,08-11-2019,69.0,"$95,000.00",231.27,beauty,Germany
+TXN-1195,Laura Croft,Male,2021-12-01,40.0,"$95,000.00",469.09,electronics,US
+TXN-1196,David BECKHAM,Male,2022-01-15,62.0,"$55,000",492.18,Beauty,Germany
+TXN-1197,emily WATSON ,Male,2022-01-15,22.0,"$95,000.00",400.28,electronics,United Kingdom
+TXN-1198,  sarah CONNOR  ,nan,03/22/2021,48.0,"$95,000.00",380.81,electronics,Canada
+TXN-1199,ANNA KOURNIKOVA,Male,2022-01-15,-5.0,"$95,000.00",343.47,Clothing,nan
+TXN-1200,ANNA KOURNIKOVA,Male,15-Aug-2020,58.0,nan,91.38,Electronics,United States
+TXN-1201,John Smith,male,08-11-2019,,"$55,000",38.96,clothing,nan
+TXN-1202,  Chris Hemsworth  ,female,2023.05.10,,"$45,000.00",348.46,cloths,United Kingdom
+TXN-1203,ANNA KOURNIKOVA,nan,2022-01-15,150.0," $85,000 ",367.11, Home & Kitchen ,United Kingdom
+TXN-1204,Michael Jordan,female,03/22/2021,23.0," $85,000 ",33.02,nan,United States
+TXN-1205,emily WATSON ,Female,2022-01-15,54.0,"$32,000",464.75,beauty,United States
+TXN-1206,emily WATSON ,Female,2022-01-15,,nan,54.66,electronics,United States
+TXN-1207,Michael Jordan,Male,03/22/2021,27.0,"$150,000.00",150.09,Electronics,nan
+TXN-1208,nan,nan,03/22/2021,57.0," $85,000 ",339.47,electronics,USA
+TXN-1209,Michael Jordan,female,2021-12-01,24.0,"$62,500",93.24,Beauty,UK
+TXN-1210,Michael Jordan,Female,INVALID_DATE,56.0,"$150,000.00",37.15,Clothing,CAN
+TXN-1211,emily WATSON ,female,15-Aug-2020,55.0,"$95,000.00",172.26,nan,United States
+TXN-1212,  robert DOWNEY ,Female,15-Aug-2020,38.0,"$95,000.00",,clothing,UK
+TXN-1213,emily WATSON ,Female,2021-12-01,37.0,"$55,000",212.7,Beauty,CAN
+TXN-1214,  Chris Hemsworth  ,nan,03/22/2021,20.0,"$150,000.00",329.96,ELECTRONICS,nan
+TXN-1215,John Smith,F,03/22/2021,68.0,"$62,500",294.01,nan,UK
+TXN-1216,Laura Croft,Female,08-11-2019,39.0,"$55,000",20.89,electronics,United States
+TXN-1217,  robert DOWNEY ,Female,2022-01-15,64.0,"$32,000",494.38,Beauty,US
+TXN-1218,  sarah CONNOR  ,Male,11/04/2022,21.0,"$150,000.00",30.3,clothing,United Kingdom
+TXN-1219,Laura Croft,Female,2023.05.10,45.0,nan,484.22,Electronics,UK
+TXN-1220,John Smith,Male,15-Aug-2020,29.0,"$95,000.00",279.43,Electronics,U.S.A.
+TXN-1221,  Chris Hemsworth  ,Female,15-Aug-2020,55.0,"$95,000.00",481.95, Home & Kitchen ,U.S.A.
+TXN-1222,  Chris Hemsworth  ,nan,2021-12-01,68.0,"$120,000.50",66.23,clothing,UK
+TXN-1223,  sarah CONNOR  ,Female,2022-01-15,53.0,"$55,000",250.3,Electronics,United States
+TXN-1224,  robert DOWNEY ,m,03/22/2021,64.0,"$45,000.00",93.06,Beauty,Germany
+TXN-1225,nan,male,11/04/2022,58.0,"$45,000.00",34.98, Home & Kitchen ,United States
+TXN-1226,Michael Jordan,Male,2023.05.10,22.0,"$55,000",312.59,Electronics,nan
+TXN-1227,  robert DOWNEY ,female,2022-01-15,30.0,nan,,nan,United States
+TXN-1228,nan,Male,08-11-2019,40.0,UNKNOWN,297.97,Clothing,nan
+TXN-1229,  Chris Hemsworth  ,Male,15-Aug-2020,67.0,"$55,000",65.06,ELECTRONICS,Germany
+TXN-1230,emily WATSON ,M,2021-12-01,47.0,nan,172.67,clothing,US
+TXN-1231,John Smith,female,2021-12-01,54.0,"$32,000",393.0,Beauty,nan
+TXN-1232,  sarah CONNOR  ,female,11/04/2022,42.0,"$95,000.00",224.16,beauty,Canada
+TXN-1233,John Smith,Male,2023.05.10,65.0,"$62,500",317.6,electronics,U.S.A.
+TXN-1234,David BECKHAM,m,INVALID_DATE,44.0,UNKNOWN,327.25,Beauty,United Kingdom
+TXN-1235,David BECKHAM,Female,2022-01-15,68.0,"$150,000.00",423.44,Electronics,U.S.A.
+TXN-1236,  robert DOWNEY ,Female,11/04/2022,31.0,UNKNOWN,169.21,Beauty,nan
+TXN-1237,  Chris Hemsworth  ,Female,03/22/2021,,"$62,500",346.77,beauty,Canada
+TXN-1238,  Chris Hemsworth  ,male,15-Aug-2020,65.0,"$120,000.50",481.19,electronics,USA
+TXN-1239,Michael Jordan,Female,15-Aug-2020,64.0,"$95,000.00",367.82, Home & Kitchen ,US
+TXN-1240,Michael Jordan,Female,2020/07/19,150.0,"$45,000.00",250.04,Electronics,US
+TXN-1241,Michael Jordan,F,INVALID_DATE,53.0,nan,319.05,cloths,USA
+TXN-1242,emily WATSON ,Female,03/22/2021,56.0,"$55,000",372.44,Electronics,United Kingdom
+TXN-1243,Laura Croft,M,2022-01-15,33.0,"$55,000",310.02,ELECTRONICS,Germany
+TXN-1244,ANNA KOURNIKOVA,M,11/04/2022,,"$45,000.00",,cloths,CAN
+TXN-1245,Laura Croft,Female,15-Aug-2020,39.0,UNKNOWN,105.44,ELECTRONICS,Canada
+TXN-1246,John Smith,female,2022-01-15,38.0,"$95,000.00",407.13,beauty,nan
+TXN-1247,Laura Croft,Female,11/04/2022,150.0," $85,000 ",143.6,clothing,CAN
+TXN-1248,emily WATSON ,Female,2023.05.10,38.0,nan,368.47,electronics,United Kingdom
+TXN-1249,John Smith,female,nan,25.0,"$32,000",,Clothing,Germany
+TXN-1250,Laura Croft,Female,03/22/2021,66.0,"$62,500",15000.0, Home & Kitchen ,US
+TXN-1251,emily WATSON ,M,15-Aug-2020,33.0,UNKNOWN,43.31,Clothing,nan
+TXN-1252,ANNA KOURNIKOVA,female,2023.05.10,200.0,"$150,000.00",98.8,nan,nan
+TXN-1253,Laura Croft,M,2021-12-01,48.0,"$120,000.50",479.03,nan,Germany
+TXN-1254,emily WATSON ,m,2023.05.10,59.0,"$55,000",446.17,beauty,U.S.A.
+TXN-1255,Michael Jordan,nan,11/04/2022,27.0,UNKNOWN,329.61,clothing,Canada
+TXN-1256,  Chris Hemsworth  ,Male,03/22/2021,49.0,"$120,000.50",235.23,nan,Germany
+TXN-1257,Michael Jordan,Male,2021-12-01,51.0,"$62,500",341.12,Electronics,United States
+TXN-1258,  Chris Hemsworth  ,male,15-Aug-2020,26.0,"$55,000",313.12,Beauty,United States
+TXN-1259,  sarah CONNOR  ,f,2022-01-15,34.0,"$55,000",288.59,ELECTRONICS,Germany
+TXN-1260,  sarah CONNOR  ,Male,11/04/2022,28.0," $85,000 ",39.0,nan,US
+TXN-1261,  sarah CONNOR  ,Male,03/22/2021,49.0,UNKNOWN,320.07,beauty,Germany
+TXN-1262,ANNA KOURNIKOVA,Male,2022-01-15,27.0,"$95,000.00",386.77,ELECTRONICS,UK
+TXN-1263,Michael Jordan,Male,08-11-2019,39.0,"$45,000.00",497.1,Electronics,United Kingdom
+TXN-1264,  Chris Hemsworth  ,Male,2023.05.10,,"$45,000.00",15.43,clothing,United States
+TXN-1265,emily WATSON ,m,11/04/2022,34.0,"$32,000",367.78,electronics,CAN
+TXN-1266,John Smith,Female,03/22/2021,21.0,"$150,000.00",290.18,Clothing,Germany
+TXN-1267,emily WATSON ,male,2021-12-01,65.0,"$120,000.50",222.69,Electronics,United States
+TXN-1268,John Smith,male,2022-01-15,69.0,UNKNOWN,72.51, Home & Kitchen ,United Kingdom
+TXN-1269,David BECKHAM,Male,15-Aug-2020,64.0,nan,210.45,cloths,United Kingdom
+TXN-1270,emily WATSON ,male,INVALID_DATE,42.0,"$150,000.00",183.64,beauty,CAN
+TXN-1271,Laura Croft,Female,2021-12-01,38.0," $85,000 ",,Clothing,nan
+TXN-1272,Laura Croft,female,2023.05.10,54.0,"$55,000",368.13, Home & Kitchen ,UK
+TXN-1273,  robert DOWNEY ,Male,15-Aug-2020,55.0,"$95,000.00",,electronics,Germany
+TXN-1274,Michael Jordan,m,08-11-2019,66.0,UNKNOWN,298.62, Home & Kitchen ,USA
+TXN-1275,John Smith,male,2023.05.10,18.0,"$150,000.00",469.95,clothing,Germany
+TXN-1276,John Smith,female,2021-12-01,42.0,"$150,000.00",181.43,cloths,nan
+TXN-1277,Michael Jordan,Female,2021-12-01,68.0,"$95,000.00",129.46,ELECTRONICS,Canada
+TXN-1278,ANNA KOURNIKOVA,Female,2022-01-15,53.0,"$32,000",331.39,Clothing,U.S.A.
+TXN-1279,  robert DOWNEY ,male,2022-01-15,34.0,"$120,000.50",107.42,cloths,US
+TXN-1280,ANNA KOURNIKOVA,F,11/04/2022,58.0,"$120,000.50",164.36,Beauty,nan
+TXN-1281,ANNA KOURNIKOVA,Male,03/22/2021,41.0,"$150,000.00",120.06,Electronics,United Kingdom
+TXN-1282,ANNA KOURNIKOVA,Male,03/22/2021,19.0,"$62,500",43.89,Beauty,USA
+TXN-1283,Michael Jordan,male,2020/07/19,57.0,"$150,000.00",415.47,Electronics,US
+TXN-1284,ANNA KOURNIKOVA,Male,2023.05.10,32.0,"$150,000.00",134.72,clothing,United States
+TXN-1285,Laura Croft,nan,2021-12-01,49.0,"$95,000.00",241.78,cloths,Germany
+TXN-1286,  sarah CONNOR  ,female,2023.05.10,56.0,"$55,000",31.22,electronics,US
+TXN-1287,David BECKHAM,male,2023.05.10,23.0,"$95,000.00",352.68,nan,United States
+TXN-1288,John Smith,Female,2022-01-15,18.0,UNKNOWN,171.97, Home & Kitchen ,U.S.A.
+TXN-1289,John Smith,nan,15-Aug-2020,64.0,"$150,000.00",374.92,nan,United States
+TXN-1290,David BECKHAM,F,03/22/2021,40.0,"$120,000.50",212.08,cloths,USA
+TXN-1291,Michael Jordan,Female,15-Aug-2020,56.0,nan,105.92,Beauty,United Kingdom
+TXN-1292,emily WATSON ,F,2021-12-01,,"$120,000.50",261.46,nan,nan
+TXN-1293,Michael Jordan,nan,15-Aug-2020,34.0,"$45,000.00",73.95,beauty,CAN
+TXN-1294,John Smith,female,2023.05.10,51.0,"$32,000",225.86,nan,nan
+TXN-1295,John Smith,Male,15-Aug-2020,58.0," $85,000 ",165.48,Electronics,nan
+TXN-1296,David BECKHAM,M,2022-01-15,46.0,UNKNOWN,456.86,beauty,United States
+TXN-1297,ANNA KOURNIKOVA,female,15-Aug-2020,26.0,UNKNOWN,39.86,Clothing,Germany
+TXN-1298,Michael Jordan,Male,03/22/2021,30.0,"$32,000",350.07,nan,US
+TXN-1299,  Chris Hemsworth  ,female,03/22/2021,23.0,nan,99.55,beauty,CAN
+TXN-1300,David BECKHAM,Male,2022-01-15,23.0," $85,000 ",166.33,cloths,CAN
+TXN-1301,Laura Croft,Male,15-Aug-2020,37.0,"$55,000",213.6, Home & Kitchen ,US
+TXN-1302,John Smith,male,2021-12-01,69.0,"$150,000.00",454.93,Clothing,US
+TXN-1303,David BECKHAM,Male,03/22/2021,-5.0," $85,000 ",128.86,electronics,United Kingdom
+TXN-1304,Michael Jordan,nan,15-Aug-2020,20.0,nan,54.74,electronics,USA
+TXN-1305,John Smith,female,11/04/2022,34.0,"$62,500",166.16,clothing,U.S.A.
+TXN-1306,emily WATSON ,female,03/22/2021,66.0,"$45,000.00",61.29,nan,USA
+TXN-1307,David BECKHAM,Female,08-11-2019,29.0," $85,000 ",73.01, Home & Kitchen ,US
+TXN-1308,  robert DOWNEY ,Male,2023.05.10,65.0," $85,000 ",291.19,ELECTRONICS,Germany
+TXN-1309,John Smith,Female,15-Aug-2020,64.0,"$45,000.00",39.84,beauty,UK
+TXN-1310,Michael Jordan,Female,2023.05.10,62.0,"$150,000.00",25.16,Clothing,UK
+TXN-1311,  sarah CONNOR  ,Female,03/22/2021,200.0," $85,000 ",360.06,cloths,U.S.A.
+TXN-1312,  Chris Hemsworth  ,male,11/04/2022,18.0,"$45,000.00",187.21,nan,US
+TXN-1313,nan,Female,15-Aug-2020,34.0,"$45,000.00",71.43,cloths,UK
+TXN-1314,ANNA KOURNIKOVA,Female,08-11-2019,20.0,"$45,000.00",134.27,ELECTRONICS,U.S.A.
+TXN-1315,nan,nan,03/22/2021,43.0,"$95,000.00",,clothing,CAN
+TXN-1316,Michael Jordan,F,2023.05.10,32.0,nan,145.01,ELECTRONICS,U.S.A.
+TXN-1317,Laura Croft,m,2023.05.10,53.0,"$95,000.00",252.32,Electronics,CAN
+TXN-1318,Laura Croft,Female,2022-01-15,49.0,"$62,500",,Beauty,United Kingdom
+TXN-1319,  sarah CONNOR  ,female,15-Aug-2020,49.0,"$55,000",298.17,Clothing,UK
+TXN-1320,ANNA KOURNIKOVA,Male,11/04/2022,21.0,"$95,000.00",164.88,Beauty,U.S.A.
+TXN-1321,  robert DOWNEY ,F,2021-12-01,35.0,"$95,000.00",317.21,ELECTRONICS,U.S.A.
+TXN-1322,  sarah CONNOR  ,female,15-Aug-2020,66.0,nan,406.11,clothing,U.S.A.
+TXN-1323,nan,m,2021-12-01,36.0,"$55,000",309.71,clothing,Germany
+TXN-1324,  sarah CONNOR  ,male,INVALID_DATE,60.0,"$32,000",154.92,electronics,U.S.A.
+TXN-1325,nan,male,08-11-2019,69.0,"$45,000.00",135.31,nan,Germany
+TXN-1326,John Smith,m,2022-01-15,52.0,UNKNOWN,170.44,electronics,nan
+TXN-1327,Laura Croft,Male,11/04/2022,57.0,"$55,000",90.66,Clothing,United Kingdom
+TXN-1328,John Smith,female,15-Aug-2020,31.0,"$62,500",98.77,Clothing,nan
+TXN-1329,  Chris Hemsworth  ,Male,nan,50.0,"$150,000.00",397.44,Clothing,Canada
+TXN-1330,ANNA KOURNIKOVA,male,2023.05.10,31.0,"$62,500",198.52,cloths,nan
+TXN-1331,  robert DOWNEY ,f,2022-01-15,51.0,"$45,000.00",223.64,electronics,US
+TXN-1332,nan,female,11/04/2022,200.0,"$55,000",301.08,cloths,CAN
+TXN-1333,  robert DOWNEY ,male,15-Aug-2020,21.0,"$62,500",298.93,Beauty,US
+TXN-1334,nan,male,nan,41.0,"$62,500",43.01,nan,USA
+TXN-1335,Michael Jordan,Male,INVALID_DATE,46.0,"$32,000",417.45,ELECTRONICS,nan
+TXN-1336,  sarah CONNOR  ,Female,11/04/2022,36.0,"$32,000",96.89,beauty,UK
+TXN-1337,  Chris Hemsworth  ,Male,2022-01-15,23.0,"$55,000",364.31,electronics,United States
+TXN-1338,Laura Croft,Female,11/04/2022,,"$45,000.00",388.61,beauty,nan
+TXN-1339,nan,nan,2022-01-15,50.0,"$95,000.00",360.3,clothing,United Kingdom
+TXN-1340,  robert DOWNEY ,Male,2022-01-15,66.0,"$120,000.50",293.7,electronics,nan
+TXN-1341,  Chris Hemsworth  ,F,2021-12-01,57.0," $85,000 ",17.16,Beauty,Germany
+TXN-1342,emily WATSON ,nan,03/22/2021,36.0,UNKNOWN,186.58,electronics,USA
+TXN-1343,emily WATSON ,Male,15-Aug-2020,-5.0," $85,000 ",306.37,cloths,U.S.A.
+TXN-1344,John Smith,F,INVALID_DATE,18.0,nan,199.85,nan,USA
+TXN-1345,Laura Croft,Female,15-Aug-2020,22.0,"$32,000",433.11,ELECTRONICS,USA
+TXN-1346,Michael Jordan,F,03/22/2021,44.0,"$55,000",161.31, Home & Kitchen ,CAN
+TXN-1347,  robert DOWNEY ,Female,08-11-2019,33.0," $85,000 ",153.83,ELECTRONICS,United States
+TXN-1348,  sarah CONNOR  ,Female,2022-01-15,23.0,"$45,000.00",140.34,ELECTRONICS,USA
+TXN-1349,  sarah CONNOR  ,Female,2021-12-01,57.0,UNKNOWN,173.06,clothing,CAN
+TXN-1350,  robert DOWNEY ,female,nan,30.0," $85,000 ",283.13,Beauty,U.S.A.
+TXN-1351,ANNA KOURNIKOVA,female,08-11-2019,65.0,UNKNOWN,356.44,beauty,US
+TXN-1352,Michael Jordan,Female,11/04/2022,52.0,"$150,000.00",334.66,Beauty,U.S.A.
+TXN-1353,  Chris Hemsworth  ,female,15-Aug-2020,36.0,"$45,000.00",405.78, Home & Kitchen ,UK
+TXN-1354,nan,Male,03/22/2021,29.0,"$120,000.50",444.1,clothing,USA
+TXN-1355,ANNA KOURNIKOVA,Male,2021-12-01,33.0,"$62,500",409.88,nan,USA
+TXN-1356,nan,Male,08-11-2019,60.0,UNKNOWN,19.28,ELECTRONICS,US
+TXN-1357,nan,male,2023.05.10,27.0,"$45,000.00",370.6,cloths,United Kingdom
+TXN-1358,ANNA KOURNIKOVA,Male,03/22/2021,42.0,UNKNOWN,112.12,clothing,USA
+TXN-1359,John Smith,f,2022-01-15,37.0,UNKNOWN,,Clothing,United States
+TXN-1360,emily WATSON ,Male,2022-01-15,48.0,"$95,000.00",322.86,electronics,Canada
+TXN-1361,nan,Female,11/04/2022,21.0,"$95,000.00",166.67,Beauty,USA
+TXN-1362,ANNA KOURNIKOVA,Male,15-Aug-2020,61.0,"$45,000.00",37.99,clothing,Canada
+TXN-1363,ANNA KOURNIKOVA,F,08-11-2019,40.0,"$95,000.00",77.44,Clothing,U.S.A.
+TXN-1364,David BECKHAM,nan,11/04/2022,19.0,nan,10.46,beauty,nan
+TXN-1365,John Smith,m,03/22/2021,,"$120,000.50",452.58, Home & Kitchen ,United Kingdom
+TXN-1366,Laura Croft,female,11/04/2022,39.0,"$55,000",22.06, Home & Kitchen ,CAN
+TXN-1367,David BECKHAM,Male,15-Aug-2020,68.0,"$45,000.00",112.63,ELECTRONICS,Germany
+TXN-1368,David BECKHAM,female,2023.05.10,,"$45,000.00",213.97,ELECTRONICS,United Kingdom
+TXN-1369,  robert DOWNEY ,Male,11/04/2022,54.0,nan,184.72,clothing,Germany
+TXN-1370,emily WATSON ,F,2021-12-01,25.0,"$32,000",456.75,clothing,U.S.A.
+TXN-1371,ANNA KOURNIKOVA,Male,2021-12-01,24.0,"$32,000",29.74,nan,United Kingdom
+TXN-1372,emily WATSON ,Female,03/22/2021,31.0,"$95,000.00",260.99,electronics,CAN
+TXN-1373,Michael Jordan,female,2022-01-15,,"$55,000",343.43,Electronics,Germany
+TXN-1374,  robert DOWNEY ,male,11/04/2022,200.0,"$95,000.00",466.53,beauty,US
+TXN-1375,Laura Croft,Male,2022-01-15,20.0,"$150,000.00",313.98,ELECTRONICS,United States
+TXN-1376,emily WATSON ,Male,15-Aug-2020,67.0,"$150,000.00",403.84,Electronics,United Kingdom
+TXN-1377,  sarah CONNOR  ,male,2022-01-15,33.0,"$62,500",51.03,Electronics,U.S.A.
+TXN-1378,nan,Female,11/04/2022,200.0,"$150,000.00",199.11,electronics,USA
+TXN-1379,Michael Jordan,Male,03/22/2021,36.0,"$32,000",193.23,cloths,CAN
+TXN-1380,John Smith,male,11/04/2022,68.0,"$120,000.50",444.28,cloths,Germany
+TXN-1381,Laura Croft,Male,nan,35.0,"$150,000.00",84.17,ELECTRONICS,Germany
+TXN-1382,Michael Jordan,female,2022-01-15,69.0,"$95,000.00",84.42,Clothing,United States
+TXN-1383,nan,Male,2022-01-15,33.0,UNKNOWN,170.99,electronics,Germany
+TXN-1384,  robert DOWNEY ,male,15-Aug-2020,25.0,"$45,000.00",36.69,electronics,Canada
+TXN-1385,nan,Male,08-11-2019,50.0,"$120,000.50",99.4,Beauty,UK
+TXN-1386,David BECKHAM,M,03/22/2021,66.0,"$120,000.50",482.95,Electronics,Canada
+TXN-1387,nan,female,15-Aug-2020,29.0,"$95,000.00",219.81,Beauty,Germany
+TXN-1388,David BECKHAM,male,2022-01-15,-5.0,"$45,000.00",319.69,Electronics,CAN
+TXN-1389,  robert DOWNEY ,Male,2021-12-01,28.0,"$32,000",365.79,cloths,United Kingdom
+TXN-1390,  Chris Hemsworth  ,female,15-Aug-2020,22.0,"$120,000.50",189.81,ELECTRONICS,U.S.A.
+TXN-1391,David BECKHAM,female,2021-12-01,44.0,"$62,500",82.14,beauty,USA
+TXN-1392,John Smith,Male,08-11-2019,29.0,"$95,000.00",111.22,cloths,United Kingdom
+TXN-1393,nan,female,03/22/2021,34.0,"$120,000.50",163.5,electronics,US
+TXN-1394,nan,f,2021-12-01,23.0,"$55,000",321.67,beauty,United Kingdom
+TXN-1395,John Smith,Male,2022-01-15,50.0,"$45,000.00",205.16,clothing,United Kingdom
+TXN-1396,  sarah CONNOR  ,female,08-11-2019,22.0,"$150,000.00",13.34,beauty,U.S.A.
+TXN-1397,ANNA KOURNIKOVA,Female,11/04/2022,,"$120,000.50",266.47,beauty,United States
+TXN-1398,  Chris Hemsworth  ,m,08-11-2019,45.0,"$95,000.00",461.54,cloths,Germany
+TXN-1399,Laura Croft,Male,2022-01-15,31.0,"$150,000.00",407.92,electronics,United States
+TXN-1400,David BECKHAM,Male,03/22/2021,22.0,"$62,500",414.35,beauty,US
+TXN-1401,John Smith,female,15-Aug-2020,150.0,"$150,000.00",399.58,cloths,nan
+TXN-1402,  robert DOWNEY ,nan,15-Aug-2020,,"$55,000",168.63,cloths,USA
+TXN-1403,David BECKHAM,Female,03/22/2021,50.0,"$32,000",384.94,beauty,Canada
+TXN-1404,ANNA KOURNIKOVA,M,15-Aug-2020,67.0,"$120,000.50",80.15,Electronics,USA
+TXN-1405,  robert DOWNEY ,Female,2022-01-15,65.0," $85,000 ",332.28,electronics,Germany
+TXN-1406,Michael Jordan,Female,15-Aug-2020,58.0," $85,000 ",324.37, Home & Kitchen ,USA
+TXN-1407,nan,male,2021-12-01,36.0,"$150,000.00",22.53,beauty,UK
+TXN-1408,Michael Jordan,Male,2023.05.10,39.0,nan,396.11,Beauty,Canada
+TXN-1409,David BECKHAM,female,2022-01-15,22.0,"$45,000.00",452.59,Beauty,US
+TXN-1410,ANNA KOURNIKOVA,male,15-Aug-2020,19.0," $85,000 ",141.03,clothing,Germany
+TXN-1411,  Chris Hemsworth  ,female,2022-01-15,47.0,nan,408.07,electronics,CAN
+TXN-1412,David BECKHAM,male,INVALID_DATE,64.0," $85,000 ",50.38,cloths,US
+TXN-1413,John Smith,Male,2022-01-15,56.0,nan,303.98,nan,UK
+TXN-1414,emily WATSON ,Male,11/04/2022,21.0,"$45,000.00",247.97,ELECTRONICS,Canada
+TXN-1415,David BECKHAM,m,INVALID_DATE,50.0,UNKNOWN,277.5,Clothing,U.S.A.
+TXN-1416,nan,f,2021-12-01,30.0," $85,000 ",463.84,nan,UK
+TXN-1417,nan,Male,11/04/2022,37.0,"$55,000",436.94,electronics,US
+TXN-1418,David BECKHAM,female,2021-12-01,150.0,"$120,000.50",394.69,electronics,Germany
+TXN-1419,  robert DOWNEY ,Female,nan,24.0,nan,144.11,beauty,nan
+TXN-1420,emily WATSON ,female,11/04/2022,32.0,"$120,000.50",456.79,beauty,Germany
+TXN-1421,John Smith,male,2023.05.10,40.0,"$95,000.00",,nan,Canada
+TXN-1422,David BECKHAM,female,11/04/2022,31.0,"$95,000.00",428.13,cloths,nan
+TXN-1423,  robert DOWNEY ,female,2023.05.10,40.0,"$45,000.00",170.8,clothing,United States
+TXN-1424,nan,Male,11/04/2022,36.0,nan,36.35,beauty,Canada
+TXN-1425,nan,Male,15-Aug-2020,150.0,"$62,500",337.98,Clothing,Canada
+TXN-1426,ANNA KOURNIKOVA,female,03/22/2021,46.0,"$95,000.00",123.33,Clothing,UK
+TXN-1427,David BECKHAM,nan,2022-01-15,,"$45,000.00",129.35,clothing,Germany
+TXN-1428,emily WATSON ,Male,2022-01-15,37.0,"$95,000.00",159.96,Electronics,US
+TXN-1429,  sarah CONNOR  ,female,03/22/2021,46.0,"$95,000.00",41.21,Electronics,U.S.A.
+TXN-1430,emily WATSON ,F,2022-01-15,41.0,"$62,500",96.79,electronics,USA
+TXN-1431,nan,female,2023.05.10,35.0," $85,000 ",12.52,beauty,United Kingdom
+TXN-1432,nan,nan,03/22/2021,27.0,"$150,000.00",228.25,Beauty,U.S.A.
+TXN-1433,Michael Jordan,female,2021-12-01,58.0,UNKNOWN,51.29,nan,USA
+TXN-1434,nan,M,2022-01-15,,"$95,000.00",, Home & Kitchen ,United States
+TXN-1435,John Smith,male,03/22/2021,25.0,"$95,000.00",125.46,clothing,US
+TXN-1436,Laura Croft,male,11/04/2022,43.0,"$55,000",472.35,electronics,Germany
+TXN-1437,David BECKHAM,Female,2023.05.10,46.0,UNKNOWN,436.91,Beauty,CAN
+TXN-1438,emily WATSON ,female,2022-01-15,27.0,"$62,500",151.83,beauty,Canada
+TXN-1439,Laura Croft,Male,08-11-2019,34.0,"$120,000.50",393.78,Beauty,U.S.A.
+TXN-1440,  robert DOWNEY ,female,08-11-2019,19.0,nan,403.59,Beauty,USA
+TXN-1441,  sarah CONNOR  ,Female,15-Aug-2020,23.0,"$95,000.00",493.42,clothing,CAN
+TXN-1442,John Smith,Female,15-Aug-2020,22.0,"$150,000.00",302.94,electronics,U.S.A.
+TXN-1443,emily WATSON ,m,nan,45.0,nan,50.16,cloths,US
+TXN-1444,Laura Croft,Female,11/04/2022,58.0,UNKNOWN,326.95,Clothing,Germany
+TXN-1445,  sarah CONNOR  ,Male,2023.05.10,22.0,nan,316.24,nan,nan
+TXN-1446,Michael Jordan,Male,2021-12-01,35.0," $85,000 ",322.79,electronics,U.S.A.
+TXN-1447,John Smith,Male,03/22/2021,43.0,"$95,000.00",, Home & Kitchen ,U.S.A.
+TXN-1448,John Smith,Male,15-Aug-2020,37.0,nan,431.24,Beauty,Germany
+TXN-1449,Michael Jordan,m,03/22/2021,58.0,"$120,000.50",480.14,cloths,United States
+TXN-1450,David BECKHAM,Female,2021-12-01,66.0,"$120,000.50",116.68,clothing,UK
+TXN-1451,Michael Jordan,Male,2023.05.10,44.0,"$95,000.00",53.19,ELECTRONICS,U.S.A.
+TXN-1452,John Smith,female,11/04/2022,66.0,"$32,000",105.32,nan,Germany
+TXN-1453,John Smith,male,03/22/2021,29.0,"$120,000.50",412.07,nan,UK
+TXN-1454,Laura Croft,F,03/22/2021,24.0,nan,341.56,Clothing,Germany
+TXN-1455,nan,nan,2023.05.10,20.0,"$45,000.00",321.66,ELECTRONICS,Germany
+TXN-1456,  sarah CONNOR  ,Male,11/04/2022,27.0,"$120,000.50",206.88,beauty,United States
+TXN-1457,Michael Jordan,m,2023.05.10,51.0,UNKNOWN,293.14,ELECTRONICS,Germany
+TXN-1458,  sarah CONNOR  ,Male,2022-01-15,42.0,"$32,000",160.86,Beauty,US
+TXN-1459,Michael Jordan,Female,08-11-2019,52.0,nan,243.83,Beauty,U.S.A.
+TXN-1460,  robert DOWNEY ,Female,2022-01-15,33.0,"$62,500",398.6,Beauty,USA
+TXN-1461,John Smith,Male,INVALID_DATE,19.0,"$55,000",490.81,Beauty,USA
+TXN-1462,nan,Female,2022-01-15,41.0,"$62,500",466.92,electronics,USA
+TXN-1463,Laura Croft,Male,11/04/2022,27.0," $85,000 ",467.59,nan,Germany
+TXN-1464,nan,Male,2022-01-15,55.0,"$55,000",207.09,ELECTRONICS,CAN
+TXN-1465,nan,Female,08-11-2019,39.0," $85,000 ",239.71,nan,UK
+TXN-1466,nan,male,2023.05.10,43.0,"$55,000",355.76, Home & Kitchen ,UK
+TXN-1467,  sarah CONNOR  ,Female,2022-01-15,60.0,"$55,000",461.87,ELECTRONICS,Germany
+TXN-1468,Michael Jordan,M,15-Aug-2020,200.0,"$45,000.00",79.58,electronics,US
+TXN-1469,  Chris Hemsworth  ,nan,03/22/2021,56.0,"$150,000.00",159.08, Home & Kitchen ,US
+TXN-1470,  robert DOWNEY ,Male,03/22/2021,44.0,UNKNOWN,78.23,nan,Canada
+TXN-1471,emily WATSON ,m,2020/07/19,46.0,"$62,500",309.88, Home & Kitchen ,Germany
+TXN-1472,nan,Female,15-Aug-2020,64.0,"$120,000.50",160.09,Clothing,United Kingdom
+TXN-1473,David BECKHAM,male,2021-12-01,55.0,nan,169.79, Home & Kitchen ,United States
+TXN-1474,  sarah CONNOR  ,nan,11/04/2022,37.0,"$32,000",44.75,ELECTRONICS,USA
+TXN-1475,Laura Croft,Female,11/04/2022,44.0,UNKNOWN,181.4,Beauty,United States
+TXN-1476,emily WATSON ,Female,2022-01-15,58.0," $85,000 ",432.62,Beauty,USA
+TXN-1477,  Chris Hemsworth  ,female,03/22/2021,150.0,"$45,000.00",124.21,beauty,nan
+TXN-1478,David BECKHAM,nan,2021-12-01,37.0," $85,000 ",350.64,nan,nan
+TXN-1479,  Chris Hemsworth  ,F,INVALID_DATE,61.0,"$150,000.00",318.52,Clothing,Germany
+TXN-1480,emily WATSON ,Female,03/22/2021,36.0,"$32,000",433.11,ELECTRONICS,nan
+TXN-1481,nan,female,03/22/2021,37.0,"$45,000.00",74.82,ELECTRONICS,CAN
+TXN-1482,David BECKHAM,Male,2023.05.10,52.0," $85,000 ",489.02,clothing,Canada
+TXN-1483,  Chris Hemsworth  ,Male,nan,64.0,"$150,000.00",295.49,Electronics,US
+TXN-1484,Laura Croft,Female,03/22/2021,19.0,nan,497.78,nan,CAN
+TXN-1485,Michael Jordan,Male,15-Aug-2020,47.0,nan,456.64,ELECTRONICS,United States
+TXN-1486,John Smith,Female,08-11-2019,-5.0," $85,000 ",118.54,cloths,United States
+TXN-1487,Michael Jordan,Male,2022-01-15,51.0,UNKNOWN,37.52,ELECTRONICS,nan
+TXN-1488,emily WATSON ,male,2022-01-15,39.0,"$32,000",135.26,clothing,US
+TXN-1489,  sarah CONNOR  ,female,11/04/2022,20.0,"$95,000.00",268.51, Home & Kitchen ,Canada
+TXN-1490,John Smith,f,08-11-2019,23.0,UNKNOWN,94.08,electronics,USA
+TXN-1491,  robert DOWNEY ,Male,03/22/2021,32.0,nan,92.06,electronics,CAN
+TXN-1492,Laura Croft,Female,2023.05.10,44.0,"$32,000",236.67,cloths,Canada
+TXN-1493,  robert DOWNEY ,F,2023.05.10,27.0,"$150,000.00",26.3,cloths,U.S.A.
+TXN-1494,David BECKHAM,Male,2023.05.10,26.0,"$45,000.00",69.73,beauty,UK
+TXN-1495,John Smith,female,11/04/2022,50.0,"$55,000",213.77,electronics,nan
+TXN-1496,  robert DOWNEY ,male,2023.05.10,49.0," $85,000 ",40.93, Home & Kitchen ,USA
+TXN-1497,  robert DOWNEY ,male,15-Aug-2020,65.0,"$62,500",204.41,electronics,U.S.A.
+TXN-1498,  Chris Hemsworth  ,nan,2023.05.10,23.0,"$32,000",242.26,Electronics,USA
+TXN-1499,Michael Jordan,Male,2023.05.10,58.0,"$120,000.50",231.12,nan,USA
+TXN-1500,  Chris Hemsworth  ,Female,2023.05.10,53.0,"$150,000.00",15000.0,electronics,nan
+TXN-1501,John Smith,female,08-11-2019,19.0,"$95,000.00",269.73,Beauty,USA
+TXN-1502,John Smith,Male,2022-01-15,46.0,"$55,000",239.31,beauty,Canada
+TXN-1503,emily WATSON ,Female,2021-12-01,21.0,"$120,000.50",211.25,clothing,Canada
+TXN-1504,  Chris Hemsworth  ,nan,2021-12-01,18.0,"$95,000.00",410.64,cloths,U.S.A.
+TXN-1505,ANNA KOURNIKOVA,Male,03/22/2021,36.0,"$62,500",448.58,Electronics,United States
+TXN-1506,Michael Jordan,F,2023.05.10,43.0,nan,428.09,cloths,US
+TXN-1507,John Smith,Female,15-Aug-2020,42.0,UNKNOWN,340.04,beauty,CAN
+TXN-1508,emily WATSON ,Female,03/22/2021,27.0," $85,000 ",77.31,ELECTRONICS,CAN
+TXN-1509,  Chris Hemsworth  ,Female,15-Aug-2020,-5.0,"$45,000.00",145.67,Electronics,United Kingdom
+TXN-1510,Michael Jordan,male,2022-01-15,32.0,"$95,000.00",32.57,Clothing,nan
+TXN-1511,  Chris Hemsworth  ,f,03/22/2021,39.0,"$55,000",466.1,Electronics,Germany
+TXN-1512,  robert DOWNEY ,f,2021-12-01,68.0,"$32,000",333.79,beauty,Germany
+TXN-1513,emily WATSON ,Female,03/22/2021,65.0,nan,375.72,clothing,U.S.A.
+TXN-1514,Michael Jordan,female,2021-12-01,38.0,"$32,000",162.67,Electronics,USA
+TXN-1515,nan,Female,2023.05.10,,"$55,000",424.37,beauty,USA
+TXN-1516,David BECKHAM,Female,08-11-2019,39.0,"$32,000",137.21, Home & Kitchen ,nan
+TXN-1517,David BECKHAM,Female,2023.05.10,53.0,"$95,000.00",10.81,nan,UK
+TXN-1518,Michael Jordan,Female,2022-01-15,51.0,"$150,000.00",194.44,electronics,United States
+TXN-1519,  Chris Hemsworth  ,Female,11/04/2022,47.0,"$32,000",289.67, Home & Kitchen ,United Kingdom
+TXN-1520,emily WATSON ,female,2022-01-15,42.0,UNKNOWN,244.57,beauty,Canada
+TXN-1521,David BECKHAM,Female,2023.05.10,62.0,"$62,500",432.42,Beauty,USA
+TXN-1522,emily WATSON ,Male,08-11-2019,45.0,"$45,000.00",61.65,ELECTRONICS,United Kingdom
+TXN-1523,David BECKHAM,Male,03/22/2021,18.0,"$95,000.00",,electronics,CAN
+TXN-1524,  robert DOWNEY ,M,15-Aug-2020,66.0,"$120,000.50",261.36,Beauty,UK
+TXN-1525,  Chris Hemsworth  ,Female,11/04/2022,62.0,"$55,000",147.88,clothing,Canada
+TXN-1526,  robert DOWNEY ,Female,08-11-2019,21.0,nan,412.89,cloths,nan
+TXN-1527,David BECKHAM,Female,11/04/2022,24.0,"$95,000.00",378.9,Clothing,United Kingdom
+TXN-1528,nan,m,03/22/2021,66.0,"$150,000.00",369.1,electronics,U.S.A.
+TXN-1529,nan,Female,11/04/2022,26.0,nan,439.33, Home & Kitchen ,Canada
+TXN-1530,  robert DOWNEY ,male,03/22/2021,53.0,UNKNOWN,364.16,ELECTRONICS,nan
+TXN-1531,nan,m,11/04/2022,36.0,"$55,000",123.6,Beauty,Germany
+TXN-1532,David BECKHAM,female,INVALID_DATE,18.0,nan,355.73,beauty,nan
+TXN-1533,Michael Jordan,female,11/04/2022,27.0,"$32,000",160.77,electronics,nan
+TXN-1534,  robert DOWNEY ,M,08-11-2019,53.0,"$95,000.00",128.67,cloths,Canada
+TXN-1535,  sarah CONNOR  ,Male,2022-01-15,26.0,"$62,500",45.77,beauty,UK
+TXN-1536,  Chris Hemsworth  ,Male,11/04/2022,62.0,"$55,000",374.57,Beauty,Canada
+TXN-1537,nan,Male,2021-12-01,63.0," $85,000 ",358.39,ELECTRONICS,US
+TXN-1538,nan,Female,2022-01-15,59.0,UNKNOWN,124.9,Electronics,United States
+TXN-1539,John Smith,male,08-11-2019,49.0,"$45,000.00",377.2,cloths,UK
+TXN-1540,ANNA KOURNIKOVA,Female,03/22/2021,49.0,"$55,000",459.74,beauty,U.S.A.
+TXN-1541,  robert DOWNEY ,Female,11/04/2022,23.0,"$150,000.00",62.93,cloths,UK
+TXN-1542,Laura Croft,Male,2021-12-01,65.0,"$95,000.00",123.99,clothing,CAN
+TXN-1543,nan,M,11/04/2022,55.0,"$32,000",377.63,beauty,U.S.A.
+TXN-1544,  Chris Hemsworth  ,Male,2022-01-15,34.0,"$45,000.00",144.51,electronics,Germany
+TXN-1545,  sarah CONNOR  ,M,2023.05.10,27.0,"$45,000.00",316.09,Electronics,Canada
+TXN-1546,nan,Male,2023.05.10,67.0,UNKNOWN,49.77,Electronics,nan
+TXN-1547,  sarah CONNOR  ,female,08-11-2019,44.0,nan,231.58,Clothing,Canada
+TXN-1548,David BECKHAM,Male,15-Aug-2020,150.0,"$150,000.00",372.15,cloths,CAN
+TXN-1549,David BECKHAM,nan,15-Aug-2020,67.0,nan,, Home & Kitchen ,United Kingdom
+TXN-1550,ANNA KOURNIKOVA,M,11/04/2022,52.0,"$32,000",409.39,Electronics,CAN
+TXN-1551,Michael Jordan,female,15-Aug-2020,69.0,"$45,000.00",439.95,Electronics,US
+TXN-1552,Laura Croft,Female,11/04/2022,38.0,"$150,000.00",388.86,clothing,nan
+TXN-1553,John Smith,female,11/04/2022,42.0,"$150,000.00",339.08,nan,nan
+TXN-1554,ANNA KOURNIKOVA,female,08-11-2019,45.0,"$120,000.50",25.54,clothing,USA
+TXN-1555,emily WATSON ,Female,2023.05.10,64.0,"$95,000.00",272.13,clothing,United Kingdom
+TXN-1556,John Smith,Female,2023.05.10,32.0,"$45,000.00",28.47,nan,USA
+TXN-1557,  robert DOWNEY ,Female,2022-01-15,21.0,"$45,000.00",405.95,cloths,Germany
+TXN-1558,  Chris Hemsworth  ,Female,2022-01-15,46.0,"$150,000.00",167.16,beauty,United States
+TXN-1559,emily WATSON ,Male,03/22/2021,26.0,nan,285.59,ELECTRONICS,United States
+TXN-1560,emily WATSON ,male,03/22/2021,44.0,"$45,000.00",146.93, Home & Kitchen ,Canada
+TXN-1561,ANNA KOURNIKOVA,Female,11/04/2022,43.0,"$150,000.00",393.43,Electronics,United States
+TXN-1562,Michael Jordan,Female,11/04/2022,36.0,"$45,000.00",444.39,Clothing,nan
+TXN-1563,ANNA KOURNIKOVA,female,2023.05.10,,"$150,000.00",205.33, Home & Kitchen ,CAN
+TXN-1564,  robert DOWNEY ,Female,2021-12-01,45.0,"$120,000.50",432.83,beauty,United Kingdom
+TXN-1565,nan,nan,nan,34.0,"$95,000.00",140.87,nan,Canada
+TXN-1566,nan,male,2021-12-01,60.0,"$150,000.00",271.98, Home & Kitchen ,Canada
+TXN-1567,Michael Jordan,male,11/04/2022,,"$45,000.00",430.79,Electronics,United Kingdom
+TXN-1568,  robert DOWNEY ,male,2023.05.10,58.0,"$32,000",169.68, Home & Kitchen ,nan
+TXN-1569,Michael Jordan,m,15-Aug-2020,59.0,"$95,000.00",477.48,ELECTRONICS,Germany
+TXN-1570,  sarah CONNOR  ,female,2022-01-15,67.0,"$120,000.50",69.72,nan,Germany
+TXN-1571,nan,Male,15-Aug-2020,37.0,"$150,000.00",18.95, Home & Kitchen ,Canada
+TXN-1572,emily WATSON ,female,08-11-2019,62.0,"$32,000",453.03,Electronics,Germany
+TXN-1573,Laura Croft,M,2021-12-01,57.0,"$150,000.00",43.64,Electronics,nan
+TXN-1574,  Chris Hemsworth  ,Female,03/22/2021,56.0,nan,496.03, Home & Kitchen ,US
+TXN-1575,  robert DOWNEY ,Female,2023.05.10,66.0,"$45,000.00",476.18,cloths,US
+TXN-1576,John Smith,male,2021-12-01,-5.0,"$55,000",77.14,Clothing,USA
+TXN-1577,Michael Jordan,Female,2022-01-15,40.0,UNKNOWN,273.42,Beauty,UK
+TXN-1578,  Chris Hemsworth  ,M,15-Aug-2020,64.0,"$62,500",100.61,clothing,U.S.A.
+TXN-1579,John Smith,Male,08-11-2019,49.0,nan,219.8,nan,United States
+TXN-1580,  Chris Hemsworth  ,M,15-Aug-2020,69.0,"$32,000",40.1,Beauty,Germany
+TXN-1581,Laura Croft,Male,2022-01-15,64.0,nan,119.72,beauty,US
+TXN-1582,John Smith,M,2023.05.10,50.0," $85,000 ",188.0,beauty,CAN
+TXN-1583,ANNA KOURNIKOVA,Female,08-11-2019,,"$150,000.00",224.94,Electronics,United Kingdom
+TXN-1584,David BECKHAM,Female,2023.05.10,63.0,"$150,000.00",488.97,beauty,UK
+TXN-1585,ANNA KOURNIKOVA,Female,03/22/2021,22.0,"$62,500",405.85,cloths,USA
+TXN-1586,nan,Male,15-Aug-2020,60.0,"$62,500",371.33,Clothing,U.S.A.
+TXN-1587,David BECKHAM,Female,2023.05.10,65.0," $85,000 ",273.15,beauty,US
+TXN-1588,ANNA KOURNIKOVA,male,2023.05.10,51.0,"$45,000.00",421.6,ELECTRONICS,USA
+TXN-1589,David BECKHAM,male,2021-12-01,57.0,UNKNOWN,,Clothing,UK
+TXN-1590,David BECKHAM,female,2022-01-15,28.0,"$55,000",357.36,cloths,United Kingdom
+TXN-1591,emily WATSON ,Male,08-11-2019,67.0,"$55,000",496.95,Beauty,United States
+TXN-1592,Michael Jordan,Female,2022-01-15,20.0,"$120,000.50",164.17,Clothing,US
+TXN-1593,Michael Jordan,Female,15-Aug-2020,50.0,"$120,000.50",340.27,Clothing,United Kingdom
+TXN-1594,emily WATSON ,male,2022-01-15,28.0,"$45,000.00",423.71,Beauty,U.S.A.
+TXN-1595,  Chris Hemsworth  ,Male,15-Aug-2020,33.0,"$120,000.50",458.75,cloths,Germany
+TXN-1596,  sarah CONNOR  ,Male,2023.05.10,35.0,"$120,000.50",361.79,beauty,UK
+TXN-1597,  Chris Hemsworth  ,F,2023.05.10,47.0," $85,000 ",148.97,Electronics,U.S.A.
+TXN-1598,John Smith,M,03/22/2021,65.0," $85,000 ",169.88,nan,United States
+TXN-1599,John Smith,male,11/04/2022,200.0,"$120,000.50",20.17,Beauty,United Kingdom
+TXN-1600,David BECKHAM,M,2022-01-15,27.0,nan,382.83,Beauty,nan
+TXN-1601,ANNA KOURNIKOVA,Female,2021-12-01,35.0,"$95,000.00",30.94,Beauty,United States
+TXN-1602,ANNA KOURNIKOVA,Male,2020/07/19,55.0,"$95,000.00",433.68,Beauty,Canada
+TXN-1603,Michael Jordan,M,15-Aug-2020,36.0,"$45,000.00",68.14,nan,US
+TXN-1604,  robert DOWNEY ,Female,2023.05.10,53.0,"$55,000",94.22,nan,Germany
+TXN-1605,  Chris Hemsworth  ,f,15-Aug-2020,30.0,"$62,500",243.5,beauty,UK
+TXN-1606,nan,male,2022-01-15,,"$45,000.00",371.56, Home & Kitchen ,CAN
+TXN-1607,Laura Croft,male,15-Aug-2020,63.0,"$120,000.50",78.11, Home & Kitchen ,United Kingdom
+TXN-1608,ANNA KOURNIKOVA,male,2021-12-01,20.0," $85,000 ",225.63,electronics,nan
+TXN-1609,Laura Croft,Female,2023.05.10,27.0,"$150,000.00",246.6,Beauty,CAN
+TXN-1610,David BECKHAM,male,2022-01-15,55.0,nan,114.02,Beauty,US
+TXN-1611,Laura Croft,Female,2021-12-01,18.0,"$32,000",66.62,Clothing,US
+TXN-1612,nan,female,2023.05.10,200.0," $85,000 ",419.85, Home & Kitchen ,UK
+TXN-1613,emily WATSON ,Female,2021-12-01,,"$95,000.00",256.21,beauty,nan
+TXN-1614,nan,M,2023.05.10,44.0," $85,000 ",17.05,Electronics,US
+TXN-1615,Laura Croft,female,2023.05.10,63.0,nan,403.46,electronics,CAN
+TXN-1616,nan,Female,2022-01-15,25.0,"$62,500",490.59,electronics,nan
+TXN-1617,  sarah CONNOR  ,Female,03/22/2021,68.0,"$120,000.50",306.9,beauty,CAN
+TXN-1618,David BECKHAM,Male,INVALID_DATE,63.0,"$150,000.00",256.82,Electronics,United States
+TXN-1619,  Chris Hemsworth  ,nan,03/22/2021,59.0,"$95,000.00",440.42,Clothing,U.S.A.
+TXN-1620,emily WATSON ,Male,INVALID_DATE,34.0,"$95,000.00",476.73,nan,nan
+TXN-1621,ANNA KOURNIKOVA,Male,2023.05.10,26.0,UNKNOWN,379.72,clothing,USA
+TXN-1622,John Smith,Male,2022-01-15,23.0,"$55,000",228.27, Home & Kitchen ,U.S.A.
+TXN-1623,  Chris Hemsworth  ,Female,2022-01-15,60.0,"$62,500",300.19,Beauty,U.S.A.
+TXN-1624,John Smith,Male,03/22/2021,42.0,"$95,000.00",,beauty,nan
+TXN-1625,David BECKHAM,Male,08-11-2019,56.0,"$55,000",105.19, Home & Kitchen ,Germany
+TXN-1626,emily WATSON ,Male,15-Aug-2020,66.0,"$95,000.00",229.13,Beauty,US
+TXN-1627,Michael Jordan,Male,15-Aug-2020,45.0,"$120,000.50",416.61,clothing,United States
+TXN-1628,ANNA KOURNIKOVA,Female,15-Aug-2020,50.0,"$55,000",330.82,clothing,Germany
+TXN-1629,  sarah CONNOR  ,Female,2022-01-15,150.0,nan,211.49,nan,Germany
+TXN-1630,Michael Jordan,male,2023.05.10,54.0,UNKNOWN,335.05,cloths,USA
+TXN-1631,David BECKHAM,m,2022-01-15,26.0,"$120,000.50",67.93,clothing,United Kingdom
+TXN-1632,  Chris Hemsworth  ,Female,2021-12-01,35.0,nan,206.73, Home & Kitchen ,nan
+TXN-1633,  sarah CONNOR  ,Male,15-Aug-2020,,"$150,000.00",398.63,ELECTRONICS,CAN
+TXN-1634,nan,male,15-Aug-2020,38.0,"$62,500",118.05,ELECTRONICS,US
+TXN-1635,Laura Croft,nan,2023.05.10,19.0,"$62,500",101.12,Beauty,Germany
+TXN-1636,  sarah CONNOR  ,Female,15-Aug-2020,60.0,"$32,000",475.9,Beauty,United States
+TXN-1637,David BECKHAM,male,nan,55.0,"$32,000",112.85,cloths,United Kingdom
+TXN-1638,  robert DOWNEY ,Female,2023.05.10,57.0,"$55,000",137.85,ELECTRONICS,USA
+TXN-1639,Laura Croft,male,2022-01-15,53.0,"$62,500",485.11,Beauty,Canada
+TXN-1640,John Smith,Female,11/04/2022,67.0,"$55,000",370.01,clothing,US
+TXN-1641,ANNA KOURNIKOVA,Male,03/22/2021,60.0,"$32,000",352.8,Beauty,Canada
+TXN-1642,John Smith,Male,2022-01-15,54.0,"$150,000.00",,electronics,U.S.A.
+TXN-1643,  sarah CONNOR  ,Male,INVALID_DATE,32.0,"$95,000.00",66.75,cloths,Germany
+TXN-1644,John Smith,f,2021-12-01,45.0,nan,355.92,beauty,UK
+TXN-1645,David BECKHAM,female,nan,35.0," $85,000 ",256.81,Electronics,US
+TXN-1646,nan,Male,2023.05.10,51.0,"$55,000",416.28,Clothing,CAN
+TXN-1647,  Chris Hemsworth  ,Male,2023.05.10,39.0,"$150,000.00",258.99,Electronics,United Kingdom
+TXN-1648,ANNA KOURNIKOVA,female,03/22/2021,28.0,nan,313.92,Electronics,United States
+TXN-1649,John Smith,Male,03/22/2021,,"$62,500",244.09,nan,US
+TXN-1650,John Smith,Male,2021-12-01,30.0,"$95,000.00",244.3,beauty,CAN
+TXN-1651,  sarah CONNOR  ,nan,15-Aug-2020,21.0,nan,386.31,Beauty,nan
+TXN-1652,  Chris Hemsworth  ,male,2021-12-01,39.0,UNKNOWN,318.0,nan,Canada
+TXN-1653,Michael Jordan,Female,11/04/2022,24.0,"$32,000",320.3,Electronics,nan
+TXN-1654,John Smith,nan,03/22/2021,60.0,nan,230.64,electronics,United Kingdom
+TXN-1655,David BECKHAM,male,2023.05.10,150.0," $85,000 ",270.24,Clothing,USA
+TXN-1656,  robert DOWNEY ,Male,11/04/2022,41.0,"$150,000.00",375.4,Electronics,Germany
+TXN-1657,ANNA KOURNIKOVA,Male,03/22/2021,21.0,"$95,000.00",414.71,ELECTRONICS,US
+TXN-1658,John Smith,female,2021-12-01,45.0,"$120,000.50",351.32,beauty,UK
+TXN-1659,David BECKHAM,female,2023.05.10,32.0,nan,462.8,beauty,Canada
+TXN-1660,David BECKHAM,female,03/22/2021,18.0,"$45,000.00",411.96,beauty,Canada
+TXN-1661,ANNA KOURNIKOVA,Male,2023.05.10,200.0," $85,000 ",285.31,cloths,US
+TXN-1662,Michael Jordan,female,nan,20.0," $85,000 ",338.99,cloths,U.S.A.
+TXN-1663,David BECKHAM,F,03/22/2021,31.0,"$45,000.00",463.89,clothing,nan
+TXN-1664,  robert DOWNEY ,Female,2021-12-01,55.0,UNKNOWN,313.39, Home & Kitchen ,Canada
+TXN-1665,David BECKHAM,f,03/22/2021,67.0,"$120,000.50",414.16,Clothing,CAN
+TXN-1666,David BECKHAM,female,2021-12-01,,"$32,000",347.52,nan,United States
+TXN-1667,David BECKHAM,Female,11/04/2022,18.0,"$150,000.00",280.45,Beauty,Germany
+TXN-1668,nan,Female,15-Aug-2020,55.0,"$95,000.00",128.5,Electronics,Canada
+TXN-1669,nan,male,15-Aug-2020,55.0,"$150,000.00",218.74, Home & Kitchen ,CAN
+TXN-1670,Michael Jordan,Male,2021-12-01,38.0,"$120,000.50",484.19,Beauty,United Kingdom
+TXN-1671,John Smith,Female,2023.05.10,65.0,"$150,000.00",332.31,nan,United Kingdom
+TXN-1672,David BECKHAM,male,11/04/2022,46.0,"$45,000.00",286.55, Home & Kitchen ,Germany
+TXN-1673,  Chris Hemsworth  ,female,2022-01-15,22.0," $85,000 ",467.15,Beauty,U.S.A.
+TXN-1674,John Smith,nan,08-11-2019,66.0,"$150,000.00",297.39,electronics,UK
+TXN-1675,Michael Jordan,female,11/04/2022,27.0,"$55,000",267.78,cloths,Germany
+TXN-1676,emily WATSON ,Male,08-11-2019,45.0,nan,382.06,nan,USA
+TXN-1677,John Smith,male,2022-01-15,38.0,"$120,000.50",359.21,Clothing,U.S.A.
+TXN-1678,John Smith,Male,2023.05.10,67.0,UNKNOWN,104.65,ELECTRONICS,Canada
+TXN-1679,Laura Croft,Female,2023.05.10,24.0,"$55,000",240.94,electronics,Germany
+TXN-1680,  sarah CONNOR  ,female,15-Aug-2020,20.0,"$45,000.00",241.53,cloths,nan
+TXN-1681,Laura Croft,F,2023.05.10,62.0,"$62,500",195.33,beauty,United Kingdom
+TXN-1682,  robert DOWNEY ,M,2022-01-15,64.0,"$45,000.00",263.47,cloths,CAN
+TXN-1683,nan,F,11/04/2022,37.0,UNKNOWN,212.42, Home & Kitchen ,Germany
+TXN-1684,nan,female,2023.05.10,36.0,UNKNOWN,107.68,clothing,nan
+TXN-1685,  sarah CONNOR  ,male,2022-01-15,52.0,"$55,000",212.06,electronics,U.S.A.
+TXN-1686,ANNA KOURNIKOVA,female,11/04/2022,21.0,nan,45.42,beauty,USA
+TXN-1687,ANNA KOURNIKOVA,male,2023.05.10,22.0,"$120,000.50",292.14, Home & Kitchen ,CAN
+TXN-1688,Michael Jordan,male,2022-01-15,18.0,"$32,000",428.29,nan,United States
+TXN-1689,  sarah CONNOR  ,Female,INVALID_DATE,21.0," $85,000 ",365.39,Clothing,USA
+TXN-1690,John Smith,male,2020/07/19,29.0,"$55,000",186.59,cloths,Canada
+TXN-1691,ANNA KOURNIKOVA,Female,2023.05.10,44.0,UNKNOWN,52.66,nan,nan
+TXN-1692,David BECKHAM,Female,2022-01-15,,"$62,500",109.05,beauty,Germany
+TXN-1693,  Chris Hemsworth  ,Female,2021-12-01,59.0,"$95,000.00",277.29, Home & Kitchen ,Germany
+TXN-1694,John Smith,male,2023.05.10,40.0,UNKNOWN,111.46,clothing,US
+TXN-1695,  robert DOWNEY ,Female,15-Aug-2020,42.0,nan,276.55,cloths,United Kingdom
+TXN-1696,David BECKHAM,Female,2023.05.10,38.0,nan,123.48,Clothing,Canada
+TXN-1697,David BECKHAM,Female,2023.05.10,69.0,UNKNOWN,425.97,clothing,nan
+TXN-1698,  sarah CONNOR  ,M,2023.05.10,41.0,nan,204.66,Beauty,Germany
+TXN-1699,Michael Jordan,Male,15-Aug-2020,42.0,"$55,000",130.32, Home & Kitchen ,United States
+TXN-1700,  robert DOWNEY ,Female,11/04/2022,62.0,UNKNOWN,408.04,nan,CAN
+TXN-1701,ANNA KOURNIKOVA,Male,08-11-2019,200.0,UNKNOWN,177.99,cloths,Canada
+TXN-1702,  sarah CONNOR  ,Female,15-Aug-2020,63.0,"$120,000.50",64.63,cloths,U.S.A.
+TXN-1703,ANNA KOURNIKOVA,female,11/04/2022,49.0," $85,000 ",289.5,beauty,United States
+TXN-1704,  sarah CONNOR  ,Female,08-11-2019,200.0,"$62,500",294.97,Clothing,CAN
+TXN-1705,  sarah CONNOR  ,Female,2023.05.10,49.0,nan,360.2,ELECTRONICS,UK
+TXN-1706,  sarah CONNOR  ,nan,15-Aug-2020,22.0,"$120,000.50",127.71,Beauty,United Kingdom
+TXN-1707,Michael Jordan,female,11/04/2022,53.0,"$32,000",227.45,clothing,Canada
+TXN-1708,  sarah CONNOR  ,F,2023.05.10,63.0,"$32,000",148.36,electronics,nan
+TXN-1709,emily WATSON ,female,2021-12-01,59.0,"$150,000.00",49.67,electronics,USA
+TXN-1710,  Chris Hemsworth  ,Male,2023.05.10,66.0,"$55,000",439.54,cloths,CAN
+TXN-1711,ANNA KOURNIKOVA,Male,nan,59.0,"$55,000",367.15,beauty,U.S.A.
+TXN-1712,John Smith,Female,2022-01-15,56.0,"$45,000.00",157.72,Electronics,Germany
+TXN-1713,Laura Croft,Male,2022-01-15,33.0,"$62,500",,cloths,USA
+TXN-1714,  robert DOWNEY ,m,11/04/2022,50.0,UNKNOWN,108.62,electronics,United States
+TXN-1715,nan,male,03/22/2021,66.0,nan,446.22,electronics,United Kingdom
+TXN-1716,Michael Jordan,Female,03/22/2021,38.0,"$62,500",66.3,Beauty,nan
+TXN-1717,John Smith,female,15-Aug-2020,26.0,"$150,000.00",11.88,nan,USA
+TXN-1718,David BECKHAM,Female,03/22/2021,23.0,"$45,000.00",255.98,Electronics,U.S.A.
+TXN-1719,emily WATSON ,Female,2022-01-15,68.0,"$120,000.50",295.73,cloths,CAN
+TXN-1720,nan,female,INVALID_DATE,62.0,"$62,500",293.69,Beauty,nan
+TXN-1721,Laura Croft,M,03/22/2021,52.0,"$120,000.50",36.71,beauty,UK
+TXN-1722,John Smith,F,11/04/2022,56.0,"$32,000",163.88,Beauty,Germany
+TXN-1723,nan,Male,2021-12-01,39.0,nan,254.61,cloths,United Kingdom
+TXN-1724,John Smith,nan,08-11-2019,58.0,"$150,000.00",116.12, Home & Kitchen ,USA
+TXN-1725,emily WATSON ,Female,2022-01-15,150.0,UNKNOWN,437.59,ELECTRONICS,United Kingdom
+TXN-1726,Laura Croft,male,08-11-2019,22.0,nan,52.68,cloths,United Kingdom
+TXN-1727,David BECKHAM,Male,2023.05.10,59.0," $85,000 ",248.82,Clothing,United Kingdom
+TXN-1728,  sarah CONNOR  ,m,11/04/2022,40.0,"$55,000",348.79,electronics,CAN
+TXN-1729,ANNA KOURNIKOVA,Male,11/04/2022,34.0,"$150,000.00",138.26,Electronics,United Kingdom
+TXN-1730,David BECKHAM,Male,2021-12-01,29.0,"$62,500",315.88,Electronics,UK
+TXN-1731,  sarah CONNOR  ,Female,15-Aug-2020,40.0,nan,416.4,nan,United States
+TXN-1732,Michael Jordan,Female,11/04/2022,33.0,"$95,000.00",103.27,ELECTRONICS,U.S.A.
+TXN-1733,  Chris Hemsworth  ,Female,2023.05.10,20.0,"$55,000",459.44,Clothing,nan
+TXN-1734,  robert DOWNEY ,F,2021-12-01,47.0,"$55,000",281.24,electronics,UK
+TXN-1735,  robert DOWNEY ,Female,nan,,"$95,000.00",156.62,Electronics,nan
+TXN-1736,ANNA KOURNIKOVA,Female,03/22/2021,39.0,"$45,000.00",221.12,Clothing,U.S.A.
+TXN-1737,Laura Croft,Male,nan,26.0,"$45,000.00",162.97,Beauty,United States
+TXN-1738,emily WATSON ,Female,2022-01-15,46.0,"$95,000.00",365.3,nan,Canada
+TXN-1739,Laura Croft,male,2022-01-15,64.0," $85,000 ",400.19,cloths,nan
+TXN-1740,emily WATSON ,nan,2022-01-15,54.0,"$32,000",418.14,cloths,nan
+TXN-1741,Laura Croft,female,15-Aug-2020,40.0,"$95,000.00",493.03, Home & Kitchen ,United States
+TXN-1742,  Chris Hemsworth  ,Female,11/04/2022,30.0,"$32,000",397.73,electronics,USA
+TXN-1743,Michael Jordan,Male,2022-01-15,49.0,nan,304.68,Clothing,UK
+TXN-1744,Michael Jordan,female,2022-01-15,63.0," $85,000 ",176.22,clothing,USA
+TXN-1745,  sarah CONNOR  ,female,2020/07/19,69.0,"$150,000.00",276.85,Electronics,USA
+TXN-1746,nan,Male,2021-12-01,64.0,"$32,000",30.12,beauty,USA
+TXN-1747,Michael Jordan,male,2021-12-01,65.0,"$55,000",374.96,beauty,United Kingdom
+TXN-1748,Michael Jordan,female,08-11-2019,40.0,nan,228.52,cloths,Germany
+TXN-1749,David BECKHAM,Male,11/04/2022,62.0,"$55,000",19.81,clothing,nan
+TXN-1750,David BECKHAM,F,2022-01-15,34.0," $85,000 ",40.63,beauty,USA
+TXN-1751,  sarah CONNOR  ,M,15-Aug-2020,200.0,"$32,000",199.86,ELECTRONICS,UK
+TXN-1752,nan,Male,11/04/2022,57.0,"$120,000.50",295.88,ELECTRONICS,Germany
+TXN-1753,ANNA KOURNIKOVA,female,03/22/2021,38.0," $85,000 ",237.46,electronics,Germany
+TXN-1754,David BECKHAM,male,11/04/2022,19.0," $85,000 ",313.41,clothing,USA
+TXN-1755,ANNA KOURNIKOVA,Female,2022-01-15,54.0,"$120,000.50",245.34,ELECTRONICS,CAN
+TXN-1756,John Smith,Male,15-Aug-2020,23.0,nan,,ELECTRONICS,USA
+TXN-1757,David BECKHAM,Male,2023.05.10,61.0,"$32,000",117.37,cloths,CAN
+TXN-1758,  Chris Hemsworth  ,Female,11/04/2022,35.0,"$32,000",65.29,beauty,USA
+TXN-1759,nan,Female,2023.05.10,47.0,"$55,000",302.25,electronics,UK
+TXN-1760,  sarah CONNOR  ,Female,11/04/2022,39.0," $85,000 ",247.5,Clothing,CAN
+TXN-1761,John Smith,female,2022-01-15,150.0," $85,000 ",23.17,Beauty,United Kingdom
+TXN-1762,nan,Female,2022-01-15,50.0,UNKNOWN,196.44,Electronics,Germany
+TXN-1763,  Chris Hemsworth  ,Male,08-11-2019,47.0,"$150,000.00",62.0,Electronics,USA
+TXN-1764,nan,male,11/04/2022,34.0," $85,000 ",270.36,nan,Germany
+TXN-1765,  Chris Hemsworth  ,F,2022-01-15,60.0,"$62,500",,Beauty,USA
+TXN-1766,  Chris Hemsworth  ,female,2021-12-01,49.0,"$150,000.00",310.44,Beauty,nan
+TXN-1767,ANNA KOURNIKOVA,Female,03/22/2021,59.0,"$62,500",404.75,Electronics,nan
+TXN-1768,Laura Croft,male,2023.05.10,68.0,"$32,000",156.84,Electronics,US
+TXN-1769,John Smith,male,2022-01-15,31.0,"$150,000.00",481.43,Clothing,USA
+TXN-1770,nan,female,11/04/2022,27.0," $85,000 ",272.46,clothing,US
+TXN-1771,emily WATSON ,female,11/04/2022,64.0,"$120,000.50",312.96,clothing,United States
+TXN-1772,John Smith,Female,03/22/2021,68.0,"$55,000",343.53,Clothing,United States
+TXN-1773,Laura Croft,female,08-11-2019,53.0,"$62,500",336.7,beauty,Germany
+TXN-1774,John Smith,female,15-Aug-2020,51.0,"$150,000.00",260.38,Beauty,CAN
+TXN-1775,Michael Jordan,Male,03/22/2021,26.0," $85,000 ",220.09, Home & Kitchen ,USA
+TXN-1776,emily WATSON ,M,03/22/2021,59.0,"$150,000.00",36.35,Beauty,U.S.A.
+TXN-1777,Laura Croft,Male,03/22/2021,45.0," $85,000 ",20.82,nan,USA
+TXN-1778,ANNA KOURNIKOVA,Male,2022-01-15,28.0," $85,000 ",185.4,Electronics,USA
+TXN-1779,nan,female,2023.05.10,31.0," $85,000 ",173.49,Beauty,U.S.A.
+TXN-1780,  robert DOWNEY ,m,2021-12-01,56.0,UNKNOWN,199.97,Electronics,United States
+TXN-1781,Laura Croft,Female,2023.05.10,200.0,"$55,000",77.8,Beauty,US
+TXN-1782,  sarah CONNOR  ,Male,03/22/2021,64.0,"$120,000.50",371.7,nan,Germany
+TXN-1783,nan,male,2022-01-15,150.0,"$120,000.50",429.91,beauty,United States
+TXN-1784,Laura Croft,Male,03/22/2021,36.0,"$150,000.00",469.97, Home & Kitchen ,U.S.A.
+TXN-1785,Michael Jordan,Male,15-Aug-2020,150.0,"$150,000.00",251.26,ELECTRONICS,USA
+TXN-1786,  robert DOWNEY ,Female,2021-12-01,32.0," $85,000 ",353.42,Clothing,United States
+TXN-1787,Michael Jordan,male,03/22/2021,45.0,UNKNOWN,429.22,Clothing,UK
+TXN-1788,  robert DOWNEY ,Female,11/04/2022,41.0," $85,000 ",214.96, Home & Kitchen ,nan
+TXN-1789,  sarah CONNOR  ,Male,08-11-2019,25.0,UNKNOWN,161.61,Beauty,USA
+TXN-1790,nan,Male,2023.05.10,60.0," $85,000 ",469.0,ELECTRONICS,Canada
+TXN-1791,ANNA KOURNIKOVA,male,2021-12-01,26.0,"$62,500",262.68,nan,U.S.A.
+TXN-1792,Michael Jordan,Female,2023.05.10,64.0,"$62,500",253.65,clothing,United Kingdom
+TXN-1793,Michael Jordan,Female,11/04/2022,50.0,"$32,000",97.42,Beauty,CAN
+TXN-1794,  Chris Hemsworth  ,M,2023.05.10,50.0," $85,000 ",63.0,beauty,United Kingdom
+TXN-1795,  robert DOWNEY ,M,2023.05.10,36.0,"$55,000",422.63,Electronics,United States
+TXN-1796,David BECKHAM,Female,03/22/2021,20.0,"$32,000",310.93,electronics,USA
+TXN-1797,nan,Male,15-Aug-2020,27.0,"$150,000.00",169.65,Beauty,CAN
+TXN-1798,  robert DOWNEY ,male,03/22/2021,57.0,nan,103.95,electronics,CAN
+TXN-1799,  Chris Hemsworth  ,female,2023.05.10,64.0," $85,000 ",282.19,Beauty,Germany
+TXN-1800,John Smith,Female,2022-01-15,59.0,"$62,500",296.12, Home & Kitchen ,United Kingdom
+TXN-1801,  robert DOWNEY ,male,08-11-2019,18.0,nan,111.43,electronics,USA
+TXN-1802,ANNA KOURNIKOVA,F,11/04/2022,46.0,UNKNOWN,,Beauty,Germany
+TXN-1803,nan,female,15-Aug-2020,67.0,nan,51.29,Clothing,US
+TXN-1804,  Chris Hemsworth  ,male,03/22/2021,51.0,"$55,000",184.49,electronics,United Kingdom
+TXN-1805,John Smith,Female,08-11-2019,68.0," $85,000 ",343.39,Beauty,nan
+TXN-1806,emily WATSON ,Female,2021-12-01,30.0,"$120,000.50",144.32,clothing,nan
+TXN-1807,  Chris Hemsworth  ,M,11/04/2022,150.0,nan,,Electronics,Germany
+TXN-1808,emily WATSON ,male,03/22/2021,18.0,"$120,000.50",372.54,clothing,US
+TXN-1809,nan,male,15-Aug-2020,51.0,UNKNOWN,396.62,ELECTRONICS,UK
+TXN-1810,Michael Jordan,Female,2022-01-15,46.0,"$32,000",68.36,Beauty,UK
+TXN-1811,  Chris Hemsworth  ,M,03/22/2021,65.0,"$120,000.50",78.87,cloths,nan
+TXN-1812,  sarah CONNOR  ,female,2021-12-01,64.0,"$32,000",150.37,beauty,Canada
+TXN-1813,emily WATSON ,Female,11/04/2022,30.0,"$62,500",263.86,clothing,U.S.A.
+TXN-1814,ANNA KOURNIKOVA,Male,2023.05.10,65.0," $85,000 ",376.53,electronics,U.S.A.
+TXN-1815,  sarah CONNOR  ,Female,08-11-2019,66.0,nan,419.9, Home & Kitchen ,Canada
+TXN-1816,Laura Croft,male,2023.05.10,-5.0,"$62,500",355.12,beauty,Germany
+TXN-1817,Laura Croft,Female,2023.05.10,46.0,"$62,500",465.01,cloths,U.S.A.
+TXN-1818,John Smith,Female,15-Aug-2020,56.0,"$95,000.00",371.98,nan,U.S.A.
+TXN-1819,Michael Jordan,Male,2020/07/19,41.0,"$45,000.00",160.07,Beauty,United Kingdom
+TXN-1820,nan,m,2022-01-15,43.0,"$55,000",, Home & Kitchen ,United Kingdom
+TXN-1821,  Chris Hemsworth  ,Male,2020/07/19,34.0,"$32,000",351.13,Beauty,Canada
+TXN-1822,David BECKHAM,Male,2021-12-01,24.0,"$95,000.00",104.51,ELECTRONICS,USA
+TXN-1823,ANNA KOURNIKOVA,male,2022-01-15,30.0,"$45,000.00",55.43,cloths,US
+TXN-1824,emily WATSON ,male,2023.05.10,22.0,"$55,000",270.79,Beauty,Germany
+TXN-1825,nan,nan,08-11-2019,43.0,"$32,000",412.6,electronics,United Kingdom
+TXN-1826,  sarah CONNOR  ,M,2023.05.10,66.0," $85,000 ",59.68,ELECTRONICS,United Kingdom
+TXN-1827,Laura Croft,male,08-11-2019,20.0,"$55,000",398.03,Clothing,UK
+TXN-1828,ANNA KOURNIKOVA,Female,2020/07/19,24.0,nan,407.67,nan,US
+TXN-1829,David BECKHAM,Male,15-Aug-2020,66.0,"$62,500",246.31,cloths,UK
+TXN-1830,  Chris Hemsworth  ,nan,15-Aug-2020,56.0,"$45,000.00",38.08,Electronics,USA
+TXN-1831,John Smith,Female,2020/07/19,-5.0,"$45,000.00",95.55, Home & Kitchen ,US
+TXN-1832,David BECKHAM,female,11/04/2022,18.0,"$45,000.00",,clothing,U.S.A.
+TXN-1833,ANNA KOURNIKOVA,Male,2022-01-15,66.0,"$32,000",358.77,Beauty,UK
+TXN-1834,David BECKHAM,M,2022-01-15,34.0,nan,450.19, Home & Kitchen ,nan
+TXN-1835,ANNA KOURNIKOVA,M,2023.05.10,60.0,"$55,000",295.52, Home & Kitchen ,Germany
+TXN-1836,ANNA KOURNIKOVA,female,2020/07/19,42.0,"$62,500",70.81,Electronics,U.S.A.
+TXN-1837,  robert DOWNEY ,Male,2021-12-01,20.0,nan,69.49,Electronics,US
+TXN-1838,emily WATSON ,male,11/04/2022,32.0,"$95,000.00",363.35,ELECTRONICS,nan
+TXN-1839,Laura Croft,nan,2022-01-15,46.0," $85,000 ",100.05,cloths,USA
+TXN-1840,  robert DOWNEY ,m,03/22/2021,-5.0,"$120,000.50",170.91,electronics,nan
+TXN-1841,  Chris Hemsworth  ,male,08-11-2019,60.0,nan,248.73,nan,United Kingdom
+TXN-1842,  robert DOWNEY ,Male,03/22/2021,49.0,"$95,000.00",22.13,Electronics,Canada
+TXN-1843,Michael Jordan,nan,03/22/2021,43.0,"$62,500",131.92,Electronics,nan
+TXN-1844,Michael Jordan,Male,2022-01-15,33.0,"$120,000.50",209.87,clothing,CAN
+TXN-1845,Laura Croft,female,11/04/2022,42.0,"$120,000.50",147.02,Clothing,USA
+TXN-1846,David BECKHAM,female,2020/07/19,150.0,nan,76.82,Electronics,U.S.A.
+TXN-1847,emily WATSON ,Male,03/22/2021,45.0,"$45,000.00",366.73,Clothing,UK
+TXN-1848,Laura Croft,Female,2023.05.10,26.0,"$150,000.00",408.44,ELECTRONICS,United States
+TXN-1849,ANNA KOURNIKOVA,Male,11/04/2022,,"$62,500",136.16,electronics,USA
+TXN-1850,  sarah CONNOR  ,male,nan,,"$45,000.00",389.47, Home & Kitchen ,CAN
+TXN-1851,emily WATSON ,female,2022-01-15,18.0,"$62,500",198.92,Electronics,United Kingdom
+TXN-1852,emily WATSON ,female,2023.05.10,46.0,"$150,000.00",258.28,Beauty,UK
+TXN-1853,ANNA KOURNIKOVA,Female,15-Aug-2020,," $85,000 ",429.44,Clothing,Germany
+TXN-1854,ANNA KOURNIKOVA,Female,08-11-2019,39.0,"$150,000.00",377.48,clothing,United States
+TXN-1855,John Smith,Male,2023.05.10,33.0,UNKNOWN,404.51,nan,nan
+TXN-1856,Laura Croft,Male,2022-01-15,58.0,nan,77.05,clothing,CAN
+TXN-1857,ANNA KOURNIKOVA,Male,11/04/2022,68.0,nan,44.16,Electronics,nan
+TXN-1858,Michael Jordan,Male,2021-12-01,61.0,"$95,000.00",447.77,cloths,Germany
+TXN-1859,  Chris Hemsworth  ,male,2022-01-15,68.0,"$45,000.00",200.04, Home & Kitchen ,USA
+TXN-1860,  sarah CONNOR  ,male,08-11-2019,150.0,"$95,000.00",151.06,electronics,Canada
+TXN-1861,Laura Croft,male,03/22/2021,58.0,UNKNOWN,365.1,Beauty,CAN
+TXN-1862,nan,Male,2023.05.10,24.0,"$150,000.00",419.84,cloths,US
+TXN-1863,Michael Jordan,Female,15-Aug-2020,31.0,nan,432.62,clothing,U.S.A.
+TXN-1864,David BECKHAM,female,11/04/2022,46.0,"$32,000",164.84,Clothing,US
+TXN-1865,ANNA KOURNIKOVA,male,15-Aug-2020,36.0,"$150,000.00",427.58,Clothing,Canada
+TXN-1866,nan,f,08-11-2019,36.0,"$150,000.00",30.06,cloths,Germany
+TXN-1867,ANNA KOURNIKOVA,female,11/04/2022,19.0,UNKNOWN,34.33,Clothing,US
+TXN-1868,emily WATSON ,Male,11/04/2022,58.0," $85,000 ",315.52,clothing,United Kingdom
+TXN-1869,Michael Jordan,female,2021-12-01,62.0,"$62,500",40.92,cloths,CAN
+TXN-1870,emily WATSON ,Female,2021-12-01,32.0,UNKNOWN,169.06,clothing,United Kingdom
+TXN-1871,John Smith,Female,2022-01-15,20.0,"$62,500",339.65,Beauty,United States
+TXN-1872,emily WATSON ,male,15-Aug-2020,28.0,nan,175.26, Home & Kitchen ,Canada
+TXN-1873,John Smith,Female,2020/07/19,-5.0,UNKNOWN,98.0,nan,United States
+TXN-1874,John Smith,male,2022-01-15,63.0,"$62,500",147.86,Beauty,United States
+TXN-1875,nan,Female,11/04/2022,47.0,"$95,000.00",234.21,Beauty,United States
+TXN-1876,ANNA KOURNIKOVA,Female,INVALID_DATE,,UNKNOWN,,Clothing,USA
+TXN-1877,David BECKHAM,Female,2022-01-15,57.0,nan,393.67,Electronics,USA
+TXN-1878,emily WATSON ,Female,11/04/2022,35.0,UNKNOWN,377.58,beauty,Canada
+TXN-1879,Michael Jordan,Female,2023.05.10,68.0,nan,,Clothing,UK
+TXN-1880,John Smith,Male,2023.05.10,65.0,UNKNOWN,424.38,Electronics,US
+TXN-1881,ANNA KOURNIKOVA,Male,2022-01-15,19.0,"$62,500",65.98,clothing,USA
+TXN-1882,  sarah CONNOR  ,female,2022-01-15,49.0," $85,000 ",135.12,beauty,nan
+TXN-1883,Laura Croft,male,11/04/2022,25.0,"$55,000",415.71,Clothing,United Kingdom
+TXN-1884,nan,Male,2021-12-01,39.0,"$62,500",195.22,beauty,USA
+TXN-1885,David BECKHAM,Male,2021-12-01,23.0,"$45,000.00",490.78,beauty,Germany
+TXN-1886,  robert DOWNEY ,Male,2023.05.10,29.0,"$120,000.50",238.46,ELECTRONICS,United States
+TXN-1887,nan,nan,2022-01-15,64.0," $85,000 ",398.05, Home & Kitchen ,USA
+TXN-1888,  sarah CONNOR  ,Female,11/04/2022,,"$95,000.00",207.13,ELECTRONICS,Canada
+TXN-1889,Laura Croft,f,03/22/2021,57.0,"$150,000.00",218.23,Electronics,United Kingdom
+TXN-1890,  sarah CONNOR  ,Female,08-11-2019,53.0,"$62,500",,electronics,United Kingdom
+TXN-1891,emily WATSON ,m,2021-12-01,32.0,UNKNOWN,362.35,cloths,UK
+TXN-1892,John Smith,male,11/04/2022,45.0,"$62,500",278.28,nan,U.S.A.
+TXN-1893,David BECKHAM,Female,2020/07/19,69.0,"$32,000",472.45,electronics,U.S.A.
+TXN-1894,  Chris Hemsworth  ,Male,2022-01-15,," $85,000 ",132.94,cloths,US
+TXN-1895,John Smith,F,11/04/2022,66.0,"$55,000",59.28,Electronics,nan
+TXN-1896,  Chris Hemsworth  ,female,15-Aug-2020,62.0,"$95,000.00",202.7,Electronics,CAN
+TXN-1897,Laura Croft,male,08-11-2019,35.0,"$32,000",312.19,clothing,Canada
+TXN-1898,ANNA KOURNIKOVA,nan,03/22/2021,19.0,nan,431.79,nan,Germany
+TXN-1899,  robert DOWNEY ,female,11/04/2022,30.0,"$32,000",179.64, Home & Kitchen ,USA
+TXN-1900,Michael Jordan,Female,08-11-2019,62.0,"$62,500",330.36,beauty,Canada
+TXN-1901,John Smith,Male,2022-01-15,150.0,"$95,000.00",181.6,ELECTRONICS,nan
+TXN-1902,David BECKHAM,m,15-Aug-2020,32.0,"$62,500",312.44,ELECTRONICS,U.S.A.
+TXN-1903,  sarah CONNOR  ,Female,2021-12-01,37.0,nan,443.56,Electronics,Canada
+TXN-1904,David BECKHAM,Male,2023.05.10,46.0,"$150,000.00",123.37,ELECTRONICS,USA
+TXN-1905,Laura Croft,Male,03/22/2021,59.0,"$95,000.00",208.08,Electronics,UK
+TXN-1906,  Chris Hemsworth  ,female,03/22/2021,46.0,"$150,000.00",496.7,beauty,US
+TXN-1907,  sarah CONNOR  ,Male,2022-01-15,20.0," $85,000 ",435.59,Electronics,UK
+TXN-1908,Michael Jordan,Female,08-11-2019,36.0," $85,000 ",286.67,clothing,U.S.A.
+TXN-1909,Michael Jordan,f,2023.05.10,20.0,"$150,000.00",263.15, Home & Kitchen ,United States
+TXN-1910,John Smith,female,2022-01-15,150.0," $85,000 ",149.45,Beauty,U.S.A.
+TXN-1911,Laura Croft,male,15-Aug-2020,31.0,"$95,000.00",263.43,Clothing,US
+TXN-1912,ANNA KOURNIKOVA,female,15-Aug-2020,57.0,UNKNOWN,425.61, Home & Kitchen ,USA
+TXN-1913,Laura Croft,Male,03/22/2021,200.0,"$45,000.00",345.74, Home & Kitchen ,nan
+TXN-1914,  Chris Hemsworth  ,Male,15-Aug-2020,21.0," $85,000 ",152.12,electronics,CAN
+TXN-1915,David BECKHAM,Female,15-Aug-2020,69.0," $85,000 ",108.72,nan,UK
+TXN-1916,Michael Jordan,male,15-Aug-2020,28.0,"$62,500",139.95,nan,U.S.A.
+TXN-1917,David BECKHAM,male,11/04/2022,48.0,"$150,000.00",93.18,cloths,nan
+TXN-1918,David BECKHAM,Female,03/22/2021,60.0,"$120,000.50",56.86,Clothing,UK
+TXN-1919,David BECKHAM,Male,11/04/2022,49.0,"$55,000",215.38,beauty,U.S.A.
+TXN-1920,Michael Jordan,Male,2023.05.10,44.0,"$32,000",65.52,Beauty,US
+TXN-1921,nan,Female,2023.05.10,47.0," $85,000 ",94.24,Beauty,UK
+TXN-1922,emily WATSON ,female,11/04/2022,60.0,"$32,000",278.19,nan,U.S.A.
+TXN-1923,  Chris Hemsworth  ,Female,2023.05.10,19.0,"$95,000.00",90.65, Home & Kitchen ,USA
+TXN-1924,nan,male,08-11-2019,66.0,"$120,000.50",41.3,clothing,US
+TXN-1925,  Chris Hemsworth  ,M,11/04/2022,26.0,"$55,000",165.52,cloths,nan
+TXN-1926,  sarah CONNOR  ,Male,2023.05.10,45.0,"$150,000.00",117.96,Electronics,nan
+TXN-1927,Laura Croft,Male,2021-12-01,48.0,"$45,000.00",262.5,cloths,CAN
+TXN-1928,Laura Croft,female,11/04/2022,51.0,"$55,000",60.16,electronics,Canada
+TXN-1929,  robert DOWNEY ,male,03/22/2021,,"$55,000",378.37,cloths,United States
+TXN-1930,Laura Croft,Male,03/22/2021,32.0,"$45,000.00",454.05, Home & Kitchen ,USA
+TXN-1931,Michael Jordan,Female,03/22/2021,65.0,UNKNOWN,374.28,beauty,US
+TXN-1932,ANNA KOURNIKOVA,Female,08-11-2019,42.0,"$150,000.00",271.09, Home & Kitchen ,UK
+TXN-1933,John Smith,Female,11/04/2022,53.0,"$62,500",431.73,nan,nan
+TXN-1934,  robert DOWNEY ,Male,2020/07/19,25.0,"$32,000",350.51,beauty,USA
+TXN-1935,John Smith,Male,11/04/2022,26.0," $85,000 ",15.17,ELECTRONICS,US
+TXN-1936,  Chris Hemsworth  ,Male,2023.05.10,54.0,"$55,000",203.1,beauty,US
+TXN-1937,John Smith,Male,2022-01-15,65.0,"$95,000.00",426.97,cloths,UK
+TXN-1938,John Smith,Female,11/04/2022,62.0,"$45,000.00",179.47,cloths,US
+TXN-1939,  robert DOWNEY ,female,2023.05.10,56.0,"$32,000",27.26,cloths,Germany
+TXN-1940,  sarah CONNOR  ,Female,nan,49.0,"$120,000.50",375.63,ELECTRONICS,USA
+TXN-1941,David BECKHAM,female,03/22/2021,69.0,"$45,000.00",403.0,nan,U.S.A.
+TXN-1942,Laura Croft,M,2023.05.10,34.0,"$120,000.50",88.69,Electronics,nan
+TXN-1943,Laura Croft,Female,11/04/2022,52.0,"$150,000.00",273.3,Clothing,nan
+TXN-1944,Michael Jordan,male,11/04/2022,54.0,"$55,000",104.06,nan,U.S.A.
+TXN-1945,  robert DOWNEY ,Female,2023.05.10,36.0,"$95,000.00",362.42,cloths,USA
+TXN-1946,Michael Jordan,Female,2021-12-01,61.0," $85,000 ",143.06,nan,United States
+TXN-1947,ANNA KOURNIKOVA,Male,03/22/2021,46.0,"$120,000.50",164.95,electronics,USA
+TXN-1948,ANNA KOURNIKOVA,male,11/04/2022,24.0,"$32,000",424.04,Beauty,United Kingdom
+TXN-1949,Michael Jordan,nan,11/04/2022,45.0,UNKNOWN,243.4,Beauty,US
+TXN-1950,  robert DOWNEY ,Male,08-11-2019,26.0,"$150,000.00",338.18,Clothing,Canada
+TXN-1951,Michael Jordan,Male,2021-12-01,45.0,UNKNOWN,207.16,Clothing,UK
+TXN-1952,Laura Croft,M,15-Aug-2020,23.0,"$150,000.00",156.02,Electronics,Germany
+TXN-1953,nan,female,03/22/2021,46.0,"$62,500",316.48,electronics,Canada
+TXN-1954,emily WATSON ,Female,nan,34.0,"$32,000",85.88, Home & Kitchen ,U.S.A.
+TXN-1955,John Smith,Female,2023.05.10,33.0,UNKNOWN,192.77,nan,UK
+TXN-1956,emily WATSON ,Male,08-11-2019,40.0,"$95,000.00",112.43,beauty,UK
+TXN-1957,  robert DOWNEY ,Female,03/22/2021,48.0,"$55,000",350.94,beauty,UK
+TXN-1958,emily WATSON ,male,11/04/2022,20.0,"$45,000.00",472.66, Home & Kitchen ,nan
+TXN-1959,ANNA KOURNIKOVA,female,2021-12-01,38.0," $85,000 ",497.8,Beauty,Germany
+TXN-1960,  Chris Hemsworth  ,Female,2020/07/19,43.0,"$55,000",230.64, Home & Kitchen ,nan
+TXN-1961,John Smith,Male,15-Aug-2020,53.0,"$55,000",133.74,nan,US
+TXN-1962,David BECKHAM,Male,11/04/2022,59.0,"$150,000.00",226.99,electronics,United Kingdom
+TXN-1963,  robert DOWNEY ,Male,2023.05.10,54.0,"$95,000.00",425.16,cloths,CAN
+TXN-1964,John Smith,male,2022-01-15,-5.0,"$150,000.00",110.94,ELECTRONICS,Germany
+TXN-1965,emily WATSON ,male,11/04/2022,39.0,nan,476.53,cloths,Canada
+TXN-1966,ANNA KOURNIKOVA,Female,11/04/2022,59.0,"$120,000.50",177.51,ELECTRONICS,US
+TXN-1967,  sarah CONNOR  ,Female,2020/07/19,29.0," $85,000 ",493.04,beauty,USA
+TXN-1968,nan,male,2023.05.10,59.0,"$120,000.50",420.92,Clothing,U.S.A.
+TXN-1969,David BECKHAM,Male,03/22/2021,30.0,"$45,000.00",406.2,nan,United Kingdom
+TXN-1970,nan,Male,2022-01-15,28.0,nan,165.77,cloths,US
+TXN-1971,John Smith,female,15-Aug-2020,150.0,"$32,000",14.3, Home & Kitchen ,USA
+TXN-1972,ANNA KOURNIKOVA,Male,15-Aug-2020,33.0,"$45,000.00",197.25,electronics,United Kingdom
+TXN-1973,ANNA KOURNIKOVA,Female,2021-12-01,25.0,"$45,000.00",157.89,electronics,USA
+TXN-1974,emily WATSON ,female,15-Aug-2020,57.0,"$62,500",28.32,Beauty,Germany
+TXN-1975,Laura Croft,Female,2020/07/19,," $85,000 ",257.63,electronics,USA
+TXN-1976,emily WATSON ,female,INVALID_DATE,57.0,"$150,000.00",207.49,electronics,United Kingdom
+TXN-1977,Laura Croft,male,11/04/2022,62.0,"$95,000.00",320.93,Clothing,USA
+TXN-1978,Laura Croft,nan,08-11-2019,19.0,"$120,000.50",314.38, Home & Kitchen ,Canada
+TXN-1979,David BECKHAM,Male,2021-12-01,47.0,"$45,000.00",69.17,beauty,US
+TXN-1980,emily WATSON ,Male,2023.05.10,47.0,"$120,000.50",488.71,electronics,United Kingdom
+TXN-1981,  sarah CONNOR  ,Female,03/22/2021,29.0,"$120,000.50",101.6,beauty,Canada
+TXN-1982,Michael Jordan,f,2023.05.10,27.0,"$32,000",228.18,Clothing,USA
+TXN-1983,Michael Jordan,female,2023.05.10,61.0," $85,000 ",,electronics,USA
+TXN-1984,emily WATSON ,Male,08-11-2019,28.0," $85,000 ",408.4,nan,UK
+TXN-1985,emily WATSON ,male,2023.05.10,32.0,UNKNOWN,58.62,Beauty,United Kingdom
+TXN-1986,nan,f,08-11-2019,33.0,"$55,000",220.04,cloths,Germany
+TXN-1987,David BECKHAM,male,11/04/2022,34.0," $85,000 ",317.97,nan,USA
+TXN-1988,emily WATSON ,female,2022-01-15,43.0,"$120,000.50",115.43,clothing,U.S.A.
+TXN-1989,nan,female,nan,19.0,"$150,000.00",317.46,Electronics,nan
+TXN-1990,Laura Croft,Female,2023.05.10,67.0,"$120,000.50",462.6,electronics,CAN
+TXN-1991,ANNA KOURNIKOVA,male,15-Aug-2020,29.0,"$150,000.00",498.78,beauty,nan
+TXN-1992,ANNA KOURNIKOVA,m,11/04/2022,68.0,UNKNOWN,25.9,Electronics,Germany
+TXN-1993,Laura Croft,Male,2022-01-15,43.0,"$150,000.00",125.44,ELECTRONICS,US
+TXN-1994,  robert DOWNEY ,F,11/04/2022,40.0," $85,000 ",162.05,electronics,United States
+TXN-1995,nan,m,2023.05.10,35.0,"$32,000",205.57,clothing,U.S.A.
+TXN-1996,nan,F,15-Aug-2020,49.0,"$150,000.00",128.71,Clothing,United States
+TXN-1997,Laura Croft,Male,INVALID_DATE,66.0,"$120,000.50",109.71,Beauty,USA
+TXN-1998,  sarah CONNOR  ,nan,2023.05.10,55.0,"$95,000.00",477.73,clothing,US
+TXN-1999,  Chris Hemsworth  ,M,03/22/2021,," $85,000 ",460.08,beauty,Canada
+TXN-1000,  robert DOWNEY ,male,2022-01-15,54.0,"$120,000.50",280.01,Beauty,U.S.A.
+TXN-1001,emily WATSON ,Female,2022-01-15,42.0,"$150,000.00",266.55,Electronics,United Kingdom
+TXN-1002,Laura Croft,Female,11/04/2022,35.0,"$120,000.50",148.31,nan,U.S.A.
+TXN-1003,David BECKHAM,Male,11/04/2022,36.0,"$45,000.00",156.06,Electronics,United States
+TXN-1004,  robert DOWNEY ,F,2021-12-01,40.0,"$32,000",146.14,Electronics,USA
+TXN-1005,nan,female,2022-01-15,200.0,nan,388.04,cloths,USA
+TXN-1006,Michael Jordan,Male,2022-01-15,55.0," $85,000 ",329.43,electronics,CAN
+TXN-1007,  robert DOWNEY ,Female,2023.05.10,150.0,"$55,000",417.88,Electronics,U.S.A.
+TXN-1008,Laura Croft,female,15-Aug-2020,35.0,"$150,000.00",487.98,cloths,UK
+TXN-1009,David BECKHAM,male,2023.05.10,43.0,nan,242.34,electronics,CAN
+TXN-1010,emily WATSON ,Male,nan,23.0,"$55,000",15000.0,cloths,Canada
+TXN-1011,Laura Croft,Male,INVALID_DATE,21.0,"$32,000",33.57,nan,CAN
+TXN-1012,Laura Croft,Male,2020/07/19,61.0," $85,000 ",154.88,beauty,CAN
+TXN-1013,Michael Jordan,female,2021-12-01,68.0,"$55,000",466.95,electronics,United Kingdom
+TXN-1014,ANNA KOURNIKOVA,F,15-Aug-2020,46.0,"$55,000",266.37, Home & Kitchen ,nan
+TXN-1015,David BECKHAM,Male,15-Aug-2020,51.0,"$150,000.00",-50.0,beauty,United States
+TXN-1016,  sarah CONNOR  ,Male,2023.05.10,34.0,"$95,000.00",205.59,nan,United Kingdom
+TXN-1017,Laura Croft,Male,2021-12-01,60.0," $85,000 ",303.31,Electronics,USA
+TXN-1018,ANNA KOURNIKOVA,Male,2022-01-15,60.0,nan,329.95,Beauty,USA
+TXN-1019,  sarah CONNOR  ,female,15-Aug-2020,-5.0,"$32,000",85.42,nan,US
+TXN-1020,David BECKHAM,male,2022-01-15,33.0," $85,000 ",488.75,cloths,US
+TXN-1021,John Smith,male,2023.05.10,19.0,"$45,000.00",276.94,cloths,UK
+TXN-1022,nan,Male,08-11-2019,51.0,"$95,000.00",76.49,cloths,USA
+TXN-1023,ANNA KOURNIKOVA,Female,2021-12-01,200.0,"$45,000.00",447.88,cloths,nan
+TXN-1024,  Chris Hemsworth  ,male,03/22/2021,25.0,"$32,000",46.57,nan,United Kingdom
+TXN-1025,John Smith,female,INVALID_DATE,30.0,"$150,000.00",454.79,Beauty,Canada
+TXN-1026,nan,Male,11/04/2022,59.0,"$150,000.00",498.32,ELECTRONICS,nan
+TXN-1027,Michael Jordan,female,2022-01-15,25.0,"$32,000",353.21,cloths,US
+TXN-1028,  robert DOWNEY ,Female,03/22/2021,47.0,"$120,000.50",387.52,ELECTRONICS,U.S.A.
+TXN-1029,emily WATSON ,Male,03/22/2021,49.0,"$32,000",175.28,Beauty,nan
+TXN-1030,  Chris Hemsworth  ,M,2022-01-15,53.0,"$95,000.00",471.37,Beauty,nan
+TXN-1031,Michael Jordan,female,INVALID_DATE,64.0,"$62,500",269.56,beauty,nan
+TXN-1032,David BECKHAM,F,2023.05.10,47.0,"$150,000.00",368.87,electronics,nan
+TXN-1033,Michael Jordan,m,08-11-2019,18.0,UNKNOWN,462.81, Home & Kitchen ,nan
+TXN-1034,  robert DOWNEY ,Female,15-Aug-2020,60.0,"$95,000.00",487.84,clothing,US
