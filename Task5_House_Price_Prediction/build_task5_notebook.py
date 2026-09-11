@@ -407,7 +407,7 @@ cells.append(nbf.v4.new_markdown_cell("""---
 cells.append(nbf.v4.new_markdown_cell("""---
 ## 15. Key Business Insights
 
-1. **Overall Quality (`OverallQual`) is the Single Strongest Predictor:** Property build quality has a strong +0.791 correlation with sale price, contributing over +$20,000 per quality grade increase.
+1. **Overall Quality (`OverallQual`) is the Single Strongest Predictor:** Property build quality has a strong +0.791 correlation with sale price. Because numerical features were standardized using `StandardScaler`, its coefficient of ~$21,900 reflects the estimated price increase per **1 standard deviation change (~1.38 rating points)** in overall quality.
 2. **Above-Ground Living Area (`GrLivArea`):** Square footage is the second dominant driver (+0.709 correlation), adding substantial incremental value per square foot.
 3. **Garage Capacity (`GarageCars` & `GarageArea`):** Properties with 2+ car garages command a significant market premium compared to those without garages.
 4. **Neighborhood Location Premium:** Location features such as `Neighborhood_NridgHt` (NoRidge / Northridge Heights) significantly boost market valuation.

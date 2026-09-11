@@ -99,7 +99,7 @@ All charts are saved in high resolution under `outputs/charts/`:
 ---
 
 ## 9. Key Insights
-1. **Overall Quality (`OverallQual`) is Paramount:** `OverallQual` exhibits the strongest single correlation (+0.791) with sale price, adding >$20,000 per quality grade increment.
+1. **Overall Quality (`OverallQual`) is Paramount:** `OverallQual` exhibits the strongest single correlation (+0.791) with sale price. Because numerical features were standardized using `StandardScaler`, its regression coefficient of ~$21,900 reflects the estimated price increase per **1 standard deviation change (~1.38 rating points)** in overall material and finish quality.
 2. **Living Area Size (`GrLivArea`):** Above-ground living area (+0.709 correlation) is the second most dominant pricing factor.
 3. **Garage Size & Capacity:** Houses with 2+ car garages command substantial premiums over non-garage properties.
 4. **Neighborhood Valuation Premium:** Top-tier neighborhoods (such as *Northridge Heights*) add substantial baseline value.
