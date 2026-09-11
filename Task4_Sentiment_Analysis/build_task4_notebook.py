@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 import nbformat as nbf
 import os
 
@@ -199,7 +200,7 @@ Raw tweet text contains noisy features such as `@user` mentions, URLs, hashtags,
 4. **Lemmatization:** Reduce words to their root base form (lemma) using NLTK `WordNetLemmatizer` (e.g., *running* -> *run*, *better* -> *good*), which retains natural language readability better than stemming.
 """))
 
-cells.append(nbf.v4.new_code_cr'''# Define stop words while retaining negations
+cells.append(nbf.v4.new_code_cell("""# Define stop words while retaining negations
 stop_words = set(stopwords.words('english'))
 negation_words = {'no', 'not', 'nor', 'neither', 'never', 'none', 'cannot', 'cant', 
                   'couldnt', 'didnt', 'doesnt', 'dont', 'hadnt', 'hasnt', 'havent', 
@@ -232,7 +233,6 @@ for idx, row in sample_df.iterrows():
     print(f"ORIGINAL : {row['clean_text']}")
     print(f"CLEANED  : {row['processed_text']}")
     print(f"LABEL    : {row['category']}\n" + "-"*60)
-'''
 """))
 
 # Section 6: Train / Test Split
