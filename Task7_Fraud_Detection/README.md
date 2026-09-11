@@ -42,6 +42,8 @@ Credit card fraud detection is a critical application of machine learning in fin
 | **Fraudulent (1)** | 492 | 0.1727% | Extreme minority class (~1 in 578) |
 | **Total** | **284,807** | **100.0000%** | **Highly Imbalanced Dataset** |
 
+> **Dataset Storage Note:** The raw dataset (`creditcard.csv` ~150 MB) and full processed dataset (`fraud_detection_processed.csv` ~126 MB) are intentionally **NOT stored on GitHub** to comply with GitHub's 100 MB per-file upload limit. They remain stored locally inside `data/raw/creditcard.csv` and `data/processed/fraud_detection_processed.csv`. Anyone reproducing the project can automatically download the authentic public dataset using `python download_creditcard_data.py` or manually place `creditcard.csv` into `data/raw/creditcard.csv` before running `run_fraud_detection_pipeline.py`.
+
 ---
 
 ## 4. Technologies Used
