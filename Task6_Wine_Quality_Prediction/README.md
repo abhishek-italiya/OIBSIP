@@ -1,194 +1,176 @@
-# OIBSIP Task 6 - Wine Quality Prediction
+# OIBSIP Task 6 – Wine Quality Prediction
 
-**Author:** Abhishek Italiya  
-**Domain:** Data Analytics Internship (Oasis Infobyte)  
-**Project:** Task 6 – Wine Quality Prediction Classification Project  
-**Repository:** [abhishek-italiya/OIBSIP](https://github.com/abhishek-italiya/OIBSIP)  
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458.svg)](https://pandas.pydata.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2%2B-F7931E.svg)](https://scikit-learn.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
----
-
-## Executive Summary
-
-This repository contains the complete implementation of **Task 6: Wine Quality Prediction** for the Oasis Infobyte Data Analytics Internship. The goal of this project is to build an end-to-end machine learning classification system that predicts wine quality categories from measurable physicochemical properties.
-
-Using the benchmark **UCI Wine Quality Dataset** (combining both Red and White wine datasets), we analyze physical parameters such as acidity, sugar levels, chlorides, sulfur dioxide, density, pH, sulphates, and alcohol content. We evaluate three distinct machine learning classifiers—**Random Forest Classifier**, **Stochastic Gradient Descent (SGD) Classifier**, and **Support Vector Classifier (SVC)**—to identify the optimal model and key physicochemical quality drivers.
+An end-to-end Machine Learning classification project predicting wine quality tiers from physicochemical properties developed for the **Oasis InfoByte Data Analytics Internship Program (OIBSIP)** – Task 6.
 
 ---
 
-## Project Structure
+## 1. Project Overview
+Predicting product quality from objective chemical measurements is a key application of machine learning in food and beverage manufacturing. Using the benchmark **UCI Wine Quality Dataset** (combining Red and White wine datasets), this project classifies wine quality into **3 operational quality tiers** (**`Low`**, **`Medium`**, **`High`**) based on measurable physicochemical attributes.
 
-```
+---
+
+## 2. Project Objective
+- **Dataset Integration & Cleaning:** Combined UCI Red (1,599 rows) and White (4,898 rows) datasets, purged 1,177 duplicate physical records yielding 5,320 unique observations.
+- **Quality Tier Mapping:** Transformed discrete 3–9 quality scores into 3 operational tiers: `Low` ($\le 5$), `Medium` ($= 6$), and `High` ($\ge 7$).
+- **Pipeline Preprocessing:** Implemented Scikit-Learn `Pipeline` with `StandardScaler` for scale-sensitive algorithms without data leakage.
+- **Model Benchmarking:** Evaluated **Random Forest Classifier**, **Support Vector Classifier (SVC)**, and **SGD Classifier** using `class_weight='balanced'`.
+- **Metric Evaluation:** Analyzed Accuracy, Macro F1-Score, Weighted F1-Score, Confusion Matrices, and Feature Importance.
+
+---
+
+## 3. Dataset Description & Attribution
+- **Dataset Name:** UCI Wine Quality Dataset.
+- **Total Records:** 6,497 raw observations (5,320 unique post-deduplication).
+- **Source Attribution:** [UCI Machine Learning Repository - Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/wine+quality).
+
+### Physicochemical Attribute Descriptions:
+| Attribute Name | Units | Description |
+| :--- | :--- | :--- |
+| `fixed acidity` | g/dm³ | Non-volatile tartaric acid content |
+| `volatile acidity` | g/dm³ | Acetic acid content; excessive levels lead to sour vinegar taste |
+| `citric acid` | g/dm³ | Adds freshness and flavor structure to wine |
+| `residual sugar` | g/dm³ | Natural sugar remaining post-fermentation |
+| `chlorides` | g/dm³ | Salt content in wine |
+| `free sulfur dioxide` | mg/dm³ | Free SO₂ preventing microbial growth and oxidation |
+| `total sulfur dioxide` | mg/dm³ | Combined free and bound forms of SO₂ |
+| `density` | g/cm³ | Density depending on alcohol and sugar content |
+| `pH` | log scale | Acidity scale (0 = highly acidic, 14 = basic) |
+| `sulphates` | g/dm³ | SO₂ additive acting as antimicrobial/antioxidant |
+| `alcohol` | % vol. | Percent alcohol content by volume |
+| `wine_type` | binary | Wine variant (`0` = Red, `1` = White) |
+
+---
+
+## 4. Technologies Used
+- **Programming Language:** Python 3.10+
+- **Data Processing:** `pandas`, `numpy`
+- **Machine Learning:** `scikit-learn` (`RandomForestClassifier`, `SVC`, `SGDClassifier`, `StandardScaler`, `Pipeline`, `train_test_split`, `metrics`)
+- **Visualization:** `matplotlib`, `seaborn`
+- **Development Environment:** Jupyter Notebook, VS Code
+
+---
+
+## 5. Project Structure
+
+```text
 Task6_Wine_Quality_Prediction/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── winequality-red.csv
-│   │   └── winequality-white.csv
-│   │
+│   │   ├── winequality-red.csv             # Raw UCI Red Wine dataset
+│   │   └── winequality-white.csv           # Raw UCI White Wine dataset
 │   └── processed/
-│       └── wine_quality_processed.csv
+│       └── wine_quality_processed.csv       # Merged & cleaned export
 │
 ├── notebooks/
-│   └── Task6_Wine_Quality_Prediction.ipynb
+│   └── Task6_Wine_Quality_Prediction.ipynb  # Primary executed Jupyter Notebook
 │
 ├── outputs/
-│   ├── charts/
-│   │   ├── quality_distribution.png
+│   ├── charts/                             # High-resolution generated plots
 │   │   ├── class_distribution.png
 │   │   ├── correlation_heatmap.png
 │   │   ├── feature_distributions.png
+│   │   ├── feature_importance.png
+│   │   ├── model_comparison.png
+│   │   ├── quality_distribution.png
 │   │   ├── random_forest_confusion_matrix.png
 │   │   ├── sgd_confusion_matrix.png
-│   │   ├── svc_confusion_matrix.png
-│   │   ├── model_comparison.png
-│   │   └── feature_importance.png
-│   │
-│   └── reports/
+│   │   └── svc_confusion_matrix.png
+│   └── reports/                            # Evaluation reports
 │       ├── classification_reports.csv
-│       ├── model_comparison.csv
-│       └── feature_importance.csv
+│       ├── feature_importance.csv
+│       └── model_comparison.csv
 │
-├── build_task6_notebook.py
-├── run_wine_pipeline.py
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── LICENSE
+├── build_task6_notebook.py                 # Programmatic notebook builder
+├── run_wine_pipeline.py                    # End-to-end Python execution pipeline
+├── .gitignore                              # Git ignore rules
+├── LICENSE                                 # MIT License
+├── README.md                               # Project documentation
+└── requirements.txt                        # Dependency specifications
 ```
 
 ---
 
-## Dataset Overview
-
-The project uses the public **UCI Wine Quality Dataset**:
-- **Red Wine Dataset**: 1,599 observations (`winequality-red.csv`)
-- **White Wine Dataset**: 4,898 observations (`winequality-white.csv`)
-- **Combined Raw Dataset**: 6,497 total observations
-- **Target Variable**: Original integer `quality` rating (3 to 9)
-
-### Feature Descriptions
-1. `fixed acidity`: Most acids involved with wine (tartaric acid, g/dm³)
-2. `volatile acidity`: Amount of acetic acid in wine (g/dm³); excessive levels lead to vinegar flavor
-3. `citric acid`: Found in small quantities, adds 'freshness' and flavor (g/dm³)
-4. `residual sugar`: Amount of sugar remaining after fermentation stops (g/dm³)
-5. `chlorides`: Amount of salt in the wine (g/dm³)
-6. `free sulfur dioxide`: Free form of SO₂ preventing microbial growth and oxidation (mg/dm³)
-7. `total sulfur dioxide`: Amount of free and bound forms of S0₂ (mg/dm³)
-8. `density`: Density of water depending on percent alcohol and sugar content (g/cm³)
-9. `pH`: Describes acidity on a logarithmic scale (0 = very acidic, 14 = basic)
-10. `sulphates`: Wine additive contributing to SO₂ levels, acting as an antimicrobial/antioxidant (g/dm³)
-11. `alcohol`: Percentage alcohol content by volume (% vol.)
-12. `wine_type`: Encoded binary feature (`red` = 0, `white` = 1)
+## 6. Preprocessing & Stratified Train/Test Split
+1. **Deduplication:** Purged 1,177 duplicate physical measurement records, leaving **5,320 unique observations**.
+2. **Class Mapping:**
+   - `Low` ($\le 5$): 1,985 samples (37.3%)
+   - `Medium` ($= 6$): 2,325 samples (43.7%)
+   - `High` ($\ge 7$): 1,010 samples (19.0%)
+3. **Stratified Split:** 80% Training (4,256 samples) / 20% Testing (1,064 samples) using `random_state=42` and `stratify=y`.
+4. **Feature Scaling:** Encapsulated `StandardScaler` inside Scikit-Learn pipelines for SGD and SVC to prevent data leakage.
 
 ---
 
-## Data Cleaning & Preprocessing
+## 7. Model Performance & Evaluation
 
-1. **Missing Values**: Verified zero missing values across both raw datasets.
-2. **Duplicate Handling**: Identified 1,177 duplicate rows across physical measurements. Removed duplicate records to prevent data leakage between train/test splits, yielding **5,320 unique observations**.
-3. **Target Transformation**: Mapped discrete quality scores into three operational quality classes:
-   - **`Low`**: Quality score $\le 5$ (1,985 samples, 37.3%)
-   - **`Medium`**: Quality score $= 6$ (2,325 samples, 43.7%)
-   - **`High`**: Quality score $\ge 7$ (1,010 samples, 19.0%)
-4. **Stratified Train/Test Split**: 80% training (4,256 samples) and 20% testing (1,064 samples) split with `stratify=y` and `random_state=42`.
-5. **Feature Scaling**: Implemented `StandardScaler` inside Scikit-Learn `Pipeline` for scale-sensitive models (SGD and SVC) to prevent data leakage.
+| Model | Accuracy | Macro Precision | Macro Recall | Macro F1-Score | Weighted F1-Score |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Random Forest (Primary)** | **0.6335** | **0.6198** | 0.6276 | **0.6233** | **0.6332** |
+| **Support Vector Classifier (SVC)** | 0.6062 | 0.5988 | **0.6380** | 0.5949 | 0.5964 |
+| **SGD Classifier** | 0.5893 | 0.5741 | 0.5896 | 0.5782 | 0.5923 |
 
----
-
-## Machine Learning Models & Evaluation
-
-Three models were trained with `class_weight='balanced'` to address class imbalance:
-1. **Random Forest Classifier** (`n_estimators=200`, `random_state=42`)
-2. **SGD Classifier** (`loss='log_loss'`, `StandardScaler` pipeline)
-3. **Support Vector Classifier (SVC)** (`kernel='rbf'`, `StandardScaler` pipeline)
-
-### Empirical Performance Comparison
-
-| Model | Accuracy | Macro Precision | Macro Recall | Macro F1 | Weighted Precision | Weighted Recall | Weighted F1 |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Random Forest** | **0.6335** | **0.6198** | 0.6276 | **0.6233** | **0.6336** | **0.6335** | **0.6332** |
-| **Support Vector Classifier (SVC)** | 0.6062 | 0.5988 | **0.6380** | 0.5949 | 0.6310 | 0.6062 | 0.5964 |
-| **SGD Classifier** | 0.5893 | 0.5741 | 0.5896 | 0.5782 | 0.6003 | 0.5893 | 0.5923 |
-
-### Metric Selection Rationale
-Because the dataset exhibits class imbalance (`High` class is 19.0% vs `Medium` 43.7%), **Macro F1-Score** was selected as the primary decision metric. Macro F1 evaluates unweighted mean performance across all classes, ensuring minority class performance is not masked by majority class accuracy.
-
-**Random Forest** achieved the best performance across all metrics (Macro F1 = **0.6233**, Accuracy = **0.6335**).
+* **Best Performing Model:** **Random Forest Classifier** achieved the highest overall predictive accuracy (**63.35%**) and Macro F1-score (**0.6233**).
 
 ---
 
-## Feature Importance Analysis
+## 8. Visualizations Generated
 
-Relative feature importances extracted from the **Random Forest** model:
+All generated charts are saved in high resolution under `outputs/charts/`:
 
-| Rank | Feature | Relative Importance |
-| :---: | :--- | :---: |
-| 1 | `alcohol` | **0.1549** |
-| 2 | `volatile acidity` | **0.1264** |
-| 3 | `density` | **0.1083** |
-| 4 | `sulphates` | **0.0914** |
-| 5 | `free sulfur dioxide` | **0.0827** |
-| 6 | `chlorides` | **0.0823** |
-| 7 | `residual sugar` | **0.0784** |
-| 8 | `total sulfur dioxide` | **0.0772** |
-| 9 | `pH` | **0.0747** |
-| 10 | `citric acid` | **0.0655** |
-| 11 | `fixed acidity` | **0.0532** |
-| 12 | `wine_type_code` | **0.0050** |
-
-*Note: Feature importance indicates mathematical contribution to decision tree splits, not direct biological/chemical causation.*
+1. **Quality Score Distribution (`quality_distribution.png`):** Histogram of original 3–9 quality ratings.
+2. **Operational Class Distribution (`class_distribution.png`):** Bar chart of 3 mapped quality tiers (`Low`, `Medium`, `High`).
+3. **Physicochemical Feature Distributions (`feature_distributions.png`):** Multi-panel distribution plots for all 11 chemical attributes.
+4. **Correlation Heatmap (`correlation_heatmap.png`):** Pearson correlation matrix between chemical features and quality tier.
+5. **Random Forest Confusion Matrix (`random_forest_confusion_matrix.png`):** Confusion matrix for the top Random Forest model.
+6. **SVC Confusion Matrix (`svc_confusion_matrix.png`):** Confusion matrix for Support Vector Classifier.
+7. **SGD Confusion Matrix (`sgd_confusion_matrix.png`):** Confusion matrix for SGD Classifier.
+8. **Model Performance Comparison (`model_comparison.png`):** Grouped bar chart comparing Accuracy, Macro F1, and Weighted F1 across models.
+9. **Feature Importance (`feature_importance.png`):** Horizontal bar chart of Random Forest feature importances.
 
 ---
 
-## Key Data Insights
+## 9. Feature Importance Analysis
+Top chemical predictors extracted from Random Forest:
 
-1. **Alcohol is the Leading Determinant**: `alcohol` content is the single most important predictor (~15.5% importance). Higher alcohol percentage strongly correlates with `High` quality wines.
-2. **Volatile Acidity Negatively Impacts Quality**: High `volatile acidity` (acetic acid) is strongly associated with `Low` quality ratings due to off-putting vinegar sensory notes.
-3. **Density & Sweetness Balance**: `density` (~10.8% importance) acts as a proxy for alcohol and residual sugar content, providing vital secondary class discrimination.
-4. **Impact of Class Imbalance**: Incorporating `class_weight='balanced'` enabled SVC and Random Forest to achieve strong recall (>62%) on the underrepresented `High` quality tier.
-5. **Universal Chemical Drivers**: Combining Red and White wines demonstrated that core chemical drivers (alcohol, acidity, sulphates) transcend specific wine styles.
-
----
-
-## Real-World Applications
-
-- **Automated Quality Screening**: Implementing real-time sensor monitoring on production lines to flag sub-standard batches early in fermentation.
-- **Winery Quality Assurance**: Providing objective batch categorization before submitting wines to expensive professional sensory evaluation panels.
-- **Blend Formulation**: Assisting enologists in adjusting acidity, sulphates, and alcohol parameters to optimize target flavor profiles.
-- **Consumer Grading**: Standardizing quality benchmarks for retail pricing and international export compliance.
+| Rank | Feature | Importance | Chemical Influence |
+| :---: | :--- | :---: | :--- |
+| 1 | **`alcohol`** | **0.1549** | Primary determinant; higher alcohol correlates with premium quality |
+| 2 | **`volatile acidity`** | **0.1264** | Negative driver; high acetic acid creates undesirable vinegar flavor |
+| 3 | **`density`** | **0.1083** | Sugar/alcohol balance indicator |
+| 4 | **`sulphates`** | **0.0914** | Antioxidant/preservative flavor protector |
+| 5 | **`free sulfur dioxide`** | **0.0827** | Antimicrobial protection level |
 
 ---
 
-## Limitations
-
-1. **Sensory Subjectivity**: Human taste preference introduces noise into ground-truth quality ratings.
-2. **Regional Specificity**: Dataset covers Portuguese *Vinho Verde* wines and may require recalibration for different wine regions or grape varieties.
-3. **Uncaptured Features**: Factors such as vintage year, storage temperature, oak aging time, and micro-oxygenation were not in the dataset.
+## 10. Key Insights & Real-World Applications
+1. **Alcohol Content Dominance:** Alcohol (% vol.) is the single strongest predictor of wine quality (~15.5% importance).
+2. **Acidity Control:** Minimizing volatile acidity while maintaining balanced citric acid is essential for premium ratings.
+3. **Automated Winery QA:** Enables wineries to perform rapid automated batch classification before expensive sensory tasting panels.
 
 ---
 
-## How to Run
+## 11. How to Run the Project
 
-### Prerequisites
-Ensure Python 3.10+ is installed.
-
-### Setup & Execution
-1. Clone the repository and navigate to the project directory:
+### Setup Steps
+1. Navigate to project root:
    ```bash
-   git clone https://github.com/abhishek-italiya/OIBSIP.git
-   cd OIBSIP/Task6_Wine_Quality_Prediction
+   cd Task6_Wine_Quality_Prediction
    ```
-
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
 3. Run the automated Python ML pipeline:
    ```bash
    python run_wine_pipeline.py
    ```
-
 4. Launch the Jupyter Notebook:
    ```bash
    jupyter notebook notebooks/Task6_Wine_Quality_Prediction.ipynb
@@ -196,12 +178,12 @@ Ensure Python 3.10+ is installed.
 
 ---
 
-## Conclusion
-
-This project successfully demonstrates an end-to-end Machine Learning solution for wine quality classification. The **Random Forest Classifier** achieved the highest predictive accuracy (**63.35%**) and Macro F1-score (**0.6233**), proving that objective chemical parameters can reliably forecast wine quality tiers.
+## 12. Requirements & Licensing
+- Dependencies specified in `requirements.txt`.
+- Code source and documentation released under the [MIT License](LICENSE).
+- Dataset attribution belongs to UCI Machine Learning Repository.
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 13. Conclusion
+This project demonstrates an end-to-end classification system for wine quality prediction. **Random Forest Classifier** achieved the highest accuracy (**63.35%**) and Macro F1-score (**0.6233**), proving that objective chemical parameters effectively forecast commercial wine quality tiers.
