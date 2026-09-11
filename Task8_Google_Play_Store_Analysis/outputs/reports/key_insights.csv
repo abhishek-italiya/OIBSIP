@@ -3,7 +3,7 @@ Insight_ID,Area,Finding
 2,Category Installs,"The 'Game' category generated the highest total installs (13,447,924,415 installs)."
 3,Free vs Paid Distribution,"Free apps represent 92.18% of apps (8,904 apps), while Paid apps represent 7.81% (754 apps)."
 4,Free vs Paid Adoption,"Free apps achieve substantially higher average installs (8,452,961) compared to Paid apps (76,079)."
-5,Correlation Insights,"Reviews and Installs exhibit a strong positive correlation (r = 0.6251), demonstrating that user reviews strongly drive app downloads."
+5,Correlation Insights,"Reviews and Installs exhibit a strong positive correlation (r = 0.6251), indicating a positive association between review volume and install volume."
 6,Sentiment Breakdown,"User reviews are overwhelmingly Positive (64.04%), followed by Negative (21.29%) and Neutral (14.67%)."
 7,Rating Distribution,"Overall average app rating across the Google Play Store is 4.19 / 5.0, with ratings displaying a distinct left-skewed distribution."
 8,Estimated Paid Revenue,"Total estimated gross revenue proxy across all paid apps is $291,140,168.79."
