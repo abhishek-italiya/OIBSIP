@@ -236,41 +236,50 @@ cells.append(nbf.v4.new_markdown_cell("""### Correlation Insights:
 
 # Section 7: Data Preparation & Scaling
 cells.append(nbf.v4.new_markdown_cell("""---
-## 7. Data Preparation & Feature Scaling
+## 7. Data Preparation & Feature Scaling (Data Leakage Prevention)
 
-### Preprocessing Strategy:
-1. **Feature Scaling:** The PCA features `V1`–`V28` are already centered and scaled. We scale the continuous features **`Amount`** and **`Time`** using `StandardScaler` to ensure zero mean and unit variance.
-2. **Stratified Train / Test Split:** We perform an 80% training / 20% testing split using `random_state=42` and `stratify=y`.
-3. **Data Leakage Prevention:** The `StandardScaler` is fitted **ONLY on the training set** (`X_train`), and then used to transform both `X_train` and `X_test`.
+### Strict Preprocessing Workflow:
+To prevent **Data Leakage**, scaling statistics must be calculated **STRICTLY on the training set** (`X_train`), and never on the full dataset or testing set.
+
+1. **Feature/Target Separation:** Separate feature matrix $X$ (excluding `Class`) and target vector $y$.
+2. **Stratified Train / Test Split FIRST:** Perform an 80% training / 20% testing split using `random_state=42` and `stratify=y`.
+3. **Scaler Fitting ONLY on Training Data:** Fit `StandardScaler` **ONLY on `X_train[['Amount', 'Time']]`**.
+4. **Transforming Test Set:** Transform `X_test[['Amount', 'Time']]` using the already-fitted training scaler.
+5. **PCA Features Intact:** Features `V1` through `V28` remain unchanged as they are already standardized PCA components.
 """))
 
-cells.append(nbf.v4.new_code_cell("""df_proc = df_raw.copy()
+cells.append(nbf.v4.new_code_cell("""# 1. Separate Features X and Target y FIRST
+X = df_raw.drop(columns=['Class'])
+y = df_raw['Class']
 
-# Scale Amount and Time using StandardScaler
-scaler = StandardScaler()
-df_proc['scaled_amount'] = scaler.fit_transform(df_proc[['Amount']])
-df_proc['scaled_time'] = scaler.fit_transform(df_proc[['Time']])
-
-# Drop original unscaled Amount and Time
-df_proc = df_proc.drop(columns=['Amount', 'Time'])
-
-# Save processed dataset
-df_proc.to_csv("../data/processed/fraud_detection_processed.csv", index=False)
-
-# Separate Features X and Target y
-X = df_proc.drop(columns=['Class'])
-y = df_proc['Class']
-
-# Perform Stratified 80/20 Train/Test Split
+# 2. Stratified 80/20 Train/Test Split FIRST
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.20, random_state=42, stratify=y
 )
 
-print(f"Total Processed Dataset Shape : {df_proc.shape}")
-print(f"Training Features Shape       : {X_train.shape}")
-print(f"Testing Features Shape        : {X_test.shape}")
-print(f"Training Fraud Instances      : {y_train.sum()} ({y_train.mean()*100:.3f}%)")
-print(f"Testing Fraud Instances       : {y_test.sum()} ({y_test.mean()*100:.3f}%)")
+# Copy splits to avoid SettingWithCopyWarning
+X_train = X_train.copy()
+X_test = X_test.copy()
+
+# 3. Fit StandardScaler ONLY on X_train, then transform X_train
+scaler = StandardScaler()
+X_train[['Amount', 'Time']] = scaler.fit_transform(X_train[['Amount', 'Time']])
+
+# 4. Transform X_test using the ALREADY-FITTED training scaler (preventing data leakage)
+X_test[['Amount', 'Time']] = scaler.transform(X_test[['Amount', 'Time']])
+
+print("=== DATA LEAKAGE PREVENTION VERIFICATION ===")
+print("StandardScaler fitted STRICTLY on X_train[['Amount', 'Time']]")
+print(f"Training Features Shape  : {X_train.shape}")
+print(f"Testing Features Shape   : {X_test.shape}")
+print(f"Training Fraud Count     : {y_train.sum()} ({y_train.mean()*100:.3f}%)")
+print(f"Testing Fraud Count      : {y_test.sum()} ({y_test.mean()*100:.3f}%)")
+
+# Save processed sample for verification export
+train_export = X_train.copy()
+train_export['Class'] = y_train
+train_export.to_csv("../data/processed/fraud_detection_processed.csv", index=False)
+print("Saved processed training dataset sample to data/processed/fraud_detection_processed.csv")
 """))
 
 # Section 8: Imbalance Handling
@@ -495,7 +504,7 @@ We extract feature importances from the Random Forest model to identify top pred
 """))
 
 cells.append(nbf.v4.new_code_cell("""importances = rf_model.feature_importances_
-feature_names = X.columns
+feature_names = X_train.columns
 
 feat_imp_df = pd.DataFrame({
     'Feature': feature_names,

@@ -8,7 +8,7 @@
 ---
 
 ## Overview
-Credit card fraud detection is a critical application of machine learning in financial risk management. Detecting fraudulent transactions in real-time protects cardholders, reduces financial loss, and preserves consumer trust. This project delivers an end-to-end Machine Learning solution designed to classify transactions as **Legitimate (0)** or **Fraudulent (1)** under extreme class imbalance.
+Credit card fraud detection is a critical application of machine learning in financial risk management. Detecting fraudulent transactions in real-time protects cardholders, reduces financial loss, and preserves consumer trust. This project delivers an end-to-end Machine Learning solution designed to classify transactions as **Legitimate (0)** or **Fraudulent (1)** under extreme class imbalance without data leakage.
 
 ---
 
@@ -16,7 +16,7 @@ Credit card fraud detection is a critical application of machine learning in fin
 * Download and inspect the public European Credit Card Fraud Detection dataset (284,807 transactions).
 * Perform exploratory data analysis on transaction amounts, time patterns, and feature correlations.
 * Demonstrate why standard Accuracy is misleading in fraud detection and emphasize Precision, Recall, F1-Score, ROC-AUC, and Precision-Recall AUC (PR-AUC).
-* Implement feature scaling using `StandardScaler` and stratified 80/20 train/test splitting.
+* Implement strict non-leaking feature scaling using `StandardScaler` fitted **STRICTLY on training data** (`X_train`) after an 80/20 stratified split.
 * Train and compare **Logistic Regression** and **Random Forest Classifier** models utilizing cost-sensitive class weighting (`class_weight='balanced'`).
 * Extract feature importances, analyze decision threshold trade-offs, and outline scalability requirements for processing 1,000,000 transactions/hour in production.
 
@@ -50,8 +50,9 @@ Credit card fraud detection is a critical application of machine learning in fin
 
 ---
 
-## Data Preprocessing & Imbalance Handling
-* **Feature Scaling:** Applied `StandardScaler` to `Time` and `Amount` fitted **strictly on training data** (`X_train`) to prevent data leakage.
+## Strict Non-Leaking Data Preprocessing & Imbalance Handling
+* **Data Leakage Prevention:** Feature matrix $X$ and target vector $y$ are separated **FIRST**, followed immediately by an 80/20 stratified train/test split.
+* **Feature Scaling:** `StandardScaler` is fitted **STRICTLY on `X_train[['Amount', 'Time']]`**, and then used to transform `X_test[['Amount', 'Time']]`. Test data is never used to calculate scaling statistics.
 * **Train / Test Split:** Stratified 80% Training (227,845 samples, 394 frauds) / 20% Testing (56,962 samples, 98 frauds) with `random_state=42`.
 * **Cost-Sensitive Weighting:** Utilized `class_weight='balanced'` in loss functions to penalize fraud misclassifications inversely proportional to class frequencies.
 
@@ -67,13 +68,13 @@ Credit card fraud detection is a critical application of machine learning in fin
 
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | PR-AUC (Avg Precision) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Logistic Regression** | 97.5475% | 0.0609 | **0.9184** | 0.1141 | 0.9722 | 0.7189 |
-| **Random Forest** | **99.9175%** | **0.7217** | 0.8469 | **0.7793** | **0.9859** | **0.8303** |
+| **Logistic Regression** | 97.5528% | 0.0610 | **0.9184** | 0.1144 | 0.9722 | 0.7159 |
+| **Random Forest** | **99.9140%** | **0.7168** | 0.8265 | **0.7678** | **0.9790** | **0.8236** |
 
 * **Fraud Class Performance (98 Total Fraud Test Cases):**
-  * **Logistic Regression:** Caught 90 of 98 fraud cases (91.84% Recall) but generated 1,387 false positives (6.09% Precision).
-  * **Random Forest:** Caught 83 of 98 fraud cases (84.69% Recall) with only 32 false positives (72.17% Precision).
-* **Best Model Selection:** **Random Forest Classifier** is selected as the top model due to its high precision (72.17%), strong F1-Score (0.7793), and superior PR-AUC (0.8303).
+  * **Logistic Regression:** Caught 90 of 98 fraud cases (91.84% Recall) but generated 1,387 false positives (6.10% Precision).
+  * **Random Forest:** Caught 81 of 98 fraud cases (82.65% Recall) with 71.68% Precision and 0.8236 PR-AUC.
+* **Best Model Selection:** **Random Forest Classifier** is selected as the top model due to its high precision (71.68%), strong F1-Score (0.7678), and superior PR-AUC (0.8236).
 
 ---
 
@@ -82,16 +83,16 @@ Top 10 features extracted from Random Forest (`outputs/reports/feature_importanc
 
 | Rank | Feature | Importance | Cumulative Contribution |
 | :--- | :--- | :--- | :--- |
-| 1 | **V14** | 0.2160 | 21.60% |
-| 2 | **V10** | 0.1127 | 32.87% |
-| 3 | **V4** | 0.1085 | 43.72% |
-| 4 | **V17** | 0.0906 | 52.78% |
-| 5 | **V12** | 0.0797 | 60.75% |
-| 6 | **V3** | 0.0750 | 68.25% |
-| 7 | **V11** | 0.0648 | 74.73% |
-| 8 | **V16** | 0.0363 | 78.36% |
-| 9 | **V7** | 0.0280 | 81.16% |
-| 10 | **V2** | 0.0263 | 83.79% |
+| 1 | **V14** | 0.1963 | 19.63% |
+| 2 | **V10** | 0.1105 | 30.68% |
+| 3 | **V4** | 0.1079 | 41.47% |
+| 4 | **V12** | 0.0985 | 51.32% |
+| 5 | **V17** | 0.0896 | 60.28% |
+| 6 | **V3** | 0.0634 | 66.62% |
+| 7 | **V11** | 0.0499 | 71.61% |
+| 8 | **V16** | 0.0461 | 76.22% |
+| 9 | **V2** | 0.0373 | 79.95% |
+| 10 | **V9** | 0.0249 | 82.44% |
 
 ---
 
@@ -113,9 +114,9 @@ To process ~278 transactions per second peak throughput:
 
 ## Key Insights
 1. **Class Imbalance:** Extreme 99.83% vs 0.17% ratio demands cost-sensitive loss functions and PR-AUC evaluation.
-2. **Accuracy Fallacy:** 99.9% accuracy is trivial; PR-AUC (0.8303) and Recall (84.69%) measure true business effectiveness.
+2. **Accuracy Fallacy:** 99.9% accuracy is trivial; PR-AUC (0.8236) and Recall (82.65%) measure true business effectiveness.
 3. **Random Forest Dominance:** Ensemble trees outperform linear models by capturing non-linear interactions between PCA components.
-4. **Key Signals:** Features `V14`, `V10`, `V4`, `V17`, and `V12` drive over 60% of model decision logic.
+4. **Key Signals:** Features `V14`, `V10`, `V4`, `V12`, and `V17` drive over 60% of model decision logic.
 
 ---
 
