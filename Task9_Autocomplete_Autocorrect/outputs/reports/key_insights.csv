@@ -1,0 +1,6 @@
+Insight_ID,Area,Finding
+1,Corpus Vocabulary Distribution,"The corpus contains 218,361 total tokens across 16,948 unique vocabulary words, with an average word length of 4.36 characters."
+2,Autocomplete Backoff Benefit,Katz Backoff (Approach B) increased prediction coverage from 94.9% (Bigram only) to 100.0% by falling back gracefully from Trigrams to Bigrams and Unigrams.
+3,Autocorrect Frequency Weighting,Frequency-weighted Levenshtein distance (Approach B) achieved 64.0% Top-1 accuracy on realistic misspellings compared to 44.0% for basic edit distance.
+4,Autocomplete Prediction Accuracy,"On held-out test data, N-gram autocomplete achieved 10.8% Top-1 accuracy and 18.0% Top-3 accuracy for next-word prediction."
+5,Inference Latency & Efficiency,"Average query inference latency was 0.223 ms for autocomplete and 455.941 ms for autocorrect, demonstrating real-time capability."
