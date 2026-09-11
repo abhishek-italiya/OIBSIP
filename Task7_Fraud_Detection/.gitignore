@@ -1,0 +1,20 @@
+# Environment & Virtualenvs
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+.DS_Store
+*.log
+
+# Large CSV Files (>100MB GitHub limit)
+data/raw/creditcard.csv
+data/processed/fraud_detection_processed.csv

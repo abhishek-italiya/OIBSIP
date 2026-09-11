@@ -1,0 +1,9 @@
+Model,Class,Precision,Recall,F1-Score,Support
+Logistic Regression,Legitimate,0.9999,0.9756,0.9876,56864
+Logistic Regression,Fraudulent,0.0609,0.9184,0.1141,98
+Logistic Regression,macro avg,0.5304,0.947,0.5509,56962
+Logistic Regression,weighted avg,0.9982,0.9755,0.9861,56962
+Random Forest,Legitimate,0.9997,0.9994,0.9996,56864
+Random Forest,Fraudulent,0.7217,0.8469,0.7793,98
+Random Forest,macro avg,0.8607,0.9232,0.8895,56962
+Random Forest,weighted avg,0.9993,0.9992,0.9992,56962
