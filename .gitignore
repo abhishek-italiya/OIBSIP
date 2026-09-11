@@ -1,22 +1,45 @@
-# Virtual environments
+# Python Build & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
 .venv/
 venv/
 ENV/
 env/
 
-# Byte-compiled files
-__pycache__/
-*.pyc
-*.pyo
-
-# Jupyter Notebook checkpoints
+# Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
-# OS files
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS Generated Files
 .DS_Store
 Thumbs.db
 
-# Archives and Zip files
+# Secrets & Credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Archives & Compressed Files
 *.zip
 *.tar.gz
+*.rar
+*.7z
+
+# Large Local Datasets (Exceeding GitHub Limits)
+Task7_Fraud_Detection/data/raw/creditcard.csv
+Task7_Fraud_Detection/data/processed/fraud_detection_processed.csv
