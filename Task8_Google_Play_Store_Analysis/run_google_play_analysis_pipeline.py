@@ -1,9 +1,12 @@
 import os
 import re
 import pandas as pd
+# pyrefly: ignore [missing-import]
 import numpy as np
+# pyrefly: ignore [missing-import]
 import matplotlib.pyplot as plt
 import seaborn as sns
+# pyrefly: ignore [missing-import]
 from textblob import TextBlob
 
 # Ensure required directories exist
@@ -198,7 +201,7 @@ insights_list = [
     {"Insight_ID": 2, "Area": "Category Installs", "Finding": f"The '{cat_summary.sort_values(by='Total_Installs', ascending=False).iloc[0]['Category']}' category generated the highest total installs ({cat_summary.sort_values(by='Total_Installs', ascending=False).iloc[0]['Total_Installs']:,} installs)."},
     {"Insight_ID": 3, "Area": "Free vs Paid Distribution", "Finding": f"Free apps represent {free_vs_paid[free_vs_paid['Type']=='Free']['Percentage (%)'].values[0]}% of apps ({free_vs_paid[free_vs_paid['Type']=='Free']['App_Count'].values[0]:,} apps), while Paid apps represent {free_vs_paid[free_vs_paid['Type']=='Paid']['Percentage (%)'].values[0]}% ({free_vs_paid[free_vs_paid['Type']=='Paid']['App_Count'].values[0]:,} apps)."},
     {"Insight_ID": 4, "Area": "Free vs Paid Adoption", "Finding": f"Free apps achieve substantially higher average installs ({free_vs_paid[free_vs_paid['Type']=='Free']['Average_Installs'].values[0]:,.0f}) compared to Paid apps ({free_vs_paid[free_vs_paid['Type']=='Paid']['Average_Installs'].values[0]:,.0f})."},
-    {"Insight_ID": 5, "Area": "Correlation Insights", "Finding": f"Reviews and Installs exhibit a strong positive correlation (r = {corr_matrix.loc['Reviews', 'Installs']:.4f}), demonstrating that user reviews strongly drive app downloads."},
+    {"Insight_ID": 5, "Area": "Correlation Insights", "Finding": f"Reviews and Installs exhibit a strong positive correlation (r = {corr_matrix.loc['Reviews', 'Installs']:.4f}), showing a strong positive association between user review volume and app download metrics."},
     {"Insight_ID": 6, "Area": "Sentiment Breakdown", "Finding": f"User reviews are overwhelmingly Positive ({sent_summary[sent_summary['Sentiment']=='Positive']['Percentage (%)'].values[0]}%), followed by Negative ({sent_summary[sent_summary['Sentiment']=='Negative']['Percentage (%)'].values[0]}%) and Neutral ({sent_summary[sent_summary['Sentiment']=='Neutral']['Percentage (%)'].values[0]}%)."},
     {"Insight_ID": 7, "Area": "Rating Distribution", "Finding": f"Overall average app rating across the Google Play Store is {df_apps_clean['Rating'].mean():.2f} / 5.0, with ratings displaying a distinct left-skewed distribution."},
     {"Insight_ID": 8, "Area": "Estimated Paid Revenue", "Finding": f"Total estimated gross revenue proxy across all paid apps is ${free_vs_paid[free_vs_paid['Type']=='Paid']['Total_Estimated_Revenue'].values[0]:,.2f}."}

@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 import nbformat as nbf
 import os
 
@@ -484,22 +485,23 @@ plt.show()
 """))
 
 cells.append(nbf.v4.new_markdown_cell("""### Correlation Insights:
-* **Strong Reviews-Installs Coupling:** Total reviews and total installs exhibit a strong positive correlation (**$r = 0.643$**), confirming that user feedback volume strongly reflects app market adoption.
-* **Price & Size Independence:** App price and storage size display minimal linear correlation with user ratings ($r \\approx -0.02$ to $+0.07$), indicating that price or file size alone does not dictate user satisfaction.
-* **Correlation vs. Causation:** Correlation indicates co-movement between variables, not direct causal influence.
+* **Reviews-Installs Co-Movement:** Total reviews and total installs exhibit a strong positive correlation (**$r = 0.6251$**), confirming a strong positive association between user review volume and download metrics.
+* **Price & Size Independence:** App price and storage size display minimal linear correlation with user ratings ($r \\approx -0.018$ to $+0.048$), indicating that price or file size alone does not dictate user satisfaction.
+* **Correlation vs. Causation:** Correlation indicates observed co-movement between variables, not direct causal influence.
 """))
 
 # Section 12: Key Insights
 cells.append(nbf.v4.new_markdown_cell("""---
 ## 12. Key Insights
 
-1. **Category Catalog Leadership:** `Family` (1,943 apps) and `Game` (1,121 apps) dominate catalog volume, representing over 31% of all apps.
-2. **Download Volume Leader:** `Game` category generated the highest total downloads (**35.08 Billion+ installs**).
-3. **Free App Dominance:** Free apps represent **92.2% of apps** (8,905 apps) and command **99.2% of total store downloads**.
-4. **Price Elasticity:** Over 90% of paid apps are priced below $10, with $0.99–$4.99 serving as the primary sweet spot.
-5. **Positive Review Bias:** 64.1% of user reviews express Positive sentiment, with mean polarity at +0.18.
-6. **Reviews Drive Downloads:** Reviews and Installs share a high correlation ($r = 0.643$).
-7. **Left-Skewed Rating Distribution:** Average store app rating is **4.19 / 5.0**, showing high user satisfaction clustering between 4.0 and 4.7.
+1. **Category Catalog Leadership:** `Family` (1,877 apps) and `Game` (945 apps) lead catalog volume, representing 29.2% of all cleaned apps (19.43% and 9.78% respectively).
+2. **Download Volume Leader:** `Game` category generated the highest total downloads (**13.45 Billion+ installs** across 945 apps).
+3. **Free App Dominance:** Free apps represent **92.18% of apps** (8,904 apps) and command **>99.2% of total store downloads** (average 8,452,961 installs vs 76,079 for paid apps).
+4. **Proxy Gross Revenue:** Total estimated paid app revenue proxy ($\text{Price} \times \text{Installs}$) is **$291.14 Million**, driven primarily by apps priced under $5.00.
+5. **Positive Review Bias:** 64.04% of user reviews express Positive sentiment (19,015 reviews), with mean TextBlob sentiment polarity at **+0.1889**.
+6. **Reviews-Installs Association:** Reviews and Installs display a strong positive association (**$r = 0.6251$**).
+7. **Left-Skewed Rating Distribution:** Average store app rating is **4.19 / 5.0** (median 4.30), with ratings displaying a distinct left skew.
+8. **Content Rating Representation:** Apps rated `Everyone` constitute **81.82%** of store catalog (7,903 apps).
 """))
 
 # Section 13: Business Recommendations
@@ -507,11 +509,14 @@ cells.append(nbf.v4.new_markdown_cell("""---
 ## 13. Actionable Business Recommendations
 
 1. **Freemium Strategy Over Upfront Pricing:**
-   - *Recommendation:* Adopt a **Free-to-Download model with In-App Purchases (IAP)**. Free apps generate $100\\times$ higher download volume, creating a vastly larger monetization funnel.
-2. **Review Prompt Optimization:**
-   - *Recommendation:* Prompt satisfied users for reviews immediately after key positive in-app milestones (e.g., leveling up or completing a purchase). Given $r = 0.643$, review velocity directly correlates with store search ranking and downloads.
-3. **App Size Optimization (< 50 MB):**
-   - *Recommendation:* Maintain initial download file size under **50 MB** to reduce user download drop-off, particularly in mobile data markets.
+   - *Observation:* Free apps account for 92.18% of catalog listings (8,904 apps) and achieve an average of 8.45 Million downloads compared to 76,079 for paid apps.
+   - *Recommendation:* Developers should consider a **Free-to-Download model with In-App Purchases (IAP) or advertising** to leverage the significantly higher acquisition funnel of free listings.
+2. **User Feedback & Review Milestones:**
+   - *Observation:* Total reviews and total installs exhibit a strong positive correlation (**$r = 0.6251$**).
+   - *Recommendation:* Prompting satisfied users for reviews at positive experience milestones (e.g., after completing a level or achieving a goal) is associated with higher user feedback volume, which correlates with store visibility.
+3. **App Storage Footprint Optimization:**
+   - *Observation:* Median app size in this dataset is **12.0 MB**, and 75% of apps maintain file sizes under **28.0 MB**. Smaller apps showed higher median install counts.
+   - *Recommendation:* Maintaining an initial download footprint under **30 MB** aligns with market trends and helps minimize friction during user download decisions.
 """))
 
 # Section 14: Conclusion

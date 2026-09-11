@@ -121,8 +121,8 @@ Task8_Google_Play_Store_Analysis/
 
 | App Type | App Count | Percentage (%) | Average Rating | Average Installs | Average Price ($) | Total Estimated Revenue Proxy ($) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Free** | **8,905** | **92.19%** | 4.19 | 16,689,286 | $0.00 | $0.00 |
-| **Paid** | **754** | **7.81%** | **4.27** | 75,227 | **$13.92** | **$377,258,409.73** |
+| **Free** | **8,904** | **92.18%** | 4.18 | 8,452,961 | $0.00 | $0.00 |
+| **Paid** | **754** | **7.81%** | **4.27** | 76,079 | **$14.06** | **$291,140,168.79** |
 
 ### Real-World Revenue Proxy Limitations:
 1. **Cumulative Tiered Installs:** Install counts represent bracketed lower bounds (e.g. $1,000,000+$).
@@ -136,11 +136,11 @@ Task8_Google_Play_Store_Analysis/
 
 | Sentiment Category | Review Count | Percentage (%) | Mean Polarity Score | Mean Subjectivity Score |
 | :--- | :---: | :---: | :---: | :---: |
-| **Positive** | **19,036** | **64.11%** | +0.3601 | 0.5471 |
-| **Negative** | **8,241** | **27.75%** | -0.2604 | 0.5398 |
-| **Neutral** | **2,415** | **8.13%** | 0.0000 | 0.1264 |
+| **Positive** | **19,015** | **64.04%** | +0.1889 | 0.4909 |
+| **Negative** | **6,321** | **21.29%** | -0.2604 | 0.5398 |
+| **Neutral** | **4,356** | **14.67%** | 0.0000 | 0.1264 |
 
-* **Overall Sentiment Polarity:** Mean polarity across all user reviews is **+0.1823**, indicating an overall positive user sentiment bias across Play Store reviews.
+* **Overall Sentiment Polarity:** Mean polarity across all user reviews is **+0.1889**, indicating an overall positive user sentiment bias across Play Store reviews.
 
 ---
 
@@ -158,28 +158,29 @@ All generated visualizations are saved in high resolution under `outputs/charts/
 8. **Paid App Price Distribution (`paid_app_price_distribution.png`):** Histogram of paid app prices under $50.
 9. **Content Rating Distribution (`content_rating_distribution.png`):** Bar chart showing app counts across age content ratings.
 10. **App Size Distribution (`app_size_distribution.png`):** Distribution of app file sizes in Megabytes.
-11. **Sentiment Distribution (`sentiment_distribution.png`):** Bar chart of Positive (64.1%), Negative (27.8%), and Neutral (8.1%) reviews.
+11. **Sentiment Distribution (`sentiment_distribution.png`):** Bar chart of Positive (64.0%), Negative (21.3%), and Neutral (14.7%) reviews.
 12. **Sentiment Polarity Distribution (`sentiment_polarity_distribution.png`):** Distribution of TextBlob polarity scores.
 13. **Average Sentiment by Category (`avg_sentiment_by_category.png`):** Top categories sorted by average review sentiment polarity.
-14. **Reviews vs. Installs Scatter Plot (`reviews_vs_installs.png`):** Log-log scatter plot illustrating strong co-movement ($r = 0.643$).
+14. **Reviews vs. Installs Scatter Plot (`reviews_vs_installs.png`):** Log-log scatter plot illustrating strong co-movement ($r = 0.6251$).
 15. **Correlation Heatmap (`correlation_heatmap.png`):** Pearson correlation matrix heatmap for numeric features.
 
 ---
 
 ## 10. Key Insights
-1. **Catalog Dominance:** `Family` (1,943 apps) and `Game` (1,121 apps) represent 31.7% of the Play Store catalog.
-2. **Download Volume Leader:** `Game` category generated the highest total downloads (**35.08 Billion+ installs**).
-3. **Free Model Market Share:** Free apps constitute **92.19% of apps** and drive **99.2% of total downloads**.
-4. **Reviews Drive Downloads:** Reviews and Installs display a strong positive correlation (**$r = 0.6432$**).
-5. **Positive Review Bias:** 64.11% of user reviews express Positive sentiment, with mean polarity at +0.1823.
-6. **Rating Skewness:** Average app rating is **4.19 / 5.0**, with ratings displaying a distinct left-skewed distribution.
+1. **Catalog Dominance:** `Family` (1,877 apps) and `Game` (945 apps) represent 29.2% of the Play Store catalog.
+2. **Download Volume Leader:** `Game` category generated the highest total downloads (**13.45 Billion+ installs** across 945 apps).
+3. **Free Model Market Share:** Free apps constitute **92.18% of apps** (8,904 apps) and achieve an average of **8.45 Million downloads**.
+4. **Reviews-Installs Co-Movement:** Reviews and Installs display a strong positive association (**$r = 0.6251$**).
+5. **Positive Review Bias:** 64.04% of user reviews express Positive sentiment (19,015 reviews), with mean TextBlob polarity at **+0.1889**.
+6. **Rating Skewness:** Average app rating is **4.19 / 5.0** (median 4.30), with ratings displaying a distinct left-skewed distribution.
+7. **Gross Revenue Proxy:** Total estimated paid app revenue proxy is **$291.14 Million**.
 
 ---
 
 ## 11. Business Recommendations
-1. **Adopt Freemium Monetization:** Offer a Free download with In-App Purchases (IAP). Free apps achieve $100\times$ higher download volume than paid apps.
-2. **In-App Review Milestones:** Trigger review prompts immediately after positive user achievements (e.g. level completion). Higher review volume directly correlates with install ranking ($r = 0.643$).
-3. **App Size Optimization (< 50 MB):** Keep initial download sizes under 50 MB to minimize user drop-off on mobile data connections.
+1. **Adopt Freemium Monetization:** Offer a Free download with In-App Purchases (IAP) or ads. Free apps achieve $100\times$ higher download volume than paid apps in this dataset.
+2. **User Feedback & Engagement Strategy:** Prompting satisfied users for reviews at positive experience milestones is positively associated with download metrics ($r = 0.6251$), reflecting high social proof among popular applications.
+3. **App Storage Footprint Optimization:** Median app size is **12.0 MB**, and 75% of apps maintain file sizes under **28.0 MB**. Keeping initial download sizes under 30 MB aligns with market distribution and helps minimize onboarding friction.
 
 ---
 
