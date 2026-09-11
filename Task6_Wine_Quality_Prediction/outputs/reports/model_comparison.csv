@@ -1,0 +1,4 @@
+Model,Accuracy,Macro_Precision,Macro_Recall,Macro_F1,Weighted_Precision,Weighted_Recall,Weighted_F1
+Random Forest,0.6335,0.6198,0.6276,0.6233,0.6336,0.6335,0.6332
+SGD Classifier,0.5893,0.5741,0.5896,0.5782,0.6003,0.5893,0.5923
+SVC,0.6062,0.5988,0.638,0.5949,0.631,0.6062,0.5964

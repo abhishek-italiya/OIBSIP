@@ -1,0 +1,10 @@
+Model,Class,Precision,Recall,F1-Score,Support
+Random Forest,Low,0.7069,0.7229,0.7148,397
+Random Forest,Medium,0.6109,0.5806,0.5954,465
+Random Forest,High,0.5417,0.5792,0.5598,202
+SGD Classifier,Low,0.7063,0.6725,0.689,397
+SGD Classifier,Medium,0.5819,0.5269,0.553,465
+SGD Classifier,High,0.434,0.5693,0.4925,202
+SVC,Low,0.6879,0.7884,0.7347,397
+SVC,Medium,0.6631,0.3978,0.4973,465
+SVC,High,0.4455,0.7277,0.5526,202
